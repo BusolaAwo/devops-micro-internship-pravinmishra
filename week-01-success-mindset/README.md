@@ -32,7 +32,7 @@ You will reuse this in later weeks. So do it properly once.
 **Hint:** What do you believe about career, money, learning, discipline, relationships, health, success, life, tech industry, etc. that most people don't agree with?
 
 ## Answer
-Most people around me believe that you should only give when you have an abundance or that if you keep helping people with the little you have, you are just being stupid and letting yourself get used. I completely disagree. I believe that true human connection and impact mean being willing to hold the door open for others, no matter how small your own space is. People see my giving and think I'm naive or that I don't see how others might be exploiting it but they mistake my empathy for weakness. I know exactly how hard the struggle is and I respect the sweat it takes to survive here. Keeping my head down and securing my bag isn't about hoarding wealth it's about building the capacity to keep helping without crashing. I’d rather risk being called foolish for caring too much than become cold and numb just to protect a bank balance.
+Most people around me believe that i should only give when i have an abundance or that if i keep helping people with the little i have, i am just being stupid and letting myself get used. I completely disagree. I believe that true human connection and impact mean being willing to hold the door open for others, no matter how small your own space is. People see my giving and think I'm naive or that I don't see how others might be exploiting it but they mistake my empathy for weakness. I know exactly how hard the struggle is and I respect the sweat it takes to survive here. Keeping my head down and securing my bag isn't about hoarding wealth it's about building the capacity to keep helping without crashing. I’d rather risk being called foolish for caring too much than become cold and numb just to protect a bank balance.
 
 ---
 
@@ -57,7 +57,7 @@ Write each truth in this format:
 People confuse empathy with weakness, but continuing to give when you have very little is actually a conscious filter not naivety.
 ### Evidence from my life
 
-When you consistently help others even while managing your own tight budget, onlookers will literally tell you that you are being stupid or letting people ride you. But the experiment shows a different result: it acts as a mirror.  The people who are trying to use you will eventually expose themselves because their demands keep growing without respect for your situation, while the people who genuinely need it will show deep, quiet gratitude. It proves that you aren't the one being fooled—you are just willing to bear the cost of keeping your humanity intact.
+When i consistently help others even while managing my  own tight budget, onlookers will literally tell me that am  being stupid or letting people ride me. But the experiment shows a different result it acts as a mirror.  The people who are trying to use me will eventually expose themselves because their demands keep growing without respect for my situation, while the people who genuinely need it will show deep, quiet gratitude. It proves that i am not the one being fooled i am are just willing to bear the cost of keeping your humanity intact.
 
 ---
 
@@ -66,7 +66,7 @@ When you consistently help others even while managing your own tight budget, onl
 ### Truth
 The ultimate metric of financial strength isn't how much you display but how heavy an economic shock you can absorb without changing your character.
 ### Evidence from my life
-I've seen the results of both lifestyles. People who chase the hype and spend heavily to show working are usually one bad month away from a total mental and financial crash which instantly stops them from being able to help anyone else. On the flip side, keeping your head down, securing your bags, and investing quietly gives you a buffer. When inflation spikes or a rainy day hits, the result is that you don't panic, you don't become desperate and you can still cleanly extend a hand to others because your foundation is solid.
+I've seen the results of both lifestyles. People who chase the hype and spend heavily to show working are usually one bad month away from a total mental and financial crash which instantly stops them from being able to help anyone else. On the flip side, keeping my head down, securing my bags and investing quietly gives me a buffer. When inflation spikes or a rainy day hits, the result is that i don't panic, i don't become desperate and i can still cleanly extend a hand to others because your foundation is solid.
 
 ---
 
@@ -76,7 +76,7 @@ I've seen the results of both lifestyles. People who chase the hype and spend he
 Respecting the sweat that brought the money in requires you to ignore the public narrative completely.
 
 ### Evidence from my life
-The crowd will always have an opinion if you give quietly, they say you are doing too little if you don't live loud, they say you have a poverty mindset. But the data shows that the public narrative is completely fickle. The moment you start spending to satisfy their expectations, your resources deplete rapidly. The objective truth is that true financial peace comes from ignoring the noise, understanding the exact value of your hard work, and channeling it into real, quiet stability rather than public approval.
+The crowd will always have an opinion if i give quietly, they say i am are doing too little if i don't live loud, they say you have a poverty mindset. But the data shows that the public narrative is completely fickle. The moment i start spending to satisfy their expectations, my resources deplete rapidly. The objective truth is that true financial peace comes from ignoring the noise, understanding the exact value of my hard work, and channeling it into real, quiet stability rather than public approval.
 
 ---
 
@@ -180,7 +180,7 @@ If Yes:
 
 ## Answer
 
-Yes, I’ve done it. I took a shortcut on a deployment pipeline once, pushing through some messy configurations just to hit a deadline and stop the endless back-and-forth messages hitting my screen.Honestly? It felt cheap, and the immediate hit of shame was sickening. You spend so much time trying to build a solid reputation, but in that single moment, I realized I was just being lazy and hypocritical.
+Yes, I’ve done it. I took a shortcut on a deployment pipeline once, pushing through some messy configurations just to hit a deadline and stop the endless back-and-forth messages hitting my screen.Honestly? It felt cheap and the immediate hit of shame was sickening. You spend so much time trying to build a solid reputation but in that single moment, I realized I was just being lazy and hypocritical.
 
 What followed was days of pure, exhausting stress. Every single time a Slack notification popped up or a server logged a minor warning, my stomach would literally drop. I was terrified of getting caught. That fear forces you into this pathetic, defensive defensive state where you are constantly looking over your shoulder, hoping nobody digs too deep into the commits. The worst part wasn't even the fear of exposure, though; it was the numbness that started creeping in afterward to protect my ego. I found myself making excuses, telling myself everybody does it or it's just this once, which is a dangerous lie to start believing. It took a lot of painful self-awareness to admit that the shortcut didn't save my time—it just compromised my integrity and left me with a week's worth of anxiety that took far more out of me than just doing the actual work properly would have.
 
