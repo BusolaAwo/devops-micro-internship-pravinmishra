@@ -133,8 +133,8 @@ Week 00 → Internet & Networking Basics
 
 | Week | Topic | Status | Assignment | LinkedIn Post | Blog Post |
 |------|-------|--------|------------|---------------|-----------|
-| 00 | Internet & Networking Basics |✅ Completed | ✅ Completed | https://www.linkedin.com/posts/busola-helen-awotimide_devops-micro-internship-dmi-by-pravin-activity-7447993660673183745-avYM? | — |
-| 01 | Success Mindset | ✅ Completed | ✅ Completed| https://www.linkedin.com/feed/update/urn:li:activity:7478405078299734016/?| — |
+| 00 | Internet & Networking Basics |✅ Completed | ✅ Completed | https://www.linkedin.com/posts/busola-helen-awotimide_devops-micro-internship-dmi-by-pravin-activity-7447993660673183745-avYM? | https://medium.com/@awsawotimide/im-done-waiting-to-feel-ready-7d57f5fb0792?sharedUserId=awsawotimide|
+| 01 | Success Mindset | ✅ Completed | ✅ Completed| https://www.linkedin.com/feed/update/urn:li:activity:7478405078299734016/?| https://medium.com/@awsawotimide/reflections-of-whom-im-becoming-08ea7ac35249?sharedUserId=awsawotimide|
 | 02 | Agentic AI with Claude Code | ⬜ Not Started | ⏳ Pending | — | — |
 | 03 | Linux for DevOps | ⬜ Not Started | ⏳ Pending | — | — |
 | 04 | Bash Scripting | ⬜ Not Started | ⏳ Pending | — | — |

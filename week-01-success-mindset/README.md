@@ -385,8 +385,8 @@ Paste your LinkedIn post link here:
 
 ## 10. Proof of Work
 
-- LinkedIn Post URL: **ADD LINK HERE**  
-- Blog / Medium : **ADD LINK HERE**  
+- LinkedIn Post URL: (https://www.linkedin.com/feed/update/urn:li:activity:7478405078299734016/?)  
+- Blog / Medium : https://medium.com/@awsawotimide/reflections-of-whom-im-becoming-08ea7ac35249?sharedUserId=awsawotimide 
 
 ---
 
