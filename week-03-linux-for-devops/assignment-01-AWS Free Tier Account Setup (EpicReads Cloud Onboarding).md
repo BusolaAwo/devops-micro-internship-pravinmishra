@@ -22,19 +22,22 @@ Demonstrate understanding of AWS basics and Free Tier usage by answering the fol
 
 Write your answer here.
 
----
+An AWS account is my personal account for using AWS services. I need it at this stage because it allows me to create, manage and practice using cloud resources for learning and projects.
+
 
 #### Question 2 — What is AWS Free Tier, and how long does it last?
 
 Write your answer here.
 
----
+AWS Free Tier lets me use many AWS services for free within certain limits. Most Free Tier offers last for 12 months after I create my AWS account.
 
 #### Question 3 — Name three AWS Free Tier services and their free usage limits.
 
-Write your answer here.
+Amazon EC2 – Up to 750 hours per month of a t2.micro or t3.micro instance (depending on the region).
+Amazon S3 – Up to 5 GB of Standard Storage.
+Amazon RDS – Up to 750 hours per month of a db.t3.micro or db.t4g.micro database instance
 
----
+
 
 # Task 2 — Create AWS Free Tier Account
 
