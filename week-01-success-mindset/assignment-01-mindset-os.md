@@ -148,7 +148,7 @@ This surgical boundary-setting alienated a lot of people. Former acquaintances l
 
 Paste your link here:
 
-`__________________________`
+`Add your URL here`
 
 ---
 
@@ -379,7 +379,7 @@ Every Monday through Thursday from 8:00 PM to 9:30 PM, I will put my phone on Do
 
 Paste your LinkedIn post link here:
 
-`__________________________`
+`Add your URL here`
 
 ---
 
