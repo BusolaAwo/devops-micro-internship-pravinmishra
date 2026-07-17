@@ -20,7 +20,7 @@ Verify the Ubuntu VM and Nginx are ready for deployment.
 
 #### Screenshot 0 — Output of `sudo systemctl status nginx --no-pager` showing Active (running)
 
-Add your screenshot here.
+![alt text](<screenshots/assignment 04-task0-screenshot 0.JPG>)
 
 ---
 
@@ -34,7 +34,7 @@ Download and extract the portfolio website template.
 
 #### Screenshot 1 — Output of `ls -la` showing the extracted project folder
 
-Add your screenshot here.
+![alt text](<screenshots/assignment 04-task1-screenshot 1.JPG>)
 
 ---
 
@@ -48,7 +48,7 @@ Update the website footer with your deployment details.
 
 #### Screenshot 2 — Nano editor open with the updated footer showing your Full Name, Group, Week, and Date
 
-Add your screenshot here.
+![alt text](<screenshots/assignment 04-task2-screenshot 2.JPG>)
 
 ---
 
@@ -62,13 +62,13 @@ Deploy the portfolio website to the Nginx web root.
 
 #### Screenshot 3 — Output of `sudo nginx -t` showing configuration test successful
 
-Add your screenshot here.
+![alt text](<screenshots/assignment 04-task3-screenshot 3.JPG>)
 
 ---
 
 #### Screenshot 4 — Output of `ls /var/www/html` showing deployed website files
 
-Add your screenshot here.
+![alt text](<screenshots/assignment 04-task3-screenshot 4.JPG>)
 
 ---
 
@@ -82,13 +82,17 @@ Verify the deployed website is publicly accessible and the footer contains your 
 
 #### Screenshot 5 — Output of `curl ifconfig.me` showing the server's public IP address
 
-Add your screenshot here.
+![alt text](<screenshots/assignment 04-task4-screenshot 5.JPG>)
+
 
 ---
 
 #### Screenshot 6 — Browser showing the live website with your Full Name and deployment details in the footer
 
-Add your screenshot here.
+![alt text](<screenshots/assignment 04-task4-screenshot 6.JPG>)
+
+![alt text](<screenshots/assignment 04-task4-screenshot 6a.JPG>)
+
 
 ---
 
@@ -102,14 +106,14 @@ Verify the deployed website and Nginx service are healthy.
 
 #### Screenshot 7 — Output of `systemctl is-enabled nginx`
 
-Add your screenshot here.
+![alt text](<screenshots/assignment 04-task5-screenshot 7.JPG>)
 
 ---
 
 #### Screenshot 8 — Output of `curl -I http://localhost` showing 200 OK
 
-Add your screenshot here.
 
+![alt text](<screenshots/assignment 04-task5-screenshot 8.JPG>)
 ---
 
 # LinkedIn Post (Mandatory)
@@ -120,14 +124,14 @@ Add your screenshot here.
 
 Paste your LinkedIn post URL here:
 
-`__________________________`
+https://www.linkedin.com/posts/busola-helen-awotimide_a-green-browser-screen-has-fooled-more-people-ugcPost-7483023111869784065-49WK?utm_source=share&utm_medium=member_desktop&rcm=ACoAADtjPKMBDnsQhcIAGnVO4so-PBvk2dEBay4
 
 ---
 
 #### Screenshot — Published LinkedIn post showing the live website with your Full Name in the footer
 
-Add your screenshot here.
 
+![alt text](<screenshots/assignment 4 linkedin.JPG>)
 ---
 
 # Submission Instructions
