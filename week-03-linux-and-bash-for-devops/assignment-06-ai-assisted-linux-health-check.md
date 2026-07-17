@@ -42,19 +42,19 @@ Answer the following in your own words:
 
 **1. What proves that Nginx is running?**
 
-To verify that Nginx is active, I run sudo systemctl status nginx in my terminal or sudo systemctl status nginx --no-pager and look for the bright green "active (running)" indicator. Additionally, I can check my system's active process list using ps aux | grep nginx to confirm that the Nginx master and worker processes are actively running in the background of my server.
+ To verify that Nginx is active, I run sudo systemctl status nginx in my terminal or sudo systemctl status nginx --no-pager and look for the bright green "active (running)" indicator. Additionally, I can check my system's active process list using ps aux | grep nginx to confirm that the Nginx master and worker processes are actively running in the background of my server.
 
 ---
 
 **2. What proves that the server is listening for HTTP traffic?**
 
-I prove my server is listening for HTTP traffic by running sudo ss -lptn to check active network sockets and confirming that a process named nginx is bound to port 80. I then run curl -I http://localhost from the command line to verify that the server successfully returns a healthy HTTP 200 OK response.
+ I prove my server is listening for HTTP traffic by running sudo ss -lptn to check active network sockets and confirming that a process named nginx is bound to port 80. I then run curl -I http://localhost from the command line to verify that the server successfully returns a healthy HTTP 200 OK response.
 
 ---
 
 **3. Why must you capture a healthy baseline before simulating an incident?**
 
-Capturing a healthy baseline first is critical because it gives me a clear reference point of how my system behaves when everything is working perfectly. Without this normal state recorded, I wouldn't be able to confidently distinguish between a new issue I deliberately caused during my simulation and an existing, pre-existing configuration problem on the server.
+ Capturing a healthy baseline first is critical because it gives me a clear reference point of how my system behaves when everything is working perfectly. Without this normal state recorded, I wouldn't be able to confidently distinguish between a new issue I deliberately caused during my simulation and an existing, pre-existing configuration problem on the server.
 
 ---
 
@@ -78,19 +78,19 @@ Answer the following in your own words:
 
 **1. Why should Claude receive project-specific operational rules?**
 
-I provide Claude with project-specific operational rules to guarantee that its guidance directly aligns with my actual environment, folder structures, and technology stack. Without these explicit rules, an AI might offer generic, textbook advice that doesn't fit my exact setup, whereas tailored constraints ensure it gives accurate, safe, and highly relevant troubleshooting steps for my specific deployment pipelines.
+ I provide Claude with project-specific operational rules to guarantee that its guidance directly aligns with my actual environment, folder structures, and technology stack. Without these explicit rules, an AI might offer generic, textbook advice that doesn't fit my exact setup, whereas tailored constraints ensure it gives accurate, safe, and highly relevant troubleshooting steps for my specific deployment pipelines.
 
 ---
 
 **2. Why is the human required to execute the recovery command?**
 
-I require a human to manually execute recovery commands because automated destructive actions pose a massive risk to system stability. Keeping a human engineer in the loop ensures that someone with contextual awareness can double check the command syntax, verify terminal warnings, and take ultimate responsibility before applying changes that could permanently alter or disrupt my live cloud infrastructure.
+ I require a human to manually execute recovery commands because automated destructive actions pose a massive risk to system stability. Keeping a human engineer in the loop ensures that someone with contextual awareness can double check the command syntax, verify terminal warnings, and take ultimate responsibility before applying changes that could permanently alter or disrupt my live cloud infrastructure.
 
 ---
 
 **3. Which rule prevents Claude from making an unsupported diagnosis?**
 
-The rule that prevents Claude from making an unsupported diagnosis is the requirement to base all troubleshooting strictly on verified, real-time terminal logs or command output. By forcing the AI to rely exclusively on concrete evidence rather than making assumptions, this rule protects me from chasing down false leads or applying irrelevant fixes that don't match the actual root cause.
+ The rule that prevents Claude from making an unsupported diagnosis is the requirement to base all troubleshooting strictly on verified, real-time terminal logs or command output. By forcing the AI to rely exclusively on concrete evidence rather than making assumptions, this rule protects me from chasing down false leads or applying irrelevant fixes that don't match the actual root cause.
 
 ---
 
@@ -114,19 +114,19 @@ Answer the following in your own words:
 
 **1. Which part of this task represents the Gather phase?**
 
-In this task, the Gather phase is represented by the step where I ran diagnostic discovery commands like sudo ss -lptn, checked system logs, and inspected my configuration files. Instead of jumping to conclusions or changing code right away, this phase is where I collected raw, unfiltered data straight from my server's terminal to understand exactly what was happening.
+ In this task, the Gather phase is represented by the step where I ran diagnostic discovery commands like sudo ss -lptn, checked system logs, and inspected my configuration files. Instead of jumping to conclusions or changing code right away, this phase is where I collected raw, unfiltered data straight from my server's terminal to understand exactly what was happening.
 
 ---
 
 **2. Did Claude follow the instruction not to create files? How did you verify this?**
 
-Yes, Claude strictly followed the instruction not to create any files on my system during our session. I verified this personally by reviewing the generated responses to ensure no file-creation commands like touch, echo >, or tee were recommended, and I manually ran git status and checked my target directories to confirm no unexpected new files appeared.
+ Yes, Claude strictly followed the instruction not to create any files on my system during our session. I verified this personally by reviewing the generated responses to ensure no file-creation commands like touch, echo >, or tee were recommended, and I manually ran git status and checked my target directories to confirm no unexpected new files appeared.
 
 ---
 
 **3. Why is planning before coding useful in DevOps automation?**
 
-Planning before coding is incredibly useful in my DevOps automation workflows because it prevents me from deploying broken scripts that could accidentally disrupt live infrastructure. By mapping out my variables, loops, and logic blocks ahead of time, I can identify potential edge cases, avoid syntax conflicts, and ensure my automation steps execute in the exact order required.
+ Planning before coding is incredibly useful in my DevOps automation workflows because it prevents me from deploying broken scripts that could accidentally disrupt live infrastructure. By mapping out my variables, loops, and logic blocks ahead of time, I can identify potential edge cases, avoid syntax conflicts, and ensure my automation steps execute in the exact order required.
 
 ---
 
@@ -170,33 +170,33 @@ Answer the following in your own words:
 
 **1. What is stored in the checks array?**
 
-In my script, the checks array stores a collection of specific system targets or service names that I need to audit, such as nginx, mysql, or specific directory paths. By grouping these text strings into a single array structure, I can manage all my health check targets collectively in one place at the top of my script.
+ In my script, the checks array stores a collection of specific system targets or service names that I need to audit, such as nginx, mysql, or specific directory paths. By grouping these text strings into a single array structure, I can manage all my health check targets collectively in one place at the top of my script.
 
 ---
 
 **2. How does the `for` loop use that array?**
 
-The for loop uses that array to automatically iterate through my list of health check targets one by one. On each pass of the loop, Bash assigns the current element from the array to a temporary iterator variable, allowing my script to evaluate conditions and run diagnostic checks against every single listed service without duplicating code.
+ The for loop uses that array to automatically iterate through my list of health check targets one by one. On each pass of the loop, Bash assigns the current element from the array to a temporary iterator variable, allowing my script to evaluate conditions and run diagnostic checks against every single listed service without duplicating code.
 
 
 ---
 
 **3. Why are the health checks separated into functions?**
 
-I separate my health checks into distinct functions to keep my code modular, highly readable, and easy to troubleshoot. By isolating specific logic like checking port bindings or verifying file existence into dedicated functions, I can easily modify a single test without breaking the rest of my script, making the entire automation codebase much cleaner.
+ I separate my health checks into distinct functions to keep my code modular, highly readable, and easy to troubleshoot. By isolating specific logic like checking port bindings or verifying file existence into dedicated functions, I can easily modify a single test without breaking the rest of my script, making the entire automation codebase much cleaner.
 
 
 ---
 
 **4. What is the purpose of `$(...)` in this script?**
 
-I use the $(...) syntax in my script to perform command substitution, which allows me to execute a Linux command and capture its text output directly into a variable. For example, capturing the output of a systemctl or pgrep command this way lets my script evaluate the results dynamically using my conditional logic blocks.
+ I use the $(...) syntax in my script to perform command substitution, which allows me to execute a Linux command and capture its text output directly into a variable. For example, capturing the output of a systemctl or pgrep command this way lets my script evaluate the results dynamically using my conditional logic blocks.
 
 ---
 
 **5. Why does the script use different exit codes for HEALTHY, WARN, and FAIL?**
 
-I use unique exit codes like 0, 1, and 2 so that external monitoring tools, CI/CD pipelines, or other orchestration scripts can instantly understand the system status without parsing text. This structured numeric feedback allows my automated operations to immediately detect a failure, trigger alerts, or initiate self-healing protocols based on the specific severity level.
+ I use unique exit codes like 0, 1, and 2 so that external monitoring tools, CI/CD pipelines, or other orchestration scripts can instantly understand the system status without parsing text. This structured numeric feedback allows my automated operations to immediately detect a failure, trigger alerts, or initiate self-healing protocols based on the specific severity level.
 
 ---
 
@@ -226,25 +226,25 @@ Answer the following in your own words:
 
 **1. What is the overall status of your healthy baseline?**
 
-The overall status of my healthy baseline is completely functional, stable, and returning an optimal green status across all checked components. Every essential system target defined in my script passes its criteria smoothly, meaning my Nginx server is actively running, ports are bound correctly, and system resources are well within safe operating limits before any simulation.
+ The overall status of my healthy baseline is completely functional, stable, and returning an optimal green status across all checked components. Every essential system target defined in my script passes its criteria smoothly, meaning my Nginx server is actively running, ports are bound correctly, and system resources are well within safe operating limits before any simulation.
 
 ---
 
 **2. Which exact Linux evidence proves the application is serving traffic?**
 
-The exact Linux evidence proving my application is serving traffic is the HTTP 200 OK header returned when I execute curl -I http://localhost. Additionally, running sudo ss -lptn reveals that the Nginx master process is successfully bound to port 80 and actively listening for incoming web requests from users over the network.
+ The exact Linux evidence proving my application is serving traffic is the HTTP 200 OK header returned when I execute curl -I http://localhost. Additionally, running sudo ss -lptn reveals that the Nginx master process is successfully bound to port 80 and actively listening for incoming web requests from users over the network.
 
 ---
 
 **3. Did your script return exit code 0 or 1? Explain why.**
 
-My script successfully returned an exit code of 0 because every single health check executed inside the loop passed without a single warning or failure. In Linux scripting, an exit code of 0 explicitly signals a completely healthy, error-free execution, confirming that my entire application infrastructure is currently running exactly as expected
+ My script successfully returned an exit code of 0 because every single health check executed inside the loop passed without a single warning or failure. In Linux scripting, an exit code of 0 explicitly signals a completely healthy, error-free execution, confirming that my entire application infrastructure is currently running exactly as expected
 
 ---
 
 **4. What is the difference between a warning and a failure in this script?**
 
-a warning indicates a non-critical issue, like high disk usage, where the system is running but needs attention, triggering an exit code of 1. A failure means a critical dependency is completely broken, such as Nginx being stopped, which halts traffic entirely and triggers an exit code of 2
+ a warning indicates a non-critical issue, like high disk usage, where the system is running but needs attention, triggering an exit code of 1. A failure means a critical dependency is completely broken, such as Nginx being stopped, which halts traffic entirely and triggers an exit code of 2
 
 ---
 
@@ -274,24 +274,24 @@ Answer the following in your own words:
 
 **1. Why does this skill have Bash, Read, and Grep, but not Write?**
 
-I restrict this skill to Bash, Read, and Grep while omitting Write access as a crucial security safeguard for my server environments. This setup allows me to safely gather system metrics, read existing log files, and filter diagnostic data without risking accidental, automated modifications or destructive overrides to my live configuration files and deployment scripts.
+ I restrict this skill to Bash, Read, and Grep while omitting Write access as a crucial security safeguard for my server environments. This setup allows me to safely gather system metrics, read existing log files, and filter diagnostic data without risking accidental, automated modifications or destructive overrides to my live configuration files and deployment scripts.
 ---
 
 **2. Why is `disable-model-invocation: true` useful for this skill?**
 
-Setting disable-model-invocation: true is incredibly useful because it prevents the AI from generating and running arbitrary commands during critical diagnostic runs. This flag ensures that only pre-approved, safe commands are executed, protecting my infrastructure from unexpected operations while maintaining strict, predictable control over how the system is audited and queried in real time.
+ Setting disable-model-invocation: true is incredibly useful because it prevents the AI from generating and running arbitrary commands during critical diagnostic runs. This flag ensures that only pre-approved, safe commands are executed, protecting my infrastructure from unexpected operations while maintaining strict, predictable control over how the system is audited and queried in real time.
 
 ---
 
 **3. What part is performed by Bash, and what part is performed by Claude?**
 
-In this workflow, Bash performs the heavy lifting on the operating system level, executing the actual commands, querying system ports, and collecting raw terminal outputs from my server. Claude then acts as the analytical layer, interpreting that raw text data, parsing complex log details, and translating technical outputs into clear, actionable troubleshooting insights.
+ In this workflow, Bash performs the heavy lifting on the operating system level, executing the actual commands, querying system ports, and collecting raw terminal outputs from my server. Claude then acts as the analytical layer, interpreting that raw text data, parsing complex log details, and translating technical outputs into clear, actionable troubleshooting insights.
 
 ---
 
 **4. Why is this better than asking Claude "Is my server healthy?" without giving it evidence?**
 
-Asking if my server is healthy without evidence forces the AI to guess, which leads to generic advice or dangerous assumptions. By feeding Claude concrete terminal outputs instead, I ensure its analysis is grounded in real-time facts, allowing it to pinpoint the exact port conflict, service failure, or configuration issue currently affecting my environment.
+ Asking if my server is healthy without evidence forces the AI to guess, which leads to generic advice or dangerous assumptions. By feeding Claude concrete terminal outputs instead, I ensure its analysis is grounded in real-time facts, allowing it to pinpoint the exact port conflict, service failure, or configuration issue currently affecting my environment.
 
 ---
 
@@ -328,30 +328,30 @@ Answer the following in your own words:
 **1. Which three checks failed?**
 
 
-During my system diagnostic run, the three specific health checks that failed were the Nginx web server service check, the port 80 socket binding verification, and the local HTTP traffic response test. Because these three core components are deeply dependent on one another, the failure of the master web process triggered a cascading shutdown across all three.
+ During my system diagnostic run, the three specific health checks that failed were the Nginx web server service check, the port 80 socket binding verification, and the local HTTP traffic response test. Because these three core components are deeply dependent on one another, the failure of the master web process triggered a cascading shutdown across all three.
 ---
 
 **2. What evidence supports the conclusion that Nginx is unavailable?**
 
-The concrete Linux evidence proving Nginx is unavailable includes my system check script returning a critical error state instead of a healthy status. Additionally, running sudo systemctl status nginx showed the service was inactive, while sudo ss -lptn confirmed nothing was listening on port 80, and running my curl command resulted in a connection refused error.
+ The concrete Linux evidence proving Nginx is unavailable includes my system check script returning a critical error state instead of a healthy status. Additionally, running sudo systemctl status nginx showed the service was inactive, while sudo ss -lptn confirmed nothing was listening on port 80, and running my curl command resulted in a connection refused error.
 
 ---
 
 **3. Did Claude execute the recovery command? Why is that important?**
 
-No, Claude did not execute the recovery command because our strict operational guidelines forbid the AI from executing writing or destructive commands. This boundary is incredibly important because it keeps me, the human engineer, in complete control of my environment, preventing automated tools from applying unverified changes that could disrupt other services.
+ No, Claude did not execute the recovery command because our strict operational guidelines forbid the AI from executing writing or destructive commands. This boundary is incredibly important because it keeps me, the human engineer, in complete control of my environment, preventing automated tools from applying unverified changes that could disrupt other services.
 
 ---
 
 **4. Which phase of the Agentic Loop is represented by the Bash report?**
 
-The Bash report represents the Gather phase of the Agentic Loop, where raw, unfiltered system metrics are collected directly from the server. This phase is where my custom script queries the OS, checks port bindings, and logs actual error codes, providing the baseline empirical evidence needed to understand the system's state
+ The Bash report represents the Gather phase of the Agentic Loop, where raw, unfiltered system metrics are collected directly from the server. This phase is where my custom script queries the OS, checks port bindings, and logs actual error codes, providing the baseline empirical evidence needed to understand the system's state
 
 ---
 
 **5. Which phase is represented by Claude's explanation?**
 
-Claude's explanation represents the Analyze phase of the Agentic Loop, where the raw terminal outputs and script exit codes are interpreted. During this phase, the AI processes the unstructured log files and diagnostic data collected earlier, turning the technical evidence into a clear, structured diagnosis that explains exactly why my web server failed.
+ Claude's explanation represents the Analyze phase of the Agentic Loop, where the raw terminal outputs and script exit codes are interpreted. During this phase, the AI processes the unstructured log files and diagnostic data collected earlier, turning the technical evidence into a clear, structured diagnosis that explains exactly why my web server failed.
 
 
 ---
@@ -394,7 +394,7 @@ Answer the following in your own words:
 
 **1. What action did you execute manually?**
 
-To resolve the outage, I manually executed the recovery command sudo systemctl start nginx directly inside my server's terminal to bring the web service back online. Because our strict safety rules keep execution privileges in human hands, I had to review the diagnosis myself first and then intentionally trigger the restart to fix the broken pipeline.
+ To resolve the outage, I manually executed the recovery command sudo systemctl start nginx directly inside my server's terminal to bring the web service back online. Because our strict safety rules keep execution privileges in human hands, I had to review the diagnosis myself first and then intentionally trigger the restart to fix the broken pipeline.
 
 
 
@@ -402,25 +402,25 @@ To resolve the outage, I manually executed the recovery command sudo systemctl s
 
 **2. What evidence proves that the service recovered?**
 
-The empirical evidence proving recovery is my diagnostic script successfully returning a clean exit code of 0 and showing all green statuses. Additionally, running sudo systemctl status nginx confirms the process is active and running, while executing curl -I http://localhost successfully streams back a healthy HTTP 200 OK header response over port 80.
+ The empirical evidence proving recovery is my diagnostic script successfully returning a clean exit code of 0 and showing all green statuses. Additionally, running sudo systemctl status nginx confirms the process is active and running, while executing curl -I http://localhost successfully streams back a healthy HTTP 200 OK header response over port 80.
 
 ---
 
 **3. Why is the second triage run necessary?**
 
-Executing the second triage run is absolutely necessary to verify that my manual recovery action actually fixed the root cause of the incident without creating new issues. Running the health checks again provides real-time data confirming that all system ports, file paths, and service configurations have completely returned to their stable, healthy baseline state.
+ Executing the second triage run is absolutely necessary to verify that my manual recovery action actually fixed the root cause of the incident without creating new issues. Running the health checks again provides real-time data confirming that all system ports, file paths, and service configurations have completely returned to their stable, healthy baseline state.
 
 ---
 
 **4. What could go wrong if an AI agent automatically restarted every failed service?**
 
-If an AI automatically restarted failed services, it could trigger a dangerous loop that masks severe architectural problems, like a broken configuration or corrupted files. The agent might repeatedly restart a failing application, overloading system resources, exhausting logs, and potentially crashing the underlying infrastructure while delaying the crucial root-cause investigation required by an engineer.
+ If an AI automatically restarted failed services, it could trigger a dangerous loop that masks severe architectural problems, like a broken configuration or corrupted files. The agent might repeatedly restart a failing application, overloading system resources, exhausting logs, and potentially crashing the underlying infrastructure while delaying the crucial root-cause investigation required by an engineer.
 
 ---
 
 **5. In one sentence, explain the difference between using AI as a chatbot and using AI in this agentic workflow.**
 
-While a standard chatbot simply generates passive text answers to general questions, this agentic workflow integrates the AI directly into my live engineering pipeline to analyze real-time server evidence and help guide actual infrastructure troubleshooting steps.
+ While a standard chatbot simply generates passive text answers to general questions, this agentic workflow integrates the AI directly into my live engineering pipeline to analyze real-time server evidence and help guide actual infrastructure troubleshooting steps.
 
 ---
 
@@ -436,44 +436,44 @@ Fill in all seven sections below in your own words.
 
 **1. Reported Symptom**
 
-My local application appeared completely down when I attempted to access it. Running a network test with the command curl -I http://localhost consistently resulted in a connection failure, returning a generic HTTP status code of 000, which clearly indicated that the local web service was entirely unreachable over the network.
+ My local application appeared completely down when I attempted to access it. Running a network test with the command curl -I http://localhost consistently resulted in a connection failure, returning a generic HTTP status code of 000, which clearly indicated that the local web service was entirely unreachable over the network.
 
 ---
 
 **2. Evidence Collected**
 
-Using the automated /linux-triage Bash script, I collected three clear pieces of failure evidence. First, the Nginx service status returned a [FAIL] state showing it was stopped. Second, port 80 was not bound by any active processes. Finally, the local HTTP traffic connection check failed completely with status code 000.
+ Using the automated /linux-triage Bash script, I collected three clear pieces of failure evidence. First, the Nginx service status returned a [FAIL] state showing it was stopped. Second, port 80 was not bound by any active processes. Finally, the local HTTP traffic connection check failed completely with status code 000.
 
 ---
 
 **3. Most Likely Cause**
 
-The most likely cause of this incident is that the Nginx service was unexpectedly stopped or disabled on the server. Because the master process was inactive, port 80 could not be bound, which completely blocked the web server from listening to incoming HTTP traffic and triggered the subsequent web connection failures.
+ The most likely cause of this incident is that the Nginx service was unexpectedly stopped or disabled on the server. Because the master process was inactive, port 80 could not be bound, which completely blocked the web server from listening to incoming HTTP traffic and triggered the subsequent web connection failures.
 
 
 ---
 
 **4. Human-Approved Recovery Action**
 
-After carefully reviewing the safe troubleshooting recommendations generated by the Claude triage skill, I chose to manually approve and execute the recovery command myself. I opened my server's terminal and ran sudo systemctl start nginx to successfully initiate the process and bring the web service back online without further delays.
+ After carefully reviewing the safe troubleshooting recommendations generated by the Claude triage skill, I chose to manually approve and execute the recovery command myself. I opened my server's terminal and ran sudo systemctl start nginx to successfully initiate the process and bring the web service back online without further delays.
 
 ---
 
 **5. Verification**
 
-To verify recovery, I performed three distinct checks. First, I ran systemctl is-active nginx and received an active response. Next, executing curl -I http://localhost successfully returned a proper HTTP 200 OK header. Finally, I reran the /linux-triage automated skill, confirming all five internal system health checks passed completely and cleanly.
+ To verify recovery, I performed three distinct checks. First, I ran systemctl is-active nginx and received an active response. Next, executing curl -I http://localhost successfully returned a proper HTTP 200 OK header. Finally, I reran the /linux-triage automated skill, confirming all five internal system health checks passed completely and cleanly.
 
 ---
 
 **6. Safety Decision**
 
-I intentionally restricted the Claude triage tool exclusively to gathering information and analyzing server evidence to protect operational safety. Keeping execution privileges out of the AI's hands entirely prevents dangerous system incidents like unexpected server downtime, destructive automated configuration changes, or unauthorized root command runs across my live infrastructure.
+ I intentionally restricted the Claude triage tool exclusively to gathering information and analyzing server evidence to protect operational safety. Keeping execution privileges out of the AI's hands entirely prevents dangerous system incidents like unexpected server downtime, destructive automated configuration changes, or unauthorized root command runs across my live infrastructure.
 
 ---
 
 **7. Agentic Loop Mapping**
 
-This automation sequence perfectly maps out the structural phases of the Agentic Loop. Running my triage scripts to check port states represents the Gather phase, while letting Claude process the errors represents Analyze. My manual verification represents the final Verify phase, ensuring the pipeline returned to its baseline state properly.
+ This automation sequence perfectly maps out the structural phases of the Agentic Loop. Running my triage scripts to check port states represents the Gather phase, while letting Claude process the errors represents Analyze. My manual verification represents the final Verify phase, ensuring the pipeline returned to its baseline state properly.
 
 ---
 
@@ -494,9 +494,9 @@ https://www.linkedin.com/posts/busola-helen-awotimide_the-first-diagnosis-is-usu
 ![alt text](<screenshots/linkedin assignment 06.JPG>)
 
 
-BLOG POST :https://medium.com/@awsawotimide/building-bridges-with-bash-and-ai-my-journey-taming-cloud-pipelines-4530966bf8aa?sharedUserId=awsawotimide
+## BLOG POST :https://medium.com/@awsawotimide/building-bridges-with-bash-and-ai-my-journey-taming-cloud-pipelines-4530966bf8aa?sharedUserId=awsawotimide
 
-BLOG screenshot: 
+## BLOG screenshot: 
 
 ![alt text](<screenshots/blog post.JPG>) 
 

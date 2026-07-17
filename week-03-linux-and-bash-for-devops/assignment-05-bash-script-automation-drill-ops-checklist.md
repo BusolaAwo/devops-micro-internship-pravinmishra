@@ -36,19 +36,19 @@ Answer the following in your own words:
 
 **1. What is Bash?**
 
-For my deployment work, Bash (Bourne Again Shell) serves as my primary command-line interpreter and scripting language on Linux. It gives me a direct interface to interact with the operating system kernel, execute automation commands, and manage system files. Writing scripts in Bash allows me to combine repetitive terminal commands into automated executable workflows, which makes managing cloud servers and deployments incredibly efficient.
+ For my deployment work, Bash (Bourne Again Shell) serves as my primary command-line interpreter and scripting language on Linux. It gives me a direct interface to interact with the operating system kernel, execute automation commands, and manage system files. Writing scripts in Bash allows me to combine repetitive terminal commands into automated executable workflows, which makes managing cloud servers and deployments incredibly efficient.
 
 ---
 
 **2. What is the difference between shell and Bash?**
 
 
-I look at a shell as a general category or interface standard, whereas Bash is a specific tool that implements it. The shell is any macro processor that provides a command-line interface to execute system utilities. Bash is just one popular, advanced type of shell that includes extra features like command history and tab completion, which I rely on constantly over older, basic shells like Sh.
+  I look at a shell as a general category or interface standard, whereas Bash is a specific tool that implements it. The shell is any macro processor that provides a command-line interface to execute system utilities. Bash is just one popular, advanced type of shell that includes extra features like command history and tab completion, which I rely on constantly over older, basic shells like Sh.
 ---
 
 **3. Why is it important to confirm the Bash version before writing scripts?**
 
-Checking my Bash version is a crucial first step because newer scripting features, arrays, and syntax options aren't backward compatible with legacy versions found on older enterprise servers. If I write an advanced automation script using features from Bash 4 or 5 and try to run it on a server with Bash 3, the script will throw syntax errors and break. Confirming the version beforehand guarantees my scripts execute reliably everywhere.
+ Checking my Bash version is a crucial first step because newer scripting features, arrays, and syntax options aren't backward compatible with legacy versions found on older enterprise servers. If I write an advanced automation script using features from Bash 4 or 5 and try to run it on a server with Bash 3, the script will throw syntax errors and break. Confirming the version beforehand guarantees my scripts execute reliably everywhere.
 
 ---
 
@@ -84,19 +84,20 @@ Answer the following in your own words:
 
 **1. What is the purpose of `#!/bin/bash`?**
 
-When I write scripts like forth-script.sh, placing #!/bin/bash at the very first line is my way of telling the operating system exactly which interpreter to use. This line known as a shebang tells the kernel to bypass any default shell I might be using and run the script specifically with the Bash interpreter found at that absolute path. This ensures my variables, loops, and syntax execute exactly as I intended.
+ When I write scripts like forth-script.sh, placing #!/bin/bash at the very first line is my way of telling the operating system exactly which interpreter to use. This line known as a shebang tells the kernel to bypass any default shell I might be using and run the script specifically with the Bash interpreter found at that absolute path. This ensures my variables, loops, and syntax execute exactly as I intended.
 
 ---
 
 **2. Why do we use `chmod +x` before running a script?**
-By default, when I create a new script file in Linux, the OS blocks execution permissions as a built-in security measure to prevent accidental scripts from running. When I run chmod +x, I am modifying the file's permission metadata to explicitly grant executable rights. This allows me to run the script directly as a program, which is essential for testing my automation scripts on my cloud instances.
+
+ By default, when I create a new script file in Linux, the OS blocks execution permissions as a built-in security measure to prevent accidental scripts from running. When I run chmod +x, I am modifying the file's permission metadata to explicitly grant executable rights. This allows me to run the script directly as a program, which is essential for testing my automation scripts on my cloud instances.
 
 
 ---
 
 **3. What is the difference between running a script using `./script.sh` and `bash script.sh`?**
 
-When I use ./script.sh, I am telling the system to execute the file directly as a standalone program, relying entirely on the shebang line inside the script to find the interpreter. When I run bash script.sh, I am directly invoking the Bash shell myself and passing the script as an argument, which works even if I haven't granted execution permissions on the file yet.
+ When I use ./script.sh, I am telling the system to execute the file directly as a standalone program, relying entirely on the shebang line inside the script to find the interpreter. When I run bash script.sh, I am directly invoking the Bash shell myself and passing the script as an argument, which works even if I haven't granted execution permissions on the file yet.
 
 ---
 
@@ -126,19 +127,19 @@ Answer the following in your own words:
 
 **1. What is a variable in Bash?**
 
-When I build automation scripts, I use a variable as a temporary storage container or placeholder in the system memory to hold data like user information, file paths, or text strings. Instead of hardcoding values multiple times throughout my scripts, defining a variable allows me to dynamically store, update, and reuse that data anywhere in my code, making my scripts far cleaner and easier to maintain.
+ When I build automation scripts, I use a variable as a temporary storage container or placeholder in the system memory to hold data like user information, file paths, or text strings. Instead of hardcoding values multiple times throughout my scripts, defining a variable allows me to dynamically store, update, and reuse that data anywhere in my code, making my scripts far cleaner and easier to maintain.
 
 ---
 
 **2. Why should we avoid spaces around the `=` sign when creating variables?**
 
-I have to be extremely careful with my spacing because Bash interprets the very first word of a line as a command to execute. If I put spaces around the equals sign, Bash will treat my variable name as an individual command and the equals sign or value as an argument, throwing an immediate command not found error. Omitting spaces ensures the shell correctly reads it as a single assignment operation.
+ I have to be extremely careful with my spacing because Bash interprets the very first word of a line as a command to execute. If I put spaces around the equals sign, Bash will treat my variable name as an individual command and the equals sign or value as an argument, throwing an immediate command not found error. Omitting spaces ensures the shell correctly reads it as a single assignment operation.
 
 ---
 
 **3. How do you access the value stored inside a Bash variable?**
 
-To extract and use the data I have stored inside a variable, I prepend the variable name with a dollar sign $ when calling it, such as writing $NAME. When the Bash interpreter evaluates that line in my script, it performs variable expansion, substituting the variable placeholder with the actual text string or numeric value I assigned to it earlier in the script execution.
+ To extract and use the data I have stored inside a variable, I prepend the variable name with a dollar sign $ when calling it, such as writing $NAME. When the Bash interpreter evaluates that line in my script, it performs variable expansion, substituting the variable placeholder with the actual text string or numeric value I assigned to it earlier in the script execution.
 
 ---
 
@@ -168,17 +169,18 @@ Answer the following in your own words:
 
 **1. What is an array in Bash?**
 
-When I write scripts, I use an array as a special variable that allows me to store multiple related values under a single name instead of creating dozens of separate variables. It acts like a grouped list in the system memory, holding several data elements like lists of software packages, server ports, or configuration files that I can easily reference, track, and manipulate as a collective unit
+ When I write scripts, I use an array as a special variable that allows me to store multiple related values under a single name instead of creating dozens of separate variables. It acts like a grouped list in the system memory, holding several data elements like lists of software packages, server ports, or configuration files that I can easily reference, track, and manipulate as a collective unit
 
 ---
 
 **2. Why are arrays useful in scripts?**
 
-Arrays are incredibly useful in my scripts because they help me keep my code clean, organized, and scalable. Instead of writing repetitive code block after code block to process individual items one by one, I can store them in a single array and use loops to run operations across the entire group. This makes automating tasks like package installations or server configuration audits incredibly fast
+ Arrays are incredibly useful in my scripts because they help me keep my code clean, organized, and scalable. Instead of writing repetitive code block after code block to process individual items one by one, I can store them in a single array and use loops to run operations across the entire group. This makes automating tasks like package installations or server configuration audits incredibly fast
 
 ---
 
 **3. What does `"${tools[@]}"` mean?**
+
 In my script, writing "${tools[@]}" is how I tell Bash to expand and retrieve every single element stored inside my tools array. The @ symbol acts as a wildcard to target all items, while wrapping the expression in double quotes ensures that any tools with spaces in their names are treated as single, individual items instead of being broken apart by the shell.
 
 
