@@ -46,15 +46,15 @@ You can publish your blog on:
 
 #### Screenshot 1 — Blog published and visible
 
-Add your screenshot here.
-
+![Assignment 8 Screenshot 2](<screenshots/week 02- assignment 08-screenshot2.JPG>)
 ---
 
 ### Submission Field
 
-Blog Link:
+Blog Link:  https://medium.com/@awsawotimide/the-week-i-stopped-collecting-ai-tools-and-started-building-system-f64c0419deae?sharedUserId=awsawotimide
 
-`Add your URL here`
+
+
 
 ---
 
@@ -92,7 +92,7 @@ Your post must include:
 
 #### Screenshot 2 — LinkedIn post published
 
-Add your screenshot here.
+![Assignment 8 LinkedIn Post](<screenshots/week 02- assignment 08 linkedin post.JPG>)
 
 ---
 
@@ -100,15 +100,49 @@ Add your screenshot here.
 
 LinkedIn Post Content (copy-paste here):
 
-```
-Paste your LinkedIn post content here
+
+This week changed the way I think about AI.
+
+Before now, I mostly focused on what AI could do.
+
+This week made me think more about what AI should do.
+
+As we explored Claude Code, Skills, Memory, Subagents, and AI security during the DevOps Micro Internship, I realized something important:
+
+Building capable AI is only half the job.
+
+Building AI that is secure, follows permissions, protects context, and behaves as intended is just as important.
+
+A fast system that ignores security isn't impressive.
+
+It's a risk.
+
+One of my biggest takeaways from Week 2 is that every feature has a responsibility attached to it.
+
+Memory should remember the right things.
+
+Skills should produce consistent results.
+
+Subagents should stay within their responsibilities.
+
+Security and permissions should make sure AI only does what it's supposed to do.
+
+That's a mindset I'll carry into every project I build going forward.
+
+AI isn't just about making work easier.
+
+It's about making sure the work is done responsibly.
+
+> **P.S. This post is part of the DevOps Micro Internship with Agentic AI Cohort 3 by [Pravin Mishra](https://www.linkedin.com/in/pravin-mishra-aws-trainer/). You can begin your DevOps journey by joining the [DMI waiting list](https://forms.gle/3hvrWJBDzsDeJoPs6). (https://forms.gle/3hvrWJBDzsDeJoPs6)**
+
 ```
 
 ---
 
-### LinkedIn Post Link:
+### LinkedIn Post Link:  https://www.linkedin.com/posts/busola-helen-awotimide_dmibypravinmishra-agenticai-claudecode-activity-7481127020140306432-XunJ?
 
-`Add your URL here`
+
+
 
 ---
 

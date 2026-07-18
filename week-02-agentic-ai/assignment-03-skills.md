@@ -20,7 +20,8 @@ Create the required `.claude/skills/` directory structure for all skills.
 
 #### Screenshot 1 — VS Code sidebar showing `.claude/skills/` folder with all 4 subfolders visible
 
-Add your screenshot here.
+![Assignment 3 Screenshot 1](<screenshots/week02- assignment 03-screenshot1.JPG>)
+
 
 ---
 
@@ -34,13 +35,13 @@ Place all required skill files into their correct directories and verify their c
 
 #### Screenshot 2 — `.claude/skills/scaffold-terraform/` open in VS Code showing both `SKILL.md` and `template-spec.md`
 
-Add your screenshot here.
 
+![Assignment 3 Screenshot 2](<screenshots/week 02- assignment 03-screenshot2.JPG>)
 ---
 
 #### Screenshot 3 — Screenshot 3 — `tf-plan/SKILL.md` frontmatter showing `allowed-tools: Bash, Read, Grep` (no Write) and `disable-model-invocation: true`
 
-Add your screenshot here.
+![Assignment 3 Screenshot 3](<screenshots/week02-assignment 03-screenshot3.JPG>)
 
 ---
 
@@ -54,13 +55,18 @@ Execute the `/scaffold-terraform` skill to generate a full Terraform infrastruct
 
 #### Screenshot 4 — Claude's response showing the scaffold complete with the file list
 
-Add your screenshot here.
+![Assignment 3 Screenshot 4](<screenshots/week02-assignment 03-screenshot4.JPG>)
+
+![Assignment 3 Screenshot 4a](<screenshots/week02-assignment 03-screenshot4a.JPG>)
+
+![Assignment 3 Screenshot 4b](<screenshots/week02-assignment 03-screenshot4b.JPG>)
 
 ---
 
 #### Screenshot 5 — VS Code sidebar showing the `terraform/` folder with all generated files inside
 
-Add your screenshot here.
+![Assignment 3 Screenshot 5](<screenshots/week 02-assignment 03-screenshot5.JPG>)
+
 
 ---
 
@@ -74,8 +80,8 @@ Initialize Terraform and execute the `/tf-plan` skill to observe plan execution 
 
 #### Screenshot 6 — Claude's `/tf-plan` response showing it ran the command and analyzed the result (pass or auth error both count)
 
-Add your screenshot here.
 
+![Assignment 3 Screenshot 6a](<screenshots/week 02-assignment 03-screenshot6a.JPG>)
 ---
 
 # Submission Instructions
@@ -88,15 +94,13 @@ Add your screenshot here.
 
 ## GitHub Repository URL
 
-Paste your forked repository URL here:
+https://github.com/BusolaAwo/devops-micro-internship-pravinmishra.git
 
-`Add your URL here`
 
 ## LinkedIn post URL
+https://www.linkedin.com/posts/busola-helen-awotimide_dmibypravinmishra-agenticai-claudecode-ugcPost-7480843782410776576-qGKr?
 
-Paste your forked repository URL here:
 
-`Add your URL here`
 ---
 
 # Completion Checklist

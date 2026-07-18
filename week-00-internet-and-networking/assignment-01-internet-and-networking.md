@@ -25,16 +25,19 @@ Take a screenshot of your interaction showing:
 
 Save your screenshot in the `screenshots` folder and update the file name below.
 
-![Task 1 Screenshot](screenshots/task-1-chatgpt.png)
+![alt text](screenshots/week01-prompt.jpg)
 
 
-Replace `task-1-chatgpt.png` with your actual screenshot file name.
+
 
 ---
 
 ## What I Learned (2–3 lines)
 
-Add your answer here...
+I learned that a protocol is just a simple set of rules that helps devices communicate properly.
+Explaining it with everyday examples made it much easier to understand.
+It also showed me that communication only works when both sides follow the same rules
+
 
 ---
 
@@ -59,7 +62,10 @@ Write a short explanation (**100–150 words**) that includes:
 
 ## Answer
 
-Add your answer here...
+i’ll tell my friend to Think of EpicReads like a shop in Finland that anyone in the world can visit online. When someone tries to open the website, their request is broken into small pieces using packet switching, so it can travel quickly across different routes on the internet. Each piece carries an IP address, which acts like the website’s unique home address, making sure the data gets to the right place.
+These pieces move using TCP/IP, which are the rules that ensure all the packets arrive safely and are put back together correctly. Once everything arrives, HTTP/HTTPS is used to display the website in the user’s browser, with HTTPS adding security to protect user data.
+All these work together to make the website accessible worldwide.
+
 
 ---
 
@@ -91,10 +97,10 @@ EpicReads bookstore has two application versions:
 
 Save your diagram image in the `screenshots` folder and update the file name below.
 
-![Application Architecture Diagram](screenshots/task-3-diagram.png)
+
+![alt text](screenshots/week00drawio.png)
 
 
-Replace `task-3-diagram.png` with your actual diagram file name.
 
 ---
 
@@ -102,18 +108,21 @@ Replace `task-3-diagram.png` with your actual diagram file name.
 
 ### Frontend
 
-* Add your answer here...
-* Add your answer here...
+* React
+
+* Vue.js
 
 ### Backend
 
-* Add your answer here...
-* Add your answer here...
+* Node.js
+* Python
+
 
 ### Database
 
-* Add your answer here...
-* Add your answer here...
+* MySQL
+
+* PostgreSQL
 
 ---
 
@@ -142,7 +151,11 @@ In **50–100 words**, explain in your own words:
 
 ## Answer
 
-Add your answer here...
+1. Hello Friend, So DNS is basically the internet’s phonebook it takes a website name like epicreads.com and tells your browser the IP address it should go to, like 52.172.142.222. 
+
+2. To make your domain point to that IP, you’d use an A record that’s the type of DNS record that links a domain directly to an IPv4 address. Once you set that up, anyone typing epicreads.com will reach your site without needing the IP.
+
+
 
 ---
 
@@ -178,10 +191,10 @@ ls
 
 Save your screenshot in the `screenshots` folder and update the file name below.
 
-![VS Code Setup Screenshot](screenshots/task-5-vscode.png)
+
+![alt text](screenshots/week00vscode.jpg)
 
 
-Replace `task-5-vscode.png` with your actual screenshot file name.
 
 ---
 
@@ -215,19 +228,46 @@ Add the following credit note at the end of your post:
 
 ## LinkedIn Post URL
 
-Paste your LinkedIn post URL here:
+ https://www.linkedin.com/posts/busola-helen-awotimide_devops-micro-internship-dmi-by-pravin-share-7447993659528065024-7l_p?utm_source=share&utm_medium=member_desktop&rcm=ACoAADtjPKMBDnsQhcIAGnVO4so-PBvk2dEBay4
 
-```text
-Add your URL here...
+
+```
+
 ```
 
 ---
 
 ## LinkedIn Post Backup Copy
 
-Paste the full text of your LinkedIn post here:
 
-Add your post content here...
+As part of the pre-entry assessment for Pravin Mishra’s FREE DevOps Micro Internship Cohort, I completed tasks given to me . Here’s a summary of what I worked on:
+
+1️⃣ ChatGPT
+ I worked on crafting clear prompts! Asking “What is a protocol in networking? Explain with a simple real-life example” helped me understand complex networking concepts in a simple, practical way.
+
+2️⃣ Internet & Networking
+ I worked on DNS concepts basically the internet’s phonebook that converts domain names into IP addresses.
+For my project, to connect epicreads.com to 52.172.142.222:3000, I worked on creating an A record, which maps a domain directly to an IPv4 address.
+
+3️⃣ App Architecture
+ I worked on the EpicReads app structure:
+Two-tier: Frontend + Database
+Three-tier: Frontend + Backend + Database
+Technologies I worked on for each layer:
+Frontend: HTML, CSS, JavaScript, React
+Backend: Node.js, Python
+Database: MySQL, PostgreSQL
+
+4️⃣ DNS
+ I worked on understanding key DNS record types:
+A Record: domain → IPv4
+CNAME: alias → another domain
+MX Record: email routing
+
+5️⃣ VS Code Setup
+ I worked on setting up VS Code, running terminal commands like pwd, ls, and dir to check directories, and customizing my theme for better focus and readability.
+
+> **P.S. This post is part of the DevOps Micro Internship with Agentic AI Cohort 3 by [Pravin Mishra](https://lnkd.in/eTmDbHF5). You can begin your DevOps journey by joining the [DMI waiting list](https://lnkd.in/eWpJQGY6). (https://lnkd.in/eMuJvtCW
 
 ---
 
@@ -235,19 +275,19 @@ Add your post content here...
 
 ### What did you find easy?
 
-Add your answer here...
+Using VS Code and running simple terminal commands like pwd, ls, and dir was pretty smooth. I also enjoyed seeing how clear ChatGPT could explain things when I asked the right questions it felt satisfying to get quick answers
 
 ---
 
 ### What was difficult?
 
-Add your answer here...
+Figuring out which technologies fit each layer, and how DNS records work to connect domains to IPs, took some careful thinking.
 
 ---
 
 ### What will you improve next week?
 
-Add your answer here...
+Next week, I want to get more comfortable with backend and database integrations so I can really understand full-stack architecture. I also plan to practice writing better ChatGPT prompts and explore more terminal commands, so I can work faster and more confidently.
 
 ---
 
