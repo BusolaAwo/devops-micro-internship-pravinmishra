@@ -135,15 +135,10 @@ It's about making sure the work is done responsibly.
 
 > **P.S. This post is part of the DevOps Micro Internship with Agentic AI Cohort 3 by [Pravin Mishra](https://www.linkedin.com/in/pravin-mishra-aws-trainer/). You can begin your DevOps journey by joining the [DMI waiting list](https://forms.gle/3hvrWJBDzsDeJoPs6). (https://forms.gle/3hvrWJBDzsDeJoPs6)**
 
+### LinkedIn Post Link: <https://www.linkedin.com/posts/busola-helen-awotimide_dmibypravinmishra-agenticai-claudecode-activity-7481127020140306432-XunJ?utm_source=share&utm_medium=member_desktop&rcm=ACoAADtjPKMBDnsQhcIAGnVO4so-PBvk2dEBay4>
+
+
 ```
-
----
-
-### LinkedIn Post Link:  https://www.linkedin.com/posts/busola-helen-awotimide_dmibypravinmishra-agenticai-claudecode-activity-7481127020140306432-XunJ?
-
-
-
-
 ---
 
 # Submission Instructions
