@@ -70,14 +70,14 @@ This is not a course. It is an internship-style program — real deployments, re
 Week 00 → Internet & Networking Basics 
  [![Week 00 – Networking](./badges/week-00.svg)](./week-00-internet-and-networking/) 
 
- Week 01 → Success Mindset -->
+ Week 01 → Success Mindset 
  [![Week 01 – Mindset](./badges/week-01.svg)](./week-01-success-mindset/)
 
-Week 02 → Agentic AI with Claude Code -->
-[![Week 02 – Agentic AI](./badges/week-02.svg)](./week-02-agentic-ai/) -->
+Week 02 → Agentic AI with Claude Code 
+[![Week 02 – Agentic AI](./badges/week-02.svg)](./week-02-agentic-ai/) 
 
-Week 03 → Linux & Bash for DevOps -->
-[![Week 03 – Linux & Bash](./badges/week-03.svg)](./week-03-linux-and-bash-for-devops/) -->
+Week 03 → Linux & Bash for DevOps 
+[![Week 03 – Linux & Bash](./badges/week-03.svg)](./week-03-linux-and-bash-for-devops/) 
 
 <!-- Week 04 → Git & GitHub -->
 <!-- [![Week 04 – Git](./badges/week-04.svg)](./week-04-github/) -->
@@ -133,7 +133,8 @@ Week 03 → Linux & Bash for DevOps -->
 | 00 | Internet & Networking Basics |✅ Completed | ✅ Completed | https://www.linkedin.com/posts/busola-helen-awotimide_devops-micro-internship-dmi-by-pravin-activity-7447993660673183745-avYM? | https://medium.com/@awsawotimide/im-done-waiting-to-feel-ready-7d57f5fb0792?sharedUserId=awsawotimide|
 | 01 | Success Mindset | ✅ Completed | ✅ Completed| https://www.linkedin.com/feed/update/urn:li:activity:7478405078299734016/?| https://medium.com/@awsawotimide/reflections-of-whom-im-becoming-08ea7ac35249?sharedUserId=awsawotimide|
 | 02 | Agentic AI with Claude Code | ✅ Completed | ✅ Completed | https://www.linkedin.com/posts/busola-helen-awotimide_dmibypravinmishra-agenticai-claudecode-ugcPost-7480843782410776576-qGKr | https://medium.com/@awsawotimide/the-week-i-stopped-collecting-ai-tools-and-started-building-system-f64c0419deae |
-| 03 | Linux & Bash for DevOps | ✅ Completed | ✅ Completed | https://www.linkedin.com/posts/busola-helen-awotimide_nothing-prepares-you-for-the-moment-you-break-ugcPost-7483280704185966592-vLVa?utm_source=share&utm_medium=member_desktop&rcm=ACoAADtjPKMBDnsQhcIAGnVO4so-PBvk2dEBay4|week-03-linux-and-bash-for-devops/screenshots/Blog post 2.JPG|
+| 03 | Linux & Bash for DevOps | ✅ Completed | ✅ Completed | https://www.linkedin.com/posts/busola-helen-awotimide_nothing-prepares-you-for-the-moment-you-break-ugcPost-7483280704185966592-vLVa?utm_source=share&utm_medium=member_desktop&rcm=ACoAADtjPKMBDnsQhcIAGnVO4so-PBvk2dEBay4|https://medium.com/@awsawotimide/building-bridges-with-bash-and-ai-my-journey-taming-cloud-pipelines-4530966bf8aa?sharedUserId=awsawotimide
+|
 | 04 | Git & GitHub | ⬜ Not Started | ⏳ Pending | — | — |
 | 05 | DevOps Lifecycle & Agile | ⬜ Not Started | ⏳ Pending | — | — |
 | 06 | AWS Cloud | ⬜ Not Started | ⏳ Pending | — | — |
