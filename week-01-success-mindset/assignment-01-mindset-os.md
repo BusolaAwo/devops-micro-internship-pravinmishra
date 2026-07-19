@@ -148,7 +148,7 @@ This surgical boundary-setting alienated a lot of people. Former acquaintances l
 
 Paste your link here:
 
-`Add your URL here`
+
 
 ---
 
@@ -379,13 +379,14 @@ Every Monday through Thursday from 8:00 PM to 9:30 PM, I will put my phone on Do
 
 Paste your LinkedIn post link here:
 
-`Add your URL here`
+https://www.linkedin.com/posts/busola-helen-awotimide_trust-me-if-you-love-helping-people-youll-activity-7478306937005121536-n7a7?utm_source=share&utm_medium=member_desktop&rcm=ACoAADtjPKMBDnsQhcIAGnVO4so-PBvk2dEBay4
 
 ---
 
 ## 10. Proof of Work
 
-- LinkedIn Post URL: (https://www.linkedin.com/feed/update/urn:li:activity:7478405078299734016/?)  
+- LinkedIn Post URL: https://www.linkedin.com/posts/busola-helen-awotimide_trust-me-if-you-love-helping-people-youll-activity-7478306937005121536-n7a7?utm_source=share&utm_medium=member_desktop&rcm=ACoAADtjPKMBDnsQhcIAGnVO4so-PBvk2dEBay4
+ 
 - Blog / Medium : https://medium.com/@awsawotimide/reflections-of-whom-im-becoming-08ea7ac35249?sharedUserId=awsawotimide 
 
 ---
