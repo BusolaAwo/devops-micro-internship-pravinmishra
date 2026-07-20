@@ -101,7 +101,7 @@ Open a Pull Request from `feature-readme-update` on your fork to `main` on the u
 
 ### Evidence
 
-#### Screenshot 8 — Pull Request creation page showing the correct base repository/branch and head repository/branch
+#### Screenshot 8 — Pull Request creation page showing the correct base repository, base branch, head repository, compare branch, and title
 
 ![alt text](screenshots/week04-assignment5-task5-screenshot8.JPG)
 
