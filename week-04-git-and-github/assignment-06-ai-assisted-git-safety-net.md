@@ -27,7 +27,7 @@ Confirm you are working in your own fork, then create a dedicated branch for thi
 
 #### Screenshot 1 — Output of git remote -v and git branch showing the new branch
 
-Add your screenshot here.
+![alt text](screenshots/week04-assignment6-task0-screenshot1.JPG)
 
 ---
 
@@ -35,7 +35,7 @@ Add your screenshot here.
 
 **1. Why create a dedicated branch instead of doing this work on main?**
 
-Add your answer here.
+Creating a dedicated branch like feature/ai-pr-ready isolates experimental code, pre-commit hooks, and script changes from the stable main branch. This allows me to test security mechanisms safely, review changes through a PR workflow, and prevent broken code or unverified commits from destabilizing the primary codebase.
 
 ---
 
