@@ -135,7 +135,7 @@ Week 03 → Linux & Bash for DevOps
 | 02 | Agentic AI with Claude Code | ✅ Completed | ✅ Completed | https://www.linkedin.com/posts/busola-helen-awotimide_dmibypravinmishra-agenticai-claudecode-ugcPost-7480843782410776576-qGKr | https://medium.com/@awsawotimide/the-week-i-stopped-collecting-ai-tools-and-started-building-system-f64c0419deae |
 | 03 | Linux & Bash for DevOps | ✅ Completed | ✅ Completed | https://www.linkedin.com/posts/busola-helen-awotimide_nothing-prepares-you-for-the-moment-you-break-ugcPost-7483280704185966592-vLVa?utm_source=share&utm_medium=member_desktop&rcm=ACoAADtjPKMBDnsQhcIAGnVO4so-PBvk2dEBay4|https://medium.com/@awsawotimide/building-bridges-with-bash-and-ai-my-journey-taming-cloud-pipelines-4530966bf8aa?sharedUserId=awsawotimide
 |
-| 04 | Git & GitHub | ✅ Completed | ✅ Completed |https://www.linkedin.com/posts/busola-helen-awotimide_commit-history-isnt-just-a-record-of-changes-share-7485443680410005504-4vh_/?utm_source=share&utm_medium=member_desktop&rcm=ACoAADtjPKMBDnsQhcIAGnVO4so-PBvk2dEBay4 |https://medium.com/@awsawotimide/mastering-open-source-collaboration-in-my-devops-journey-39c06ebb7c10?sharedUserId=awsawotimide|
+| 04 | Git & GitHub | ✅ Completed | ✅ Completed |https://www.linkedin.com/posts/busola-helen-awotimide_commit-history-isnt-just-a-record-of-changes-activity-7485452935586500609-1rvj?utm_source=share&utm_medium=member_desktop&rcm=ACoAADtjPKMBDnsQhcIAGnVO4so-PBvk2dEBay4 |https://medium.com/@awsawotimide/mastering-open-source-collaboration-in-my-devops-journey-39c06ebb7c10?sharedUserId=awsawotimide|
 | 05 | DevOps Lifecycle & Agile | ⬜ Not Started | ⏳ Pending | — | — |
 | 06 | AWS Cloud | ⬜ Not Started | ⏳ Pending | — | — |
 | 07 | Azure Cloud | ⬜ Not Started | ⏳ Pending | — | — |

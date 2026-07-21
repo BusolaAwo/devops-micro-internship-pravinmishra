@@ -171,12 +171,14 @@ Install and start Nginx on your EC2 instance, then copy `index.html` and `style.
 Paste your LinkedIn post URL here:
 
 
+https://www.linkedin.com/posts/busola-helen-awotimide_commit-history-isnt-just-a-record-of-changes-activity-7485452935586500609-1rvj?utm_source=share&utm_medium=member_desktop&rcm=ACoAADtjPKMBDnsQhcIAGnVO4so-PBvk2dEBay4
+
 
 ---
 
 #### Screenshot — LinkedIn post showing the deployed CodeTrack application
 
-
+![alt text](<screenshots/assignment 2-linkedinpost.JPG>)
 
 ---
 
