@@ -277,7 +277,7 @@ Publish a LinkedIn post summarizing what you built and what you learned about co
 
 #### LinkedIn Post URL
 
-
+https://www.linkedin.com/posts/busola-helen-awotimide_i-dont-think-ai-should-be-your-first-line-ugcPost-7485554373494870016-NM0_/?utm_source=share&utm_medium=member_desktop&rcm=ACoAADtjPKMBDnsQhcIAGnVO4so-PBvk2dEBay4
 
 ---
 
