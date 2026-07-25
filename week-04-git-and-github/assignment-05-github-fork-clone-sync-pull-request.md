@@ -129,13 +129,14 @@ https://github.com/pravinmishraaws/devops-micro-internship-interviews/actions/ru
 
 Paste your LinkedIn post URL here:
 
+https://www.linkedin.com/posts/busola-helen-awotimide_i-added-just-one-line-it-took-an-entire-activity-7485795670117920768-4GiH?utm_source=share&utm_medium=member_desktop&rcm=ACoAADtjPKMBDnsQhcIAGnVO4so-PBvk2dEBay4
 
 
 ---
 
 #### Screenshot — LinkedIn post showing your successfully created Pull Request
 
-
+![git ](screenshots/week04-linkedinpost-assignment5.JPG)
 
 ---
 
