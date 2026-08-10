@@ -21,12 +21,12 @@ Create the footer Story (`Add footer with version and deploy date`, 1 point, `fr
 #### Screenshot 1 — Sprint 1 created with the Story inside it
 
 
-
+![alt text](screenshots/week05-assignment3-task1-screenshot1.JPG)
 ---
 
 #### Screenshot 2 — Active Sprint board showing the Sprint Goal
 
-
+![alt text](screenshots/week05-assignment3-task1-screenshot2.JPG)
 
 ---
 
@@ -40,25 +40,27 @@ Add the required footer text (`Pravin Mishra Portfolio v1.0 — Deployed on <DD 
 
 #### Screenshot 3 — Jira board showing the Day 1 Sub-task in Done
 
-
+![alt text](screenshots/week05-assignment3-task2-screenshot3.JPG)
 
 ---
 
 #### Screenshot 4 — Successful Git commit output
 
-
+![alt text](screenshots/week05-assignment3-task2-screenshot4.JPG)
 
 ---
 
 #### Screenshot 5 — EC2 browser view showing the complete footer text, with the URL visible
 
+![alt text](screenshots/week05-assignment3-task2-screenshot5.JPG)
 
+![alt text](screenshots/week05-assignment3-task2-screenshot5a.JPG)
 
 ---
 
 #### Screenshot 6 — Jira Story comment showing the Day 1 Daily Scrum update
 
-
+![alt text](screenshots/week05-assignment3-task2-screenshot6.JPG)
 
 ---
 
@@ -72,18 +74,19 @@ Update the footer so the deployment date is generated automatically (or updated 
 
 #### Screenshot 7 — Code editor showing the footer and date logic or deployment-time template snippet
 
-
+![alt text](screenshots/week05-assignment3-task3-screenshot7.JPG)
 
 ---
 
 #### Screenshot 8 — EC2 browser view showing the updated footer with the current date
 
-
+![alt text](screenshots/week05-assignment3-task3-screenshot8.JPG)
 
 ---
 
 #### Screenshot 9 — README snippet documenting the footer and date behavior
 
+![alt text](screenshots/week05-assignment3-task3-screenshot9.JPG)
 
 
 ---
@@ -91,7 +94,7 @@ Update the footer so the deployment date is generated automatically (or updated 
 #### Screenshot 10 — Jira Story comment showing the Day 2 Daily Scrum update
 
 
-
+![alt text](screenshots/week05-assignment3-task3-screenshot10.JPG)
 ---
 
 # Task 4 — Day 3: Polish the Footer and Validate Accessibility
@@ -104,19 +107,19 @@ Improve the footer's spacing, contrast, and readability, then validate it at bot
 
 #### Screenshot 11 — Desktop EC2 view showing the polished footer
 
-
+![alt text](screenshots/week05-assignment3-task4-screenshot11.JPG)
 
 ---
 
 #### Screenshot 12 — Mobile responsive view showing the footer remains readable
 
-
+![alt text](screenshots/week05-assignment3-task4-screenshot12.JPG)
 
 ---
 
 #### Screenshot 13 — Jira Story comment showing the Day 3 Daily Scrum update
 
-
+![alt text](screenshots/week05-assignment3-task4-screenshot13.JPG)
 
 ---
 
@@ -130,7 +133,7 @@ Replace the existing homepage tagline with the required DMI Website call-to-acti
 
 #### Screenshot 14 — EC2 browser view showing "Start your DevOps Journey here" and the clickable "Visit the DMI Website" link
 
-
+![alt text](screenshots/week05-assignment3-task5-screenshot14.JPG)
 
 ---
 
@@ -144,20 +147,20 @@ Record a two-to-three-minute demo video of the shipped footer, add a retrospecti
 
 #### Screenshot 15 — Burndown Chart for Sprint 1
 
-
+![alt text](screenshots/week05-assignment3-task6-screenshot15.JPG)
 
 ---
 
 #### Screenshot 16 — Jira retrospective comment
 
-
+![alt text](screenshots/week05-assignment3-task6-screenshot16.JPG)
 
 ---
 
 #### Screenshot 17 — Final EC2 browser view showing the complete footer requirement
 
 
-
+![alt text](screenshots/week05-assignment3-task6-screenshot17.JPG)
 ---
 
 #### Demo Video URL
@@ -180,12 +183,13 @@ Publish a LinkedIn post about your five-day mini-Sprint, including your GitHub r
 
 Paste your LinkedIn post URL here:
 
-
+https://www.linkedin.com/posts/busola-helen-awotimide_behind-every-feature-you-use-is-a-process-ugcPost-7488091044883099649-wQaq/?utm_source=share&utm_medium=member_desktop&rcm=ACoAADtjPKMBDnsQhcIAGnVO4so-PBvk2dEBay4
 
 ---
 
 #### LinkedIn Screenshot 1 — Published LinkedIn post showing the post content and at least one required link or proof image
 
+![alt text](<screenshots/linkedinpost 3.JPG>)
 
 
 ---
