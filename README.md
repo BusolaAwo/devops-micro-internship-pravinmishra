@@ -141,7 +141,7 @@ Week 03 → Linux & Bash for DevOps
 | 03 | Linux & Bash for DevOps | ✅ Completed | ✅ Completed | https://www.linkedin.com/posts/busola-helen-awotimide_nothing-prepares-you-for-the-moment-you-break-ugcPost-7483280704185966592-vLVa?utm_source=share&utm_medium=member_desktop&rcm=ACoAADtjPKMBDnsQhcIAGnVO4so-PBvk2dEBay4|https://medium.com/@awsawotimide/building-bridges-with-bash-and-ai-my-journey-taming-cloud-pipelines-4530966bf8aa?sharedUserId=awsawotimide
 |
 | 04 | Git & GitHub | ✅ Completed | ✅ Completed |https://www.linkedin.com/posts/busola-helen-awotimide_commit-history-isnt-just-a-record-of-changes-activity-7485452935586500609-1rvj?utm_source=share&utm_medium=member_desktop&rcm=ACoAADtjPKMBDnsQhcIAGnVO4so-PBvk2dEBay4 |https://medium.com/@awsawotimide/mastering-open-source-collaboration-in-my-devops-journey-39c06ebb7c10?sharedUserId=awsawotimide|
-| 05 | DevOps Lifecycle & Agile | ⬜ Not Started | ⏳ Pending | — | — |
+| 05 | DevOps Lifecycle & Agile | ✅ Completed | ✅ Completed| — | https://medium.com/@awsawotimide/replacing-my-portfolio-copy-and-moving-files-the-hard-way-56b47572d608?sharedUserId=awsawotimide|
 | 06 | AWS Cloud | ⬜ Not Started | ⏳ Pending | — | — |
 | 07 | Azure Cloud | ⬜ Not Started | ⏳ Pending | — | — |
 | 08 | Terraform | ⬜ Not Started | ⏳ Pending | — | — |
