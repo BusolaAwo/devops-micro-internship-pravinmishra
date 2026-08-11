@@ -16,7 +16,7 @@ In this assignment, you will create your own AWS Free Tier account and configure
 
 Create your AWS Free Tier account, select the Basic Support Plan (Free), and log in to the AWS Management Console.
 
-> No screenshot required for this task. Completion is verified through Task 2.
+
 
 ---
 
@@ -30,8 +30,8 @@ In the Billing Dashboard, create a monthly Cost Budget with a name, amount, and 
 
 #### Screenshot 1 — AWS Budget setup page showing the budget name, budget amount, and alert thresholds
 
-Add your screenshot here.
 
+![alt text](<screenshots/week 06-assignment 1-task2-screenshot1.JPG>)
 ---
 
 ### Notes
@@ -40,7 +40,15 @@ Answer the following in your own words:
 
 **1. Why is it important to set up budget alerts when using an AWS account?**
 
-Write your answer here.
+Setting up AWS Budget Alerts is crucial for keeping my cloud environment secure, cost-controlled and under your full command:
+
+Prevents "Cloud Shock": AWS bills continuously on a pay-as-you-go model, so alerts instantly notify me if background services (like running EC2 instances, EBS volumes, or S3 storage) start accruing unexpected costs.
+
+Protects Free Tier Limits: i get notified the moment usage crosses out of the Free Tier allowance, preventing surprise charges on basic sandbox environments.
+
+Safety Net for Automation & IaC: If a cleanup command or teardown script fails, budget alerts catch orphaned resources before they run up a heavy bill indefinitely.
+
+Early Security Warning: A sudden, unexpected spike in forecasted spend usually indicates compromised access keys being used to spin up unauthorized compute resources.
 
 ---
 
