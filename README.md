@@ -139,7 +139,7 @@ Week 05 → DevOps Lifecycle & Agile -->
 |
 | 04 | Git & GitHub | ✅ Completed | ✅ Completed |https://www.linkedin.com/posts/busola-helen-awotimide_commit-history-isnt-just-a-record-of-changes-activity-7485452935586500609-1rvj?utm_source=share&utm_medium=member_desktop&rcm=ACoAADtjPKMBDnsQhcIAGnVO4so-PBvk2dEBay4 |https://medium.com/@awsawotimide/mastering-open-source-collaboration-in-my-devops-journey-39c06ebb7c10?sharedUserId=awsawotimide|
 | 05 | DevOps Lifecycle & Agile | ✅ Completed | ✅ Completed| https://www.linkedin.com/posts/busola-helen-awotimide_behind-every-feature-you-use-is-a-process-activity-7488091046065709056-t4sA?|https://medium.com/@awsawotimide/replacing-my-portfolio-copy-and-moving-files-the-hard-way-56b47572d608?sharedUserId=awsawotimide|
-| 06 | AWS Cloud | ✅ Completed | ✅ Completed | — | https://medium.com/@awsawotimide/how-i-fixed-my-s3-traps-and-deployed-an-ec2-web-server-on-aws-8292cbc74f6a?sharedUserId=awsawotimide|
+| 06 | AWS Cloud | ✅ Completed | ✅ Completed | — |https://medium.com/@awsawotimide/how-i-fixed-my-s3-traps-and-deployed-an-ec2-web-server-on-aws-8292cbc74f6a?sharedUserId=awsawotimide|
 | 07 | Azure Cloud | ⬜ Not Started | ⏳ Pending | — | — |
 | 08 | Terraform | ⬜ Not Started | ⏳ Pending | — | — |
 | 09 | Ansible | ⬜ Not Started | ⏳ Pending | — | — |
