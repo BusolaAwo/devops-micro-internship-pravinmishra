@@ -139,7 +139,7 @@ It Excludes all write and modification tools like mcp__jira__jira_create_issue, 
 
 2. Why does a Scrum Master need this restriction more than almost any other role in this course?
 
-As a Scrum Master, my role is to facilitate processes, surface sprint risks, and help the team maintain workflow transparency not to silently alter project history or make autonomous decisions on the board.
+As a Scrum Master, my role is to facilitate processes, surface sprint risks, and help the team maintain workflow transparency qnot to silently alter project history or make autonomous decisions on the board.
 
 If an AI tool had mutating permissions, it could automatically move tickets, alter story points, or close issues without human consensus. Restricting the skill to read-only tools guarantees that AI acts strictly as an informational advisor providing diagnostic data and standup questions while keeping full operational authority in human hands.
 
