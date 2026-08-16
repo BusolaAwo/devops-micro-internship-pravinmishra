@@ -20,7 +20,7 @@ Create an architecture diagram showing the custom VPC (10.0.0.0/16), the six sub
 
 #### Diagram image or link
 
-Add your diagram image or link here.
+![alt text](<screenshots/week 06 architecture.jpg>)
 
 ---
 
@@ -34,13 +34,23 @@ Record the AWS Region used and list every AWS service used across networking, co
 
 **Region:**
 
-Write your answer here.
+us-east-1 (N. Virginia)
 
 ---
 
 **Services:**
+Services:
 
-Write your answer here.
+Networking: Amazon VPC, Public Subnets, Private Subnets, Internet Gateway (IGW), Route Tables, VPC Peering / Route Associations
+
+Compute: Amazon EC2 (Ubuntu 24.04 LTS instances running Next.js / Nginx frontend and Express / Node.js backend)
+
+Load Balancing: AWS Application Load Balancers (Internet-facing book-review-webAlb and Internal Book-Review-App-ALB), Target Groups, Listener Rules, Health Checks
+
+Security: AWS Security Groups (Tiered ingress/egress boundaries for Web, App, and Database layers), IAM Roles, Key Pairs
+
+Database: Amazon RDS (Multi-AZ Multi-Region deployment with Read Replica / Standby instances)
+
 
 ---
 
@@ -56,7 +66,7 @@ Confirm the Book Review App loads through the public ALB DNS name.
 
 Paste your public ALB DNS name here:
 
-`Add your URL here`
+http://book-review-webAlb-1335894707.us-east-1.elb.amazonaws.com
 
 ---
 
@@ -70,37 +80,37 @@ Capture visual proof of every tier and load balancer.
 
 #### Web EC2
 
-Add your screenshot here.
+![alt text](<screenshots/week 06-assignment 6-task4-webec2.JPG>)
 
 ---
 
 #### App EC2
 
-Add your screenshot here.
+![alt text](<screenshots/week 06-assignment 6-task4-appec2.JPG>)
 
 ---
 
 #### Public ALB
 
-Add your screenshot here.
+![alt text](<screenshots/week 06-assignment 6-task4-pubalb.JPG>)
 
 ---
 
 #### Internal ALB
 
-Add your screenshot here.
+![alt text](<screenshots/week 06-assignment 6-task4-internalalb.JPG>)
 
 ---
 
 #### RDS + Replica
 
-Add your screenshot here.
+![alt text](<screenshots/week 06-assignment 6-task4-RDS + Replica.JPG>)
 
 ---
 
 #### App UI proof
 
-Add your screenshot here.
+![alt text](<screenshots/week 06-assignment 6-task4-App UI Proof.JPG>)
 
 ---
 
@@ -113,20 +123,52 @@ Summarize what worked in the final deployment, the issues encountered and how ea
 ### Notes
 
 **What worked:**
+What worked:
 
-Write your answer here.
+Successfully architected and deployed a highly available, multi-tier AWS infrastructure across multiple Availability Zones (us-east-1a and us-east-1b).
+
+Integrated an Internet-facing Application Load Balancer (book-review-webAlb) routing to Web EC2 instances running Next.js and Nginx.
+
+Configured Nginx as a reverse proxy passing internal API traffic over an Internal ALB (Book-Review-App-ALB) to Express backend instances on Port 3001.
+
+Connected the Express application tier to a Multi-AZ Amazon RDS instance with Read Replica fault tolerance.
+
+Validated end-to-end functionality including homepage book rendering, user registration, authentication, detail page routing, and review submission.
+
 
 ---
 
 **Issues + fixes:**
 
-Write your answer here.
+Path Duplication (404 Not Found on /api/api/books):
+
+Issue: Client-side JavaScript requests duplicated the API path when passing through Nginx.
+
+Fix: Updated Nginx reverse proxy configuration in /etc/nginx/sites-available/book-review under location /api/ by adding a trailing slash to the proxy_pass http://<INTERNAL-ALB-DNS>/ directive to automatically strip duplicate prefixes.
+
+Public ALB 503 Service Temporarily Unavailable:
+
+Issue: The Internet-facing ALB had no healthy target instances registered in its Target Group.
+
+Fix: Registered the Web EC2 instance (10.0.1.111) under port 80 within Book-Review-Web-TG, adjusted Security Group rules to allow HTTP port 80 ingress from the public ALB, and verified health check passing on path /.
+
+Inability to access Internal ALB directly from browser:
+
+Issue: Attempting to access internal-Book-Review-App-ALB... directly from a local browser timed out (ERR_CONNECTION_TIMED_OUT).
+
+Fix: Confirmed by design that internal ALBs reside exclusively within private VPC subnets and routed public internet access through the Internet-facing ALB entry point.
 
 ---
 
 **Tools/sources used:**
+AWS Management Console (EC2, VPC, ALB, Target Groups, RDS, Security Groups)
 
-Write your answer here.
+Terminal / SSH CLI, curl, nginx -t, systemctl reload nginx, pm2
+
+Chrome Developer Tools (Network tab & Console logs)
+
+Draw.io (Architecture Diagramming)
+
 
 ---
 
@@ -142,13 +184,13 @@ Publish a LinkedIn post sharing the capstone deployment, including the public AL
 
 Paste your LinkedIn post URL here:
 
-`Add your URL here`
+
 
 ---
 
 #### Screenshot of LinkedIn post
 
-Add your screenshot here.
+
 
 ---
 
