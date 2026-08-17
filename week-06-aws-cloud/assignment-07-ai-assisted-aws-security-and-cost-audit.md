@@ -24,13 +24,14 @@ Confirm your AWS CLI is authenticated and can see the S3 bucket, EC2 instance(s)
 
 #### Screenshot 1 — Output of `aws s3 ls`, the EC2 instance table, and the RDS instance table (blur the Account ID if visible)
 
-Add your screenshot here.
+![alt text](<screenshots/week 06-assignment 7-task1-screenshot1.JPG>)
+
 
 ---
 
 #### Screenshot 2 — Output of `pwd` and `find . -maxdepth 4 -type d | sort`
 
-Add your screenshot here.
+![alt text](<screenshots/week 06-assignment 7-task1-screenshot2.JPG>)
 
 ---
 
@@ -38,12 +39,18 @@ Add your screenshot here.
 
 **1. Which resources from this week's earlier assignments did you see in the listings?**
 
-Write your answer here.
+S3 Bucket: pravin-portfolio-busola-helen-awotimide-us-east-1
+
+EC2 Security Groups: epicbook-ec2-sg (sg-0dc7c4ab0e7620b41), Book-Review-Web-SG (sg-0d6358e24abbd8835), HA-ALB-Security-Group (sg-045b6d20629c87d2c), Book-Review-Public-ALB-SG (sg-02a6d6a0d5b65a3c4), launch-wizard-16, launch-wizard-17, and default.
+
+EBS Volumes: Unencrypted EBS volumes (vol-0f12916e4e36978cc, vol-0e6707dda1bfb38e7, vol-0fc420bd2ed34b350, vol-0db09291bc1db94ce).
+
+RDS Database: Multi-AZ Amazon RDS instance.
 
 **2. Why must you confirm your resources exist before writing an audit script against them?**
 
-Write your answer here.
 
+Validating resource existence ensures AWS CLI queries (describe-*, get-*, list-*) target active, configured resource identifiers, API schemas, and regions. Running audit queries against nonexistent resources or unauthenticated sessions leads to empty outputs, false positives, or runtime errors.
 ---
 
 # Task 2 — Define Safety Rules in CLAUDE.md
@@ -56,7 +63,7 @@ Create a `CLAUDE.md` in your workspace that tells Claude the audit script is rea
 
 #### Screenshot 3 — `CLAUDE.md` open in VS Code showing all four sections
 
-Add your screenshot here.
+![alt text](<screenshots/week 06-assignment 7-task2-screenshot3.JPG>)
 
 ---
 
@@ -64,11 +71,11 @@ Add your screenshot here.
 
 **1. Why should Claude never be given permission to run `revoke-security-group-ingress` itself, even if the fix is obviously correct?**
 
-Write your answer here.
+Granting AI autonomous state-changing capabilities risks unintended service disruptions, accidental loss of management access, or stripping critical rules. Human-in-the-Loop (HITL) enforcement guarantees every destructive CLI action is reviewed before execution.
 
 **2. Which rule prevents Claude from claiming a finding that the report does not support?**
 
-Write your answer here.
+The Strict Grounding / No Speculation Rule in CLAUDE.md mandates that Claude must base all security findings, status evaluations, and remediation recommendations strictly on the output generated in the audit report file without inferring unverified vulnerabilities.
 
 ---
 
@@ -82,7 +89,9 @@ Ask Claude Code to propose a read-only audit plan covering five checks — S3 pu
 
 #### Screenshot 4 — Claude Code showing the five-check plan
 
-Add your screenshot here.
+![alt text](<screenshots/week 06-assignment 7-task3-screenshot4.JPG>)
+
+![alt text](<screenshots/week 06-assignment 7-task3-screenshot4a.JPG>)
 
 ---
 
@@ -90,11 +99,12 @@ Add your screenshot here.
 
 **1. Which part of this task represents the Gather phase?**
 
-Write your answer here.
+Executing read-only AWS CLI queries (describe-security-group-rules, get-public-access-block, describe-volumes, describe-db-instances) to inspect infrastructure state directly from the AWS APIs.
 
 **2. Did every proposed command start with `describe-`, `get-`, or `list-`? Why does that matter?**
 
-Write your answer here.
+Yes. These prefixes represent non-destructive read operations within the AWS API, ensuring audit checks gather state information without modifying or deleting infrastructure configuration.
+
 
 ---
 
@@ -110,19 +120,19 @@ Make it executable and confirm it has no syntax errors.
 
 #### Screenshot 5 — Top section of `aws-audit.sh` showing the variables and the checks array
 
-Add your screenshot here.
+![alt text](<screenshots/week 06-assignment 7-task4-screenshot5.JPG>)
 
 ---
 
 #### Screenshot 6 — One check function (for example `check_ssh_open_to_world`) showing the AWS CLI call and conditional
 
-Add your screenshot here.
+![alt text](<screenshots/week 06-assignment 7-task4-screenshot6.JPG>)
 
 ---
 
 #### Screenshot 7 — Output of `bash -n scripts/aws-audit.sh` and `ls -l scripts/aws-audit.sh`
 
-Add your screenshot here.
+![alt text](<screenshots/week 06-assignment 7-task4-screenshot7.JPG>)
 
 ---
 
@@ -130,16 +140,16 @@ Add your screenshot here.
 
 **1. What is stored in the checks array, and how does the loop use it?**
 
-Write your answer here.
+The checks array stores references to individual verification functions (check_s3_public_access, check_ssh_open_to_world, check_mysql_open_to_world, check_rds_public_access, check_ebs_encryption). The loop executes each check sequentially, appends findings to the report file, and accumulates status counters.
 
 **2. Why does every AWS CLI call in this script use `--query` and `--output text` instead of parsing raw JSON?**
 
-Write your answer here.
+MESPath filtering (--query) combined with plain text output (--output text) extracts target values directly at the API boundary, eliminating parsing overhead with tools like jq and simplifying conditional evaluation in Bash scripts.
+
 
 **3. Why does the script use different exit codes for HEALTHY, WARN, and FAIL?**
 
-Write your answer here.
-
+Exit codes enable programmatic status reporting in CI/CD pipelines and automated agent workflows: 0 for HEALTHY (all checks pass), 1 for WARN (non-critical posture issues), and 2 for FAIL (critical security vulnerabilities).
 ---
 
 # Task 5 — Run the Baseline Audit
@@ -152,13 +162,13 @@ Run the script against your live AWS account and capture the current state befor
 
 #### Screenshot 8 — Output of `./scripts/aws-audit.sh` showing your Full Name and all five checks
 
-Add your screenshot here.
 
+![alt text](<screenshots/week 06-assignment 7-task5-screenshot8.JPG>)
 ---
 
 #### Screenshot 9 — Output showing the captured exit code and final summary
 
-Add your screenshot here.
+![alt text](<screenshots/week 06-assignment 7-task5-screenshot9.JPG>)
 
 ---
 
@@ -166,15 +176,19 @@ Add your screenshot here.
 
 **1. What is the overall status of your baseline audit?**
 
-Write your answer here.
+FAIL (Exit Code 2)
 
 **2. Did any check return FAIL or WARN? If so, which one, and what evidence did it show?**
 
-Write your answer here.
+Check 2 (FAIL): Open SSH access on Port 22 to 0.0.0.0/0 across 7 security groups (HA-ALB-Security-Group, epicbook-ec2-sg, Book-Review-Web-SG, launch-wizard-17, launch-wizard-16, Book-Review-Public-ALB-SG, default).
+
+Check 1 (WARN): Bucket pravin-portfolio-busola-helen-awotimide-us-east-1 missing full public access blocks.
+
+Check 5 (WARN): Unencrypted EBS volumes detected (vol-0f12916e4e36978cc, vol-0e6707dda1bfb38e7, vol-0fc420bd2ed34b350, vol-0db09291bc1db94ce).
 
 **3. If every check passed, what does that tell you about the security posture of your account so far?**
 
-Write your answer here.
+N/A — Baseline failed. (If passed, it would indicate that network exposure vectors are locked down, data at rest is encrypted, and cloud resources conform to security baselines).
 
 ---
 
@@ -188,13 +202,13 @@ Turn the script into a Claude Code skill named `/aws-audit` that runs the script
 
 #### Screenshot 10 — `SKILL.md` showing the frontmatter, tool restrictions, and safety rules
 
-Add your screenshot here.
+![alt text](<screenshots/week 06-assignment 7-task6-screenshot10.JPG>)
 
 ---
 
 #### Screenshot 11 — `/aws-audit` output showing findings, cost/risk impact, and a recommended remediation command (or a clean report if your baseline passed everything)
 
-Add your screenshot here.
+![alt text](<screenshots/week 06-assignment 7-task6-screenshot11.JPG>)
 
 ---
 
@@ -202,15 +216,18 @@ Add your screenshot here.
 
 **1. Why does this skill have Bash, Read, and Grep, but not Write?**
 
-Write your answer here.
+Restricting tool permissions to Bash, Read, and Grep allows Claude to run the audit script, inspect report files, and parse status outputs while preventing write/edit capabilities that could alter live AWS resource states.
 
 **2. What part is performed by Bash, and what part is performed by Claude?**
 
-Write your answer here.
+Bash: Executes scripts/aws-audit.sh to query AWS APIs and generate raw audit outputs.
+
+Claude: Parses report outputs, interprets findings, evaluates security/cost risks, and drafts structured remediation guidance.
+
 
 **3. Why is estimating cost/risk impact something the AI adds on top of a plain PASS/FAIL script?**
 
-Write your answer here.
+Scripts output boolean status checks, while the AI translates raw findings into contextualized risk analyses—explaining attack vector severity (e.g., unauthorized SSH access) and financial implications (e.g., lingering unencrypted storage costs).
 
 ---
 
@@ -224,13 +241,13 @@ Pick one real finding from your baseline report (or deliberately open a security
 
 #### Screenshot 12 — Output of the `revoke-security-group-ingress` and `authorize-security-group-ingress` commands you ran yourself
 
-Add your screenshot here.
+![alt text](<screenshots/week 06-assignment 7-task7-screenshot12.JPG>)
 
 ---
 
 #### Screenshot 13 — Rerun of `./scripts/aws-audit.sh` showing the finding is now PASS
 
-Add your screenshot here.
+![alt text](<screenshots/week 06-assignment 7-task7-screenshot13.JPG>)
 
 ---
 
@@ -238,19 +255,32 @@ Add your screenshot here.
 
 **1. Which exact finding did you fix, and what command did you run?**
 
-Write your answer here.
+Open SSH Access (Check 2): Revoked open 0.0.0.0/0 ingress rules and authorized restricted access for my public IP (102.89.69.85/32):
+
+aws ec2 revoke-security-group-ingress --group-id <groupId> --security-group-rule-ids <ruleId>
+aws ec2 authorize-security-group-ingress --group-id <groupId> --protocol tcp --port 22 --cidr 102.89.69.85/32
+
+S3 Public Access Block (Check 1): Enabled public access blocks on bucket pravin-portfolio-busola-helen-awotimide-us-east-1:
+
+aws s3api put-public-access-block --bucket pravin-portfolio-busola-helen-awotimide-us-east-1 --public-access-block-configuration "BlockPublicAcls=true,IgnorePublicAcls=true,BlockPublicPolicy=true,RestrictPublicBuckets=true"
+
+Unencrypted EBS Volumes (Check 5): Terminated unattached/unencrypted volumes using aws ec2 delete-volume --volume-id <volId>
 
 **2. Why did you scope the new rule to your own IP address instead of leaving it open to `0.0.0.0/0`?**
 
-Write your answer here.
+Scoping ingress to /32 limits SSH administrative access exclusively to my public IP address, mitigating internet-wide port scanning and unauthorized brute-force attack attempts
 
 **3. Did Claude execute the remediation command, or did you? Why does that matter?**
 
-Write your answer here.
+I executed the remediation commands manually in the terminal. Keeping human oversight prevents automated execution errors and ensures administrative authority over infrastructure modifications.
 
 **4. Which phase of the Agentic Loop does the Bash script represent? Which phase does Claude's explanation represent? Which phase is you running the fix?**
 
-Write your answer here.
+Bash script: Gather / Perception Phase (collects AWS API configuration data).
+
+Claude's explanation: Reasoning / Analysis Phase (evaluates posture and formats recommendations).
+
+User running the fix: Action / Execution Phase (applies human-approved remediation).
 
 ---
 
@@ -277,13 +307,13 @@ Suggested tags:
 
 Paste your LinkedIn post URL here:
 
-`Add your URL here`
+
 
 ---
 
 #### Screenshot of Published LinkedIn Post
 
-Add your screenshot here.
+
 
 ---
 

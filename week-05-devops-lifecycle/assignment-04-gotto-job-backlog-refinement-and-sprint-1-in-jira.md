@@ -200,14 +200,14 @@ Publish a LinkedIn post about what you delivered, including your live URL, three
 
 Paste your LinkedIn post URL here:
 
-
+https://www.linkedin.com/posts/busola-helen-awotimide_yesterday-i-gave-myself-four-jobs-and-90-activity-7493529185546788864-lKnF?utm_source=share&utm_medium=member_desktop&rcm=ACoAADtjPKMBDnsQhcIAGnVO4so-PBvk2dEBay4
 
 ---
 
 #### Screenshot 14 — Published LinkedIn post
 
 
-
+![alt text](<screenshots/week o5 2nd linkedin post.JPG>)
 ---
 
 # Submission Instructions
