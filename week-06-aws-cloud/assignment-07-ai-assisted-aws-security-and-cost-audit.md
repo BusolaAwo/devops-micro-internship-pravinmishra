@@ -371,7 +371,7 @@ Submit only your Google Doc link.
 
 Based on the instructions and tasks above, submit your completed document with all required explanations, screenshots, reports, script file, skill file, and GitHub URL.
 
-`Add your Google Doc link here`
+
 
 ---
 

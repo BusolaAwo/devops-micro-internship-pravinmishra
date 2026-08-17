@@ -228,19 +228,34 @@ Summarize the VPC/subnet layout, the ALB and Auto Scaling Group setup, the priva
 
 Summarize the VPC and subnets across the two Availability Zones.
 
-Write your answer here.
+Network Backbone: Built a custom Multi-AZ Virtual Private Cloud (ha-vpc) spanning us-east-1a and us-east-1b to eliminate single points of failure.
+
+Public Subnets: Provisioned two public subnets (public-subnet-a, public-subnet-b) configured with an Internet Gateway (ha-igw) and NAT Gateway (ha-nat-gw) to route inbound HTTP traffic and handle outbound internet access for private workloads.
+
+Private Subnets: Configured four isolated private subnets across both AZs (AZ-a private, AZ-b private, alongside dedicated database subnets) to keep compute nodes and database resources off the public internet
+
 
 Summarize the ALB and Auto Scaling Group setup.
 
-Write your answer here.
+Application Load Balancer: Deployed an internet-facing ALB (ha-alb) in the public subnets to distribute incoming HTTP web traffic across compute targets via the ha-web-tg target group on port 80.
+
+Launch Template Configuration: Configured HA-WEB-Launch-Template with updated User Data scripts, provisioning instances with Apache, PHP, and automated wp-config.php database connection parameters targeting wordpressdb.
+
+Auto Scaling Group: Implemented ha-asg with a minimum/desired capacity of 2 instances and a maximum capacity of 4 across both private application subnets, ensuring target group health checks automatically maintain compute availability.
 
 Summarize the private Multi-AZ RDS setup.
 
-Write your answer here.
+Database Engine: Provisioned an Amazon RDS MySQL instance (wordpressdb) within a dedicated, isolated DB subnet group spanning private subnets across two Availability Zones.
+
+Security & Isolation: Locked down database access via custom security group rules (ha-rds-sg), allowing inbound MySQL/Aurora connections (Port 3306) exclusively from the web compute security group (ha-web-sg).
+
+High Availability: Enabled Multi-AZ deployment to maintain synchronous physical data replication across availability zones for high availability and failover support.
 
 Summarize the results of both high-availability tests.
 
-Write your answer here.
+Test A (Instance Self-Healing): Terminated a running web instance in us-east-1a; ha-asg detected health degradation, automatically launched a replacement EC2 node, and registered it with ha-web-tg with zero manual intervention.
+
+Test B (AZ Resilience): Stopped the compute node in us-east-1a to simulate an availability zone failure; ha-alb seamlessly rerouted 100% of web traffic to the active node in us-east-1b, keeping the WordPress site fully accessible without downtime.
 
 ---
 
