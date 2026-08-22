@@ -20,7 +20,7 @@ Create the Azure Resource Group `react-app-rg` in a region close to you.
 
 #### Screenshot 1 — Resource Group overview showing the name and region
 
-
+![alt text](<screenshots/week 07-assignment 2-task1-screenshot1.JPG>)
 
 ---
 
@@ -34,13 +34,13 @@ Create an Ubuntu 20.04 LTS VM (size B1s) with a Network Security Group allowing 
 
 #### Screenshot 2 — Azure VM overview page showing the VM name, Resource Group, and region
 
-
+![alt text](<screenshots/week 07-assignment 2-task2-screenshot2.JPG>)
 
 ---
 
 #### Screenshot 3 — Network Security Group inbound rules showing ports 22 and 80 allowed
 
-
+![alt text](<screenshots/week 07-assignment 2-task2-screenshot3.JPG>)
 
 ---
 
@@ -54,7 +54,7 @@ Connect to the VM over SSH and confirm the Linux prompt is visible.
 
 #### Screenshot 4 — Terminal showing a successful SSH login with the prompt visible
 
-
+![alt text](<screenshots/week 07-assignment 2-task3-screenshot4.JPG>)
 
 ---
 
@@ -68,7 +68,7 @@ Update Ubuntu and install Git, Node.js, and npm.
 
 #### Screenshot 5 — Terminal output showing `node -v` and `npm -v`
 
-
+![alt text](<screenshots/week 07-assignment 2-task4-screenshot5.JPG>)
 
 ---
 
@@ -82,7 +82,7 @@ Clone `my-react-app`, install dependencies, and run `npm run build` to produce t
 
 #### Screenshot 6 — Terminal showing successful `npm run build` completion and `ls -la build` output
 
-
+![alt text](<screenshots/week 07-assignment 2-task5-screenshot6.JPG>)
 
 ---
 
@@ -96,14 +96,14 @@ Install Nginx and configure it to serve the `build/` directory with `try_files $
 
 #### Screenshot 7 — Successful `sudo nginx -t` output
 
-
+![alt text](<screenshots/week 07-assignment 2-task6-screenshot7.JPG>)
 
 ---
 
 #### Screenshot 8 — Nginx configuration snippet showing the build root and `try_files` directive
 
 
-
+![alt text](<screenshots/week 07-assignment 2-task6-screenshot8.JPG>)
 ---
 
 # Task 7 — Test the Deployment (Public IP)
@@ -115,6 +115,8 @@ Confirm the React app loads through the VM's public IP, navigation works, and a 
 ### Evidence
 
 #### Screenshot 9 — Browser showing the React app with the public IP visible in the address bar
+
+![alt text](<screenshots/week 07-assignment 2-task7-screenshot9.JPG>)
 
 
 
@@ -130,7 +132,7 @@ Restrict the SSH Network Security Group rule to your IP if not already restricte
 
 #### Screenshot 10 (optional) — Network Security Group rule showing SSH restricted to your IP
 
-
+![alt text](<screenshots/week 07-assignment 2-task8-screenshot10.JPG>)
 
 ---
 

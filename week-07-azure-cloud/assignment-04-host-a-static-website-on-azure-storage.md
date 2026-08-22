@@ -50,7 +50,8 @@ Open the primary endpoint URL and confirm the Mini Finance application, styling,
 
 #### Screenshot 1 — Mini Finance website running in the browser
 
-Add your screenshot here.
+
+![alt text](<screenshots/week 07-assignment 4-task4-screenshot1.JPG>)
 
 ---
 

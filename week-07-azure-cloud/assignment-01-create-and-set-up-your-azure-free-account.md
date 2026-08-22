@@ -30,13 +30,14 @@ Sign in to the Azure Portal, locate key services (Resource Groups, Virtual Machi
 
 #### Screenshot 1 — Azure Portal homepage after successful login
 
+![alt text](<screenshots/week 07-assignment 1-task5-screenshot1.JPG>)
 
 
 ---
 
 #### Screenshot 2 — "Subscriptions" section showing the "Free Trial" subscription
 
-
+![alt text](<screenshots/week 07-assignment 1-task5-screenshot2.JPG>)
 
 ---
 
