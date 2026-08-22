@@ -132,7 +132,7 @@ Add your screenshot here.
 
 Paste the public IP URL of your Virtual Machine here:
 
-`Add your URL here`
+http://74.235.200.145:8080/cart
 
 ---
 

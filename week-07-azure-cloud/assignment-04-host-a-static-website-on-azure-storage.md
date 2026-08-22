@@ -58,7 +58,7 @@ Add your screenshot here.
 
 Paste the Azure Storage static website URL here:
 
-`Add your URL here`
+https://minifinancebusola.z13.web.core.windows.net/
 
 ---
 

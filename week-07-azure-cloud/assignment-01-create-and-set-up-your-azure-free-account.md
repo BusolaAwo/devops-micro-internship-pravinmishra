@@ -30,13 +30,13 @@ Sign in to the Azure Portal, locate key services (Resource Groups, Virtual Machi
 
 #### Screenshot 1 — Azure Portal homepage after successful login
 
-Add your screenshot here.
+
 
 ---
 
 #### Screenshot 2 — "Subscriptions" section showing the "Free Trial" subscription
 
-Add your screenshot here.
+
 
 ---
 
@@ -44,7 +44,8 @@ Add your screenshot here.
 
 Write a three-to-four-line paragraph explaining which Azure services you plan to explore first and why.
 
-Write your answer here.
+I plan to explore Azure App Service first to deploy web applications quickly without managing underlying virtual machine infrastructure. Next, I want to dive into Azure Database for MySQL to gain hands-on experience managing fully managed relational databases in the cloud. Finally, I am eager to explore Azure Pipelines to automate continuous integration and continuous deployment workflows for software projects.
+
 
 ---
 
