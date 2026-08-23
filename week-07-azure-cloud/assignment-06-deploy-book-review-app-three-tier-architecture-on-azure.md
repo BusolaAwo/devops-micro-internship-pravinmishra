@@ -210,7 +210,7 @@ Add your screenshot here.
 
 Paste your public endpoint URL here:
 
-`Add your URL here`
+http://52.186.170.47
 
 ---
 
