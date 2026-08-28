@@ -20,7 +20,7 @@ Confirm your Azure CLI is authenticated and can see the VM, network, storage acc
 
 #### Screenshot 1 — `az account show` and `az vm list -d -o table` confirming your subscription and running VM (subscription ID partially blurred)
 
-Add your screenshot here.
+![alt text](<screenshots/week 07-assignment 7-task1-screenshot1.JPG>)
 
 ---
 
@@ -34,7 +34,8 @@ Create a `CLAUDE.md` for this workspace that tells Claude what the audit covers 
 
 #### Screenshot 2 — `CLAUDE.md` open in your editor showing the project overview, audit workflow, and safety rules
 
-Add your screenshot here.
+
+![alt text](<screenshots/week 07-assignment 7-task2-screenshot2.JPG>)
 
 ---
 
@@ -48,7 +49,7 @@ Ask Claude Code to read `CLAUDE.md` and propose a read-only, four-check audit pl
 
 #### Screenshot 3 — Claude Code showing the four-check plan, with no files created or modified
 
-Add your screenshot here.
+![alt text](<screenshots/week 07-assignment 7-task3-screenshot3.JPG>)
 
 ---
 
@@ -62,13 +63,14 @@ Write a Bash script that runs the four checks from Task 3 using read-only `az` c
 
 #### Screenshot 4 — Your script open in your editor, showing the check functions and the `az` commands they call
 
-Add your screenshot here.
+![alt text](<screenshots/week 07-assignment 7-task4-screenshot4.JPG>)
 
 ---
 
 #### Screenshot 5 — Output of `bash -n` (no syntax errors) and `ls -l` showing the script is executable
 
-Add your screenshot here.
+![alt text](<screenshots/week 07-assignment 7-task4-screenshot5.JPG>)
+
 
 ---
 
@@ -82,7 +84,7 @@ Run the script against your live resources and read the report honestly, even if
 
 #### Screenshot 6 — Script output showing your Full Name and all four checks with a PASS, WARN, or FAIL result
 
-Add your screenshot here.
+![alt text](<screenshots/week 07-assignment 7-task5-screenshot6.JPG>)
 
 ---
 
@@ -96,13 +98,14 @@ Create a Claude Code skill restricted to read-only tools (no `Write`) that runs 
 
 #### Screenshot 7 — Your skill file's frontmatter showing `allowed-tools` without `Write`
 
-Add your screenshot here.
+![alt text](<screenshots/week 07-assignment 7-task6-screenshot7.JPG>)
 
 ---
 
 #### Screenshot 8 — `/azure-audit` output showing the baseline findings and Claude's explanation
 
-Add your screenshot here.
+
+![alt text](<screenshots/week 07-assignment 7-task6-screenshot8.JPG>)
 
 ---
 
@@ -116,19 +119,21 @@ Pick one WARN or FAIL finding (or deliberately open an NSG rule to port 22 from 
 
 #### Screenshot 9 — Saved report showing the original finding before the fix
 
-Add your screenshot here.
+![alt text](<screenshots/week 07-assignment 7-task7-screenshot9.JPG>)
 
 ---
 
 #### Screenshot 10 — Terminal output of the remediation command you ran yourself
 
-Add your screenshot here.
+![alt text](<screenshots/week 07-assignment 7-task7-screenshot10.JPG>)
+
 
 ---
 
 #### Screenshot 11 — Second `/azure-audit` run (or report) showing the finding resolved
 
-Add your screenshot here.
+![alt text](<screenshots/week 07-assignment 7-task7-screenshot11.JPG>)
+
 
 ---
 
@@ -136,7 +141,19 @@ Add your screenshot here.
 
 Compare this assignment to the AWS audit you built in Week 6: which finding categories map to each other across the two clouds, and what stayed exactly the same about the workflow even though the `az`/`aws` commands are completely different?
 
-Add your answer here
+Network Security & Remote Access: The AWS check restricting overly permissive security group ports for remote management maps directly to the Azure Network Security Group (NSG) rule check ([PASS] NSG rules restrict remote management access appropriately.). Both ensure remote management ports (like SSH or RDP) aren't exposed publicly.
+
+Storage Access Controls: The AWS public S3 bucket exposure check maps to the Azure storage account check ([PASS] Storage account public blob access is disabled...). Both audit configurations to prevent unauthorized public read/write access to object storage.
+
+Data Encryption at Rest: The AWS RDS/EBS volume encryption check maps to the Azure VM disk encryption warning ([WARN] VM OS disk encryption is not explicitly verified or enabled.). Both verify whether underlying disks or databases are protected using encryption keys.
+
+Database Network Exposure: The AWS public RDS instance check maps to the Azure MySQL public network access check ([PASS] MySQL public network access is disabled...). Both validate that managed databases are isolated behind private networks rather than exposed to the public internet.
+
+Auditing Structure & Philosophy: The core three-phase audit pattern remained identical: gathering state via CLI commands, parsing the output against a security baseline, and outputting structured status tags ([PASS], [WARN], [FAIL]).
+
+Reporting & Evidence Workflow: The requirement to generate timestamped text reports (reports/azure-security-report.txt vs. the AWS equivalent) and capture before- and after-fix evidence screenshots (before-fix-report.txt and after-fix-report.txt) followed the exact same documentation pipeline.
+
+Remediation Loop: The iterative cycle of running an automated script, identifying a security finding, reviewing a manual fix, re-running the script, and verifying compliance stayed completely consistent regardless of the underlying cloud CLI syntax.
 
 ---
 

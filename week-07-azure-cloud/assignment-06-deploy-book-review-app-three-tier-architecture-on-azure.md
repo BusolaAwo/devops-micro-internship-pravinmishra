@@ -20,13 +20,13 @@ Create an architecture diagram and implementation plan identifying the presentat
 
 #### Screenshot 1 — Architecture diagram showing the public entry point, three tiers, network boundaries, and traffic flow
 
-Add your screenshot here.
+![alt text](<screenshots/week 07-assignment 6-task1-screenshot1.JPG>)
 
 ---
 
 #### Screenshot 2 — Written architecture assumptions and selected Azure services
 
-Add your screenshot here.
+![alt text](<screenshots/week 07-assignment 6-task1-screenshot2.JPG>)
 
 ---
 
@@ -40,19 +40,19 @@ Create a dedicated Resource Group and VNet with separate subnets for the web, ap
 
 #### Screenshot 3 — Resource Group overview showing the assignment resources
 
-Add your screenshot here.
+![alt text](<screenshots/week 07-assignment 6-task2-screenshot3.JPG>)
 
 ---
 
 #### Screenshot 4 — VNet overview showing the address space and all required subnets
 
-Add your screenshot here.
+![alt text](<screenshots/week 07-assignment 6-task2-screenshot4.JPG>)
 
 ---
 
 #### Screenshot 5 — Route-table or Private DNS evidence where applicable
 
-Add your screenshot here.
+![alt text](<screenshots/week 07-assignment 6-task2-screenshot5.JPG>)
 
 ---
 
@@ -66,13 +66,13 @@ Apply least-privilege NSG rules so traffic flows Internet → public entry point
 
 #### Screenshot 6 — NSG rules proving least-privilege access between the tiers
 
-Add your screenshot here.
+![alt text](<screenshots/week 07-assignment 6-task3-screenshot6.JPG>)
 
 ---
 
 #### Screenshot 7 — Key Vault or approved secret-management configuration (without displaying secret values)
 
-Add your screenshot here.
+![alt text](<screenshots/week 07-assignment 6-task3-screenshot7.JPG>)
 
 ---
 
@@ -86,14 +86,13 @@ Deploy the Book Review App presentation layer on the approved web-tier compute s
 
 #### Screenshot 8 — Web-tier compute overview showing subnet and availability configuration
 
-Add your screenshot here.
 
+![alt text](<screenshots/week 07-assignment 6-task4-screenshot8.JPG>)
 ---
 
 #### Screenshot 9 — Terminal or service output proving the presentation layer is running
 
-Add your screenshot here.
-
+![alt text](<screenshots/week 07-assignment 6-task4-screenshot9.JPG>)
 ---
 
 # Task 5 — Deploy the Business (Application) Tier
@@ -106,20 +105,19 @@ Deploy the Book Review App backend privately in the application subnet, configur
 
 #### Screenshot 10 — Application-tier compute overview showing private subnet placement
 
-Add your screenshot here.
+![alt text](<screenshots/week 07-assignment 6-task5-screenshot10.JPG>)
 
 ---
 
 #### Screenshot 11 — Backend process, service, or listening-port evidence
 
-Add your screenshot here.
+![alt text](<screenshots/week 07-assignment 6-task5-screenshot11.JPG>)
 
 ---
 
 #### Screenshot 12 — Internal health-check or API response (without exposing secrets)
 
-Add your screenshot here.
-
+![alt text](<screenshots/week 07-assignment 6-task5-screenshot12.JPG>)
 ---
 
 # Task 6 — Deploy the Managed Database Tier
@@ -132,19 +130,19 @@ Create a private Azure managed database (public access disabled), with availabil
 
 #### Screenshot 13 — Database overview showing private connectivity and public access disabled
 
-Add your screenshot here.
+![alt text](<screenshots/week 07-assignment 6-task6-screenshot13.JPG>)
 
 ---
 
 #### Screenshot 14 — Availability, backup, and retention configuration
 
-Add your screenshot here.
+![alt text](<screenshots/week 07-assignment 6-task6-screenshot14.JPG>)
 
 ---
 
 #### Screenshot 15 — Successful schema or connectivity verification (without exposing credentials)
 
-Add your screenshot here.
+![alt text](<screenshots/week 07-assignment 6-task6-screenshot15.JPG>)
 
 ---
 
@@ -158,19 +156,19 @@ Configure the approved public entry service with health probes and backend pools
 
 #### Screenshot 16 — Public entry service showing listener, frontend endpoint, and healthy web targets
 
-Add your screenshot here.
+![alt text](<screenshots/week 07-assignment 6-task7-screenshot16.JPG>)
 
 ---
 
 #### Screenshot 17 — Internal application-tier load-balancing or routing configuration where applicable
 
-Add your screenshot here.
+![alt text](<screenshots/week 07-assignment 6-task7-screenshot17.JPG>)
 
 ---
 
 #### Screenshot 18 — Azure Monitor, diagnostic settings, logs, metrics, or alert evidence
 
-Add your screenshot here.
+![alt text](<screenshots/week 07-assignment 6-task7-screenshot18.JPG>)
 
 ---
 
@@ -184,25 +182,25 @@ Confirm the Book Review App works end to end through the public endpoint, with a
 
 #### Screenshot 19 — Browser showing the Book Review App through the public endpoint
 
-Add your screenshot here.
+![alt text](<screenshots/week 07-assignment 6-task8-screenshot19.JPG>)
 
 ---
 
 #### Screenshot 20 — Proof of successful database-backed read and write operations
 
-Add your screenshot here.
+![alt text](<screenshots/week 07-assignment 6-task8-screenshot20.JPG>)
 
 ---
 
 #### Screenshot 21 — Evidence that private tiers are not publicly accessible
 
-Add your screenshot here.
+![alt text](<screenshots/week 07-assignment 6-task8-screenshot21.JPG>)
 
 ---
 
 #### Screenshot 22 — Availability-test and healthy-target evidence
 
-Add your screenshot here.
+![alt text](<screenshots/week 07-assignment 6-task8-screenshot22.JPG>)
 
 ---
 
@@ -218,8 +216,27 @@ http://52.186.170.47
 
 Summarize what worked, issues encountered and how they were fixed, and the availability/security/secrets/monitoring/backup choices made.
 
-Write your answer here.
 
+what Worked
+Deployed a multi-tier structure with distinct subnets inside a Virtual Network (VNet) to isolate the presentation, application, and database layers.
+
+Routed external traffic through Azure Front Door and Azure WAF for a secure global entry point.
+
+Streamlined deployments and scalability using managed services like Azure App Service and Azure SQL Database.
+
+Issues Encountered & Solutions
+Resource Group Errors: Fixed ResourceGroupNotFound failures caused by placeholder names by targeting the active resource group (busola-testingrg) and VM (busola-vmtesting).
+
+Disk Encryption Warnings: Addressed unverified VM disk encryption warnings ([WARN] VM OS disk encryption is not explicitly verified or enabled) using terminal diagnostics (az vm encryption show) and validation reviews.
+
+Architecture Choices
+Availability: Configured High Availability across availability zones and autoscaling via App Service plans.
+
+Security: Enforced strict boundaries using Network Security Groups (NSGs), Azure Private Link, and Private Endpoints.
+
+Secrets: Utilized Azure Key Vault for securing sensitive configuration items and keys.
+
+Monitoring: Integrated Azure Monitor and Log Analytics for continuous system health and log visibilityw
 ---
 
 # Submission Instructions
