@@ -97,6 +97,10 @@ Add your screenshot here.
 
 Add your screenshot here.
 
+### Question
+
+VM Public IP Address: [Enter the public IP shown by terraform output]
+
 ---
 
 # Task 4 — Verify the Deployment
