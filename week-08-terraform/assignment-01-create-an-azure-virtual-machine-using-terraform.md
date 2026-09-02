@@ -92,6 +92,9 @@ Add your screenshot here.
 
 #### Screenshot 9 — Terraform output showing the public IP address of the VM
 
+
+20.127.116.228
+
 Add your screenshot here.
 
 ---
