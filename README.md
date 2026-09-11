@@ -141,7 +141,7 @@ Week 09 → Ansible
 | 06 | AWS Cloud | ✅ Completed | ✅ Completed | https://www.linkedin.com/posts/busola-helen-awotimide_i-thought-i-was-done-then-i-audited-what-activity-7495699532010221569-lmnU?utm_source=share&utm_medium=member_desktop&rcm=ACoAADtjPKMBDnsQhcIAGnVO4so-PBvk2dEBay4 |https://medium.com/@awsawotimide/how-i-fixed-my-s3-traps-and-deployed-an-ec2-web-server-on-aws-8292cbc74f6a|
 | 07 | Azure Cloud | ✅ Completed |✅ Completed | https://www.linkedin.com/posts/busola-helen-awotimide_a-working-application-can-still-have-a-broken-activity-7495338286949941248-ztny?utm_source=share&utm_medium=member_desktop&rcm=ACoAADtjPKMBDnsQhcIAGnVO4so-PBvk2dEBay4 | https://medium.com/@awsawotimide/what-i-learned-when-my-azure-deployment-completely-broke-and-how-i-fixed-it-c14bd2e68b7d |
 | 08 | Terraform | ✅ Completed | ✅ Completed |https://www.linkedin.com/posts/busola-helen-awotimide_your-infrastructure-can-be-working-and-still-activity-7501136454098612224-oOkr?utm_source=share&utm_medium=member_desktop&rcm=ACoAADtjPKMBDnsQhcIAGnVO4so-PBvk2dEBay4| https://medium.com/@awsawotimide/from-refused-connections-to-cloud-resilience-architecting-a-three-tier-next-js-3d950c1c7505|
-| 09 | Ansible | ✅ Completed | ✅ Completed | — | — |
+| 09 | Ansible | ✅ Completed | ✅ Completed | — | https://medium.com/@awsawotimide/stop-ssh-ing-into-your-servers-how-i-automated-multi-server-deployments-with-ansible-977b73f88a99|
 | 10 | Azure DevOps (CI/CD) | ⬜ Not Started | ⏳ Pending | — | — |
 | 11 | Docker | ⬜ Not Started | ⏳ Pending | — | — |
 | 12 | Kubernetes | ⬜ Not Started | ⏳ Pending | — | — |
