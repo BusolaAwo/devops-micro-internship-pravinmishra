@@ -4,24 +4,11 @@ Part of the DevOps Micro Internship (DMI) with Agentic AI
 
 ---
 
-## Purpose (Read This First)
+## Task 1 — A Belief You Hold
 
-This week is not motivation homework.
+### Question
 
-This is you building your **Mindset OS** — the system you will use for the next 5 months (and honestly, for years).
-
-### Expectations
-
-* Be honest.
-* Be specific.
-* Be practical.
-* Write like an adult professional: clear sentences, no one-liners.
-
-You will reuse this in later weeks. So do it properly once.
-
----
-
-# Assignment 1. What is something you believe to be true that most people around you would disagree with?
+What is something you believe to be true that most people around you would disagree with?
 
 ### Rules
 
@@ -36,30 +23,20 @@ Most people around me believe that i should only give when i have an abundance o
 
 ---
 
-# Assignment 2. What are the top 3 objective truths you discovered through experimentation and results?
+## Task 2 — Three Objective Truths Discovered Through Experimentation
 
-### Definition
+Write three objective truths you discovered through your own actions and results. For each truth, include one sentence for the truth and two to four lines of evidence from your life.
 
-Objective truths do not depend on opinions. They hold true regardless of how people feel.
+### Truth #1
 
-Write each truth in this format:
-
-**Truth:** (1 sentence)
-
-**Evidence from my life:** (2–4 lines: what you tried + what happened)
-
----
-
-## Truth #1
-
-### Truth
+**Truth**
 
 People confuse empathy with weakness, but continuing to give when you have very little is actually a conscious filter not naivety.
 ### Evidence from my life
 
 When i consistently help others even while managing my  own tight budget, onlookers will literally tell me that am  being stupid or letting people ride me. But the experiment shows a different result it acts as a mirror.  The people who are trying to use me will eventually expose themselves because their demands keep growing without respect for my situation, while the people who genuinely need it will show deep, quiet gratitude. It proves that i am not the one being fooled i am are just willing to bear the cost of keeping your humanity intact.
 
----
+### Truth #2
 
 ## Truth #2
 
@@ -68,7 +45,7 @@ The ultimate metric of financial strength isn't how much you display but how hea
 ### Evidence from my life
 I've seen the results of both lifestyles. People who chase the hype and spend heavily to show working are usually one bad month away from a total mental and financial crash which instantly stops them from being able to help anyone else. On the flip side, keeping my head down, securing my bags and investing quietly gives me a buffer. When inflation spikes or a rainy day hits, the result is that i don't panic, i don't become desperate and i can still cleanly extend a hand to others because your foundation is solid.
 
----
+### Truth #3
 
 ## Truth #3
 
@@ -80,61 +57,48 @@ The crowd will always have an opinion if i give quietly, they say i am are doing
 
 ---
 
-# Assignment 3. What does your 2.0 version look like?
+## Task 3 — What Does Your 2.0 Version Look Like?
 
-### Instructions
+Write and publicly publish an article about your future professional self, written as if a journalist is writing about you **3–7 years from now**.
 
-Write as if a journalist is writing about you **3 to 7 years from now** (not 20 years).
+Your article must:
 
-**Minimum 300 words.**
+* Be at least **300 words**.
+* Be written in the **past tense**, as if it has already happened.
+* Include specific proof such as projects, portfolio, GitHub, blogs, certifications, job role, leadership, or community contribution.
+* Be published on LinkedIn, Medium, WordPress, Blogspot, a personal blog, or a portfolio page.
 
-### Rules
+### My Article
 
-* Write in past tense, like it already happened.
-* Don't use "likes to / wants to / hopes to."
-* Use specifics:
+Paste your complete article here...
 
-  * built
-  * shipped
-  * led
-  * published
-  * earned
-  * relocated
-  * contributed
-* Include skills proof:
+### Public Article URL
 
-  * projects
-  * portfolios
-  * GitHub
-  * blogs
-  * certifications
-  * job role
-  * leadership
-  * community contribution
-* Add 1–3 images if you can (optional but powerful).
+```text
+Paste your published article URL here...
+```
 
-### Publish It Publicly On Any ONE
+### LinkedIn Post URL
 
-* LinkedIn
-* Medium
-* WordPress
-* Blogspot
-* Personal blog
-* Portfolio page
+Create a LinkedIn post sharing your published article, then add the URL below.
 
-Use the credit note that matches your track:
+```text
+Paste your LinkedIn post URL here...
+```
 
-Add the following credit note at the end of your post **(If you are DMI Cohort 3 student)**:
+### Credit Note — DMI Self-Paced Engineer Track Students
 
-> **P.S. This post is part of the DevOps Micro Internship (DMI) with Agentic AI — Cohort 3 — by [Pravin Mishra](https://www.linkedin.com/in/pravin-mishra-aws-trainer/). My graded progress is public: https://dmi.pravinmishra.com/s/YOUR-GITHUB-USERNAME.html · Start your DevOps journey: https://dmi.pravinmishra.com/?utm_source=student&utm_medium=ps-blog&utm_campaign=cohort3**
+Add this credit note at the end of your public article. Replace `YOUR-GITHUB-USERNAME` with your actual GitHub username.
 
-**Tag [Pravin Mishra](https://www.linkedin.com/in/pravin-mishra-aws-trainer/) in your LinkedIn post, then tag Lead Co-Mentor — [Anjana Muthunayake](https://www.linkedin.com/in/anjana-muthunayake/).**
+> **P.S. This post is part of the DevOps Micro Internship (DMI) — Self-Paced Engineer Track — by [Pravin Mishra](https://www.linkedin.com/in/pravin-mishra-aws-trainer/). My graded progress is public:** https://dmi.pravinmishra.com/s/YOUR-GITHUB-USERNAME.html **· Start your DevOps journey:** https://dmi.pravinmishra.com/?utm_source=student&utm_medium=ps-blog&utm_campaign=self-paced
 
-Add the following credit note at the end of your post **(If you are DMI Self-paced track student)**:
+`#DMIByPravinMishra`
 
-> **P.S. This post is part of the DevOps Micro Internship (DMI) — Self-Paced Engineer Track — by [Pravin Mishra](https://www.linkedin.com/in/pravin-mishra-aws-trainer/). My graded progress is public: https://dmi.pravinmishra.com/s/YOUR-GITHUB-USERNAME.html · Start your DevOps journey: https://dmi.pravinmishra.com/?utm_source=student&utm_medium=ps-blog&utm_campaign=self-paced**
+Tag [Pravin Mishra](https://www.linkedin.com/in/pravin-mishra-aws-trainer/) in your LinkedIn post.
 
-Add the following credit note at the end of your post **(If you are DMI Campus student)**:
+### Credit Note — DMI Campus Students
+
+Add this credit note at the end of your public article. Replace `YOUR-GITHUB-USERNAME` with your actual GitHub username.
 
 > **P.S. This post is part of the DevOps Micro Internship (DMI) — Campus — by [Pravin Mishra](https://www.linkedin.com/in/pravin-mishra-aws-trainer/). My graded progress is public: https://dmi.pravinmishra.com/s/YOUR-GITHUB-USERNAME.html · Start your DevOps journey: https://dmi.pravinmishra.com/?utm_source=student&utm_medium=ps-blog&utm_campaign=campus**
 
@@ -307,9 +271,9 @@ List topics only. No need to share numbers.
 
 ---
 
-# Assignment 7. Brain Dump + 5-Month System Plan
+## Task 7 — Brain Dump and Three-Month System Plan
 
-## Step 1: Brain Dump (Private)
+### Step 1 — Brain Dump (Private)
 
 Do a brain dump of everything in your mind into a notebook.
 
@@ -359,7 +323,7 @@ Example:
 
 mondays -thursday (4:30pm-8:30pm)
 
-#### How Many Sessions Per Week?
+#### How Many DMI Work Sessions Will I Complete Each Week?
 
 4
 
@@ -379,17 +343,17 @@ No social media when studying
 
 ---
 
-# Reflection – Week 1
+## Task 8 — Week 1 Reflection and Proof of Work
 
-### Biggest insight I got about myself this week
+### Biggest Insight I Got About Myself This Week
 
 I realized that keeping my circle small and my life low-key isn't just about privacy it's how I keep myself grounded. I function best when I have total control over my space, my work, and my finances. My desire to help people is real, but it only works if I protect my own peace first.
 
-### My biggest weakness/loop I noticed
+### My Biggest Weakness or Loop I Noticed
 
 I tend to get paralyzed by what-if anxiety when external chaos or demanding people panic around me. Instead of just shutting it down immediately with a firm No and focusing on my work, I waste a ton of mental energy trying to track and manage their mess.
 
-### One system I will implement from this week (exact habit + time)
+### One System I Will Implement From This Week (Exact Habit and Time)
 
 Every Monday through Thursday from 8:00 PM to 9:30 PM, I will put my phone on Do Not Disturb, close all messaging apps and spend 90 straight minutes building out my cloud configurations and backend projects. No multitasking, no answering texts.
 
