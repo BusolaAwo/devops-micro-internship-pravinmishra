@@ -25,8 +25,8 @@ Add a screenshot of the terminal showing successful completion of:
 ```bash
 docker pull nginx:alpine
 ```
+![alt text](<screenshots/week 11-assignment 4-task1-screenshot1.JPG>)
 
-Add your screenshot here.
 
 ---
 
@@ -38,7 +38,7 @@ Add a screenshot of the terminal showing the created host directory:
 $HOME/nginx-logs
 ```
 
-Add your screenshot here.
+![alt text](<screenshots/week 11-assignment 4-task1-screenshot3.JPG>)
 
 ---
 
@@ -55,8 +55,8 @@ The output must show the `myweb` container with:
 ```text
 0.0.0.0:80->80/tcp
 ```
+![alt text](<screenshots/week 11-assignment 4-task1-screenshot3.JPG>)
 
-Add your screenshot here.
 
 ---
 
@@ -70,7 +70,7 @@ http://<YOUR-VM-PUBLIC-IP>
 
 Ensure that the VM public IP is visible in the address bar. Add your full name as a clear caption directly below the screenshot.
 
-Add your screenshot here.
+![alt text](<screenshots/week 11-assignment 4-task1-screenshot4.JPG>)
 
 ---
 
@@ -84,7 +84,7 @@ $HOME/nginx-logs
 
 The output must show `access.log`, `error.log`, and an access-log entry created when you opened the Nginx page.
 
-Add your screenshot here.
+![alt text](<screenshots/week 11-assignment 4-task1-screenshot5.JPG>)
 
 ---
 
@@ -97,7 +97,7 @@ docker stop myweb
 docker rm myweb
 ```
 
-Add your screenshot here.
+![alt text](<screenshots/week 11-assignment 4-task1-screenshot6.JPG>)
 
 ---
 
@@ -111,7 +111,7 @@ $HOME/nginx-logs
 
 The access log must retain its content after the container has been removed.
 
-Add your screenshot here.
+![alt text](<screenshots/week 11-assignment 4-task1-screenshot7.JPG>)
 
 ---
 
@@ -127,7 +127,7 @@ Deploy backend and frontend containers that share data through a named Docker Vo
 
 Add a screenshot of the terminal showing the `two-tier-app` project structure, including separate `backend` and `frontend` directories with a `Dockerfile` and `index.js` file in each.
 
-Add your screenshot here.
+![alt text](<screenshots/week 11-assignment 4-task2-screenshot8.JPG>)
 
 ---
 
@@ -138,8 +138,8 @@ Add a screenshot of the terminal showing `mynetwork` in:
 ```bash
 docker network ls
 ```
+![alt text](<screenshots/week 11-assignment 4-task2-screenshot9.JPG>)
 
-Add your screenshot here.
 
 ---
 
@@ -150,8 +150,8 @@ Add a screenshot of the terminal showing `shared-data` in:
 ```bash
 docker volume ls
 ```
+![alt text](<screenshots/week 11-assignment 4-task2-screenshot10.JPG>)
 
-Add your screenshot here.
 
 ---
 
@@ -159,7 +159,8 @@ Add your screenshot here.
 
 Add a screenshot of the terminal showing the completed backend `Dockerfile`.
 
-Add your screenshot here.
+
+![alt text](<screenshots/week 11-assignment 4-task2-screenshot11.JPG>)
 
 ---
 
@@ -167,7 +168,7 @@ Add your screenshot here.
 
 Add a screenshot of the terminal showing successful completion of the `backend-app:latest` image build.
 
-Add your screenshot here.
+![alt text](<screenshots/week 11-assignment 4-task2-screenshot12.JPG>)
 
 ---
 
@@ -181,7 +182,7 @@ docker ps
 
 The output must show the running `backend` container.
 
-Add your screenshot here.
+![alt text](<screenshots/week 11-assignment 4-task2-screenshot13.JPG>)
 
 ---
 
@@ -189,7 +190,7 @@ Add your screenshot here.
 
 Add a screenshot of the terminal showing the completed frontend `Dockerfile`.
 
-Add your screenshot here.
+![alt text](<screenshots/week 11-assignment 4-task2-screenshot14.JPG>)
 
 ---
 
@@ -197,7 +198,7 @@ Add your screenshot here.
 
 Add a screenshot of the terminal showing successful completion of the `frontend-app:latest` image build.
 
-Add your screenshot here.
+![alt text](<screenshots/week 11-assignment 4-task2-screenshot15.JPG>)
 
 ---
 
@@ -215,7 +216,7 @@ The output must show both `backend` and `frontend` containers running. Only `fro
 0.0.0.0:80->80/tcp
 ```
 
-Add your screenshot here.
+![alt text](<screenshots/week 11-assignment 4-task2-screenshot16.JPG>)
 
 ---
 
@@ -229,7 +230,7 @@ The output must include:
 Data written: Hello from Backend!
 ```
 
-Add your screenshot here.
+![alt text](<screenshots/week 11-assignment 4-task2-screenshot17.JPG>)
 
 ---
 
@@ -243,7 +244,7 @@ Hello from Backend!
 
 Add your full name as a clear caption directly below the screenshot.
 
-Add your screenshot here.
+![alt text](<screenshots/week 11-assignment 4-task2-screenshot18.JPG>)
 
 ---
 
@@ -257,7 +258,7 @@ Test Data 1
 
 Add your full name as a clear caption directly below the screenshot.
 
-Add your screenshot here.
+![alt text](<screenshots/week 11-assignment 4-task2-screenshot19.JPG>)
 
 ---
 
@@ -271,7 +272,7 @@ Test Data 2 - New Update
 
 Add your full name as a clear caption directly below the screenshot.
 
-Add your screenshot here.
+![alt text](<screenshots/week 11-assignment 4-task2-screenshot20.JPG>)
 
 ---
 
@@ -279,7 +280,7 @@ Add your screenshot here.
 
 Add a screenshot of the terminal showing the `frontend` and `backend` containers removed and recreated using the same `shared-data` Docker Volume.
 
-Add your screenshot here.
+![alt text](<screenshots/week 11-assignment 4-task2-screenshot21.JPG>)
 
 ---
 
@@ -295,7 +296,7 @@ This proves that the `shared-data` Docker Volume outlived both application conta
 
 Add your full name as a clear caption directly below the screenshot.
 
-Add your screenshot here.
+![alt text](<screenshots/week 11-assignment 4-task2-screenshot22.JPG>)
 
 ---
 
@@ -308,13 +309,13 @@ Write a short explanation covering:
 - How Task 2 proved Docker Volume persistence
 - Why Docker Volumes are commonly used for application data
 
-Write your explanation here.
+
 
 ---
 
 # Public Application URL
 
-**Application URL:** `Add your VM public IP URL here`
+**Application URL:** 
 
 ---
 
@@ -330,13 +331,13 @@ Create a LinkedIn post about Docker Volumes and Bind Mounts, including one diffe
 
 Paste your LinkedIn post URL here:
 
-`Add your URL here`
+
 
 ---
 
 #### LinkedIn Post Screenshot
 
-Add a screenshot of the published LinkedIn post here. Include a screenshot of the application displaying shared data.
+
 
 ---
 

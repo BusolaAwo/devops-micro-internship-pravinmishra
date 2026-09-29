@@ -28,7 +28,7 @@ docker network ls
 
 The output must include the default `bridge`, `host`, and `none` networks.
 
-Add your screenshot here.
+![alt text](<screenshots/week 11-assignment 3-task1-screenshot1.JPG>)
 
 ---
 
@@ -40,7 +40,7 @@ Add a screenshot of the terminal showing successful completion of:
 docker pull nginx:alpine
 ```
 
-Add your screenshot here.
+![alt text](<screenshots/week 11-assignment 3-task1-screenshot2.JPG>)
 
 ---
 
@@ -57,8 +57,8 @@ The output must show the running `myweb` container with:
 ```text
 0.0.0.0:80->80/tcp
 ```
+![alt text](<screenshots/week 11-assignment 3-task1-screenshot3.JPG>)
 
-Add your screenshot here.
 
 ---
 
@@ -67,12 +67,13 @@ Add your screenshot here.
 Add a browser screenshot showing the Nginx Welcome Page at:
 
 ```text
-http://<YOUR-VM-PUBLIC-IP>
+
 ```
 
 Ensure that the VM public IP is visible in the address bar. Add your full name as a clear caption directly below the screenshot.
 
-Add your screenshot here.
+![alt text](<screenshots/week 11-assignment 3-task1-screenshot4.JPG>)
+
 
 ---
 
@@ -91,8 +92,8 @@ Add a screenshot of the terminal showing `mynetwork` in:
 ```bash
 docker network ls
 ```
+![alt text](<screenshots/week 11-assignment 3-task2-screenshot5.JPG>)
 
-Add your screenshot here.
 
 ---
 
@@ -106,7 +107,7 @@ docker ps
 
 The output must show both `web` and `client` containers running without published host ports.
 
-Add your screenshot here.
+![alt text](<screenshots/week 11-assignment 3-task2-screenshot6.JPG>)
 
 ---
 
@@ -120,7 +121,7 @@ docker exec client wget -qO- http://web
 
 The output must display the Nginx Welcome Page HTML.
 
-Add your screenshot here.
+![alt text](<screenshots/week 11-assignment 3-task2-screenshot7.JPG>)
 
 ---
 
@@ -134,7 +135,7 @@ docker network inspect mynetwork
 
 The output must show both `web` and `client` connected to `mynetwork`.
 
-Add your screenshot here.
+![alt text](<screenshots/week 11-assignment 3-task2-screenshot8.JPG>)
 
 ---
 
@@ -156,7 +157,7 @@ docker network ls
 
 The output must include both `frontend-network` and `backend-network`.
 
-Add your screenshot here.
+![alt text](<screenshots/week 11-assignment 3-task3-screenshot9.JPG>)
 
 ---
 
@@ -174,7 +175,7 @@ The output must show:
 - `backend` without a published host port
 - `db` without a published host port
 
-Add your screenshot here.
+![alt text](<screenshots/week 11-assignment 3-task3-screenshot10.JPG>)
 
 ---
 
@@ -188,7 +189,7 @@ docker network inspect frontend-network
 
 The output must show `frontend` and `backend`.
 
-Add your screenshot here.
+![alt text](<screenshots/week 11-assignment 3-task3-screenshot11.JPG>)
 
 ---
 
@@ -202,7 +203,7 @@ docker network inspect backend-network
 
 The output must show `backend` and `db`.
 
-Add your screenshot here.
+![alt text](<screenshots/week 11-assignment 3-task3-screenshot12.JPG>)
 
 ---
 
@@ -216,7 +217,7 @@ docker exec frontend wget -qO- http://backend
 
 The output must display the Nginx Welcome Page HTML.
 
-Add your screenshot here.
+![alt text](<screenshots/week 11-assignment 3-task3-screenshot13.JPG>)
 
 ---
 
@@ -224,7 +225,7 @@ Add your screenshot here.
 
 Add a screenshot of the terminal showing a successful connection to `db` on port `27017` from the `backend` container.
 
-Add your screenshot here.
+![alt text](<screenshots/week 11-assignment 3-task3-screenshot14.JPG>)
 
 ---
 
@@ -237,8 +238,8 @@ The output must include:
 ```text
 Expected result: frontend cannot reach db
 ```
+![alt text](<screenshots/week 11-assignment 3-task3-screenshot15.JPG>)
 
-Add your screenshot here.
 
 ---
 
@@ -247,12 +248,12 @@ Add your screenshot here.
 Add a browser screenshot showing the Nginx Welcome Page from the `frontend` container at:
 
 ```text
-http://<YOUR-VM-PUBLIC-IP>
+
 ```
 
 Ensure that the VM public IP is visible in the address bar. Add your full name as a clear caption directly below the screenshot.
 
-Add your screenshot here.
+![alt text](<screenshots/week 11-assignment 3-task3-screenshot16.JPG>)
 
 ---
 
@@ -274,8 +275,8 @@ docker ps
 
 The output must show the running `fastapp` container.
 
-Add your screenshot here.
 
+![alt text](<screenshots/week 11-assignment 3-task3-screenshot17.JPG>)
 ---
 
 #### Screenshot 18 — Host Network Mode Verification
@@ -292,7 +293,7 @@ The output must confirm:
 "NetworkMode": "host"
 ```
 
-Add your screenshot here.
+![alt text](<screenshots/week 11-assignment 3-task3-screenshot18.JPG>)
 
 ---
 
@@ -301,12 +302,11 @@ Add your screenshot here.
 Add a browser screenshot showing the Nginx Welcome Page at:
 
 ```text
-http://<YOUR-VM-PUBLIC-IP>
 ```
 
 Ensure that the VM public IP is visible in the address bar. Add your full name as a clear caption directly below the screenshot.
 
-Add your screenshot here.
+![alt text](<screenshots/week 11-assignment 3-task3-screenshot19.JPG>)
 
 ---
 
@@ -319,7 +319,7 @@ docker stop fastapp
 docker rm fastapp
 ```
 
-Add your screenshot here.
+![alt text](<screenshots/week 11-assignment 3-task3-screenshot20.JPG>)
 
 ---
 
@@ -332,7 +332,7 @@ Write a short note explaining:
 - Why the frontend could not access the database in Task 3
 - The difference between bridge mode and host network mode
 
-Write your note here.
+
 
 ---
 
@@ -348,13 +348,13 @@ Create a LinkedIn post about the Docker networking modes explored, one key lesso
 
 Paste your LinkedIn post URL here:
 
-`Add your URL here`
+
 
 ---
 
 #### LinkedIn Post Screenshot
 
-Add a screenshot of the published LinkedIn post here.
+
 
 ---
 

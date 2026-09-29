@@ -102,8 +102,8 @@ Week 09 → Ansible
  Week 10 → Azure DevOps CI/CD 
  [![Week 10 – CI/CD](./badges/week-10.svg)](./week-10-azure-devops/) 
 
-<!-- Week 11 → Docker -->
-<!-- [![Week 11 – Docker](./badges/week-11.svg)](./week-11-docker/) -->
+ Week 11 → Docker 
+ [![Week 11 – Docker](./badges/week-11.svg)](./week-11-docker/)
 
 <!-- Week 12 → Kubernetes -->
 <!-- [![Week 12 – K8s](./badges/week-12.svg)](./week-12-kubernetes/) -->
@@ -143,7 +143,7 @@ Week 09 → Ansible
 | 08 | Terraform | ✅ Completed | ✅ Completed |https://www.linkedin.com/posts/busola-helen-awotimide_your-infrastructure-can-be-working-and-still-activity-7501136454098612224-oOkr?utm_source=share&utm_medium=member_desktop&rcm=ACoAADtjPKMBDnsQhcIAGnVO4so-PBvk2dEBay4| https://medium.com/@awsawotimide/from-refused-connections-to-cloud-resilience-architecting-a-three-tier-next-js-3d950c1c7505|
 | 09 | Ansible | ✅ Completed | ✅ Completed |https://www.linkedin.com/posts/busola-helen-awotimide_i-could-have-used-one-tool-i-chose-not-to-activity-7505487027392483329-5wGD?| https://medium.com/@awsawotimide/stop-ssh-ing-into-your-servers-how-i-automated-multi-server-deployments-with-ansible-977b73f88a99|
 | 10 | Azure DevOps (CI/CD) | ✅ Completed | ✅ Completed | https://www.linkedin.com/posts/busola-helen-awotimide_theres-a-business-risk-most-companies-don-ugcPost-7508021944848490497-sVVO/? |https://medium.com/@awsawotimide/the-0-deployment-secret-how-i-automated-a-cloud-release-after-my-iac-stack-completely-collapsed-6a952b100f10|
-| 11 | Docker | ⬜ Not Started | ⏳ Pending | — | — |
+| 11 | Docker |✅ Completed | ✅ Completed | — |https://medium.com/@awsawotimide/mastering-container-persistence-bind-mounts-vs-docker-volumes-in-action-97c41681b262 |
 | 12 | Kubernetes | ⬜ Not Started | ⏳ Pending | — | — |
 | 13 | Final Project | ⬜ Not Started | ⏳ Pending | — | — |
 

@@ -30,7 +30,7 @@ cat .dockerignore
 
 The file must exclude `node_modules`, `build`, and `.env`.
 
-Add your screenshot here.
+![alt text](<screenshots/week 11-assignment 2-task1-screenshot1.JPG>)
 
 ---
 
@@ -46,7 +46,7 @@ Create a baseline single-stage Docker image and run the application on port 3000
 
 Add a screenshot showing the completed `Dockerfile.single`.
 
-Add your screenshot here.
+![alt text](<screenshots/week 11-assignment 2-task2-screenshot2.JPG>)
 
 ---
 
@@ -60,7 +60,7 @@ http://localhost:3000
 
 Ensure that your full name is visible in the application.
 
-Add your screenshot here.
+![alt text](<screenshots/week 11-assignment 2-task2-screenshot3.JPG>)
 
 ---
 
@@ -76,7 +76,7 @@ Create an optimized multi-stage Docker image with separate builder and Nginx run
 
 Add a screenshot showing the completed multi-stage `Dockerfile`.
 
-Add your screenshot here.
+![alt text](<screenshots/week 11-assignment 2-task3-screenshot4.JPG>)
 
 ---
 
@@ -90,7 +90,8 @@ http://localhost
 
 Ensure that your full name is visible in the application.
 
-Add your screenshot here.
+![alt text](<screenshots/week 11-assignment 2-task3-screenshot5.JPG>)
+
 
 ---
 
@@ -117,7 +118,8 @@ react-single:latest
 react-multistage:latest
 ```
 
-Add your screenshot here.
+![alt text](<screenshots/week 11-assignment 2-task4-screenshot6.JPG>)
+
 
 ---
 
@@ -126,16 +128,19 @@ Add your screenshot here.
 Record the image sizes and calculate the reduction using the same unit for both images.
 
 ```text
-Single-stage image size: Add size here
+Single-stage image size: 505MB
 
-Multi-stage image size: Add size here
+Multi-stage image size: 26.6MB
 
 Percentage reduction =
 ((Single-stage image size − Multi-stage image size)
 ÷ Single-stage image size) × 100
 
-Percentage reduction: Add result here
+Percentage reduction: 
 ```
+% reduction = (505 − 26.6) / 505 × 100
+            = 478.4 / 505 × 100
+            = 94.7%
 
 ---
 
@@ -156,7 +161,7 @@ Write a short analysis of 5–8 lines covering:
 - How smaller images improve image pull and deployment speed
 - One Docker build-caching optimization you used
 
-Write your analysis here.
+
 
 ---
 
@@ -191,13 +196,13 @@ Create a LinkedIn post describing what you built, what a multi-stage Docker buil
 
 Paste your LinkedIn post URL here:
 
-`Add your URL here`
+
 
 ---
 
 #### LinkedIn Post Screenshot
 
-Add a screenshot of the published LinkedIn post here.
+
 
 ---
 
