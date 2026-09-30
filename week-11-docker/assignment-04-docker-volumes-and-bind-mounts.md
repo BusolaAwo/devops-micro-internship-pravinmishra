@@ -331,14 +331,14 @@ Create a LinkedIn post about Docker Volumes and Bind Mounts, including one diffe
 
 Paste your LinkedIn post URL here:
 
+https://www.linkedin.com/posts/busola-helen-awotimide_we-deleted-the-application-something-important-ugcPost-7510921219446190080-ivBO/?utm_source=share&utm_medium=member_desktop&rcm=ACoAADtjPKMBDnsQhcIAGnVO4so-PBvk2dEBay4
 
 
 ---
 
 #### LinkedIn Post Screenshot
 
-
-
+![alt text](<screenshots/linkedin week 11.JPG>)
 ---
 
 # Submission Instructions
