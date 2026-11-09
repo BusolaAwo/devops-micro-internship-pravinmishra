@@ -43,7 +43,7 @@ This is not a course. It is an internship-style program — real deployments, re
 
 | Week | Award | Post |
 |------|-------|------|
-Week 10 🏆 Champion of the Week | https://www.linkedin.com/posts/busola-helen-awotimide_last-weekend-came-with-a-little-surprise-ugcPost-7513095617993166848-Ol_c/?utm_source=share&utm_medium=member_android&rcm=ACoAADtjPKMBDnsQhcIAGnVO4so-PBvk2dEBay4|
+Week 10 |🏆Champion of the Week | https://www.linkedin.com/posts/busola-helen-awotimide_last-weekend-came-with-a-little-surprise-ugcPost-7513095617993166848-Ol_c/?utm_source=share&utm_medium=member_android&rcm=ACoAADtjPKMBDnsQhcIAGnVO4so-PBvk2dEBay4|
 
 ### Leaderboard
 
