@@ -30,13 +30,14 @@ Confirm successful Azure Portal access and Locate the required services and subs
 
 #### Screenshot 1 — Azure Portal homepage after successful login
 
-Add your screenshot here.
+![alt text](<screenshots/week 07-assignment 1-task5-screenshot1.JPG>)
+
 
 ---
 
 #### Screenshot 2 — "Subscriptions" section showing the "Free Trial" subscription
 
-Add your screenshot here.
+![alt text](<screenshots/week 07-assignment 1-task5-screenshot2.JPG>)
 
 ---
 
@@ -44,23 +45,8 @@ Add your screenshot here.
 
 Write a three-to-four-line paragraph explaining which Azure services you plan to explore first and why.
 
-Write your answer here.
+I plan to explore Azure App Service first to deploy web applications quickly without managing underlying virtual machine infrastructure. Next, I want to dive into Azure Database for MySQL to gain hands-on experience managing fully managed relational databases in the cloud. Finally, I am eager to explore Azure Pipelines to automate continuous integration and continuous deployment workflows for software projects.
 
----
-
-# Share Your Progress on WhatsApp
-
-## Goal
-
-Share your Azure account setup achievement and DMI Leaderboard progress together in the same WhatsApp Status.
-
-### Evidence
-
-#### Screenshot 3 — Published WhatsApp Status showing your Azure account setup update, automatically generated DMI Leaderboard rank, and personal progress link
-
-Add your screenshot here.
-
-> **Privacy Note:** Do not include payment details, subscription IDs, private phone numbers, or other sensitive information.
 
 ---
 

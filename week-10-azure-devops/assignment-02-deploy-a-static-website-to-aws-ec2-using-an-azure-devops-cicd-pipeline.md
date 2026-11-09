@@ -36,8 +36,7 @@ Add a screenshot of Azure Repos showing:
 * Project files
 * `index.html`
 
-Add your screenshot here.
-
+![alt text](<screenshots/week 10-assignment 2-task1-screenshot1.JPG>)
 ---
 
 # Task 2 — Provision and Configure the Target EC2 Instance
@@ -65,7 +64,7 @@ Add a screenshot of the saved SSH Service Connection **Overview** page showing:
 * Service Connection name
 * SSH connection type
 
-Add your screenshot here.
+![alt text](<screenshots/week 10-assignment 2-task3-screenshot2.JPG>)
 
 > Do not expose a password, SSH private key, passphrase, or another credential.
 
@@ -91,7 +90,7 @@ Add a screenshot of `azure-pipelines.yml` open in the Azure Repos editor showing
 * `CopyFilesOverSSH@0` task
 * `SSH@0` verification task
 
-Add your screenshot here.
+![alt text](<screenshots/week 10-assignment 2-task4-screenshot3.JPG>)
 
 > Ensure that no password, SSH private key, PAT, or AWS credential is visible.
 
@@ -115,7 +114,7 @@ Add a screenshot of the successful pipeline run and log summary showing:
 * Remote-verification step completed
 * Your Full Name visible in the pipeline output
 
-Add your screenshot here.
+![alt text](<screenshots/week 10-assignment 2-task5-screenshot4.JPG>)
 
 ---
 
@@ -136,15 +135,17 @@ Add a browser screenshot showing:
 * Your Full Name
 * Updated website content after the automatic deployment
 
-Add your screenshot here.
+![alt text](<screenshots/week 10-assignment 2-task5-screenshot5.JPG>)
+
+
+![alt text](<screenshots/week 10-assignment 2-task5-screenshot5a.JPG>)
 
 ## Final Website URL
-
-`http://<target-vm-public-ip>`
+(http://57.156.65.65/)
 
 Replace the placeholder with your actual website URL:
 
-[Paste your final website URL here]
+http://57.156.65.65/
 
 ---
 
@@ -152,7 +153,7 @@ Replace the placeholder with your actual website URL:
 
 Write a short summary of the completed CI/CD workflow.
 
-[Write your summary here.]
+
 
 ---
 
@@ -167,11 +168,11 @@ Add a screenshot of your LinkedIn post containing:
 * Three to five lines describing the CI/CD workflow
 * A screenshot of the successful pipeline or deployed website
 
-Add your screenshot here.
+
 
 ## LinkedIn Post URL
 
-[Paste your public LinkedIn post URL here]
+
 
 > Do not expose AWS credentials, SSH private keys, passwords, PATs, or other sensitive information.
 

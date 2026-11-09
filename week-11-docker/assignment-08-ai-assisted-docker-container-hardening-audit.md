@@ -33,7 +33,7 @@ docker-audit.sh
 SKILL.md
 ```
 
-Add your screenshot here.
+![alt text](<screenshots/week 11-assignment 8-task1-screenshot1.JPG>)
 
 ---
 
@@ -49,7 +49,7 @@ Add the supplied `docker-audit` skill to Claude Code and confirm that it is avai
 
 Add a screenshot of Claude Code showing `docker-audit` in the available skill list.
 
-Add your screenshot here.
+![alt text](<screenshots/week 11-assignment 8-task2-screenshot2.JPG>)
 
 ---
 
@@ -70,7 +70,7 @@ Add a terminal screenshot showing:
 - Your full name
 - The usage message displayed when the script runs without a container name
 
-Add your screenshot here.
+![alt text](<screenshots/week 11-assignment 8-task3-screenshot3.JPG>)
 
 ---
 
@@ -90,7 +90,7 @@ Add a terminal screenshot showing:
 - `docker ps`
 - The audit command using the selected target container name
 
-Add your screenshot here.
+![alt text](<screenshots/week 11-assignment 8-task4-screenshot4.JPG>)
 
 ---
 
@@ -98,8 +98,7 @@ Add your screenshot here.
 
 Add a terminal screenshot showing the initial Docker audit results.
 
-Add your screenshot here.
-
+![alt text](<screenshots/week 11-assignment 8-task4-screenshot5.JPG>)
 ---
 
 # Task 5 — Use AI Assistance to Understand the Findings
@@ -119,7 +118,7 @@ Add a Claude Code screenshot showing:
 - Recommended manual fix
 - Verification method
 
-Add your screenshot here.
+![alt text](<screenshots/week 11-assignment 8-task5-screenshot6.JPG>)
 
 ---
 
@@ -135,7 +134,7 @@ Manually fix one WARN or FAIL finding from the initial audit.
 
 Add a screenshot of the updated Dockerfile or `docker-compose.yml` showing the selected hardening fix.
 
-Add your screenshot here.
+![alt text](<screenshots/week 11-assignment 8-task6-screenshot7.JPG>)
 
 ---
 
@@ -143,7 +142,7 @@ Add your screenshot here.
 
 Add a terminal screenshot showing your full name and the rebuilt or recreated service/container running successfully.
 
-Add your screenshot here.
+![alt text](<screenshots/week 11-assignment 8-task7-screenshot8.JPG>)
 
 ---
 
@@ -163,7 +162,8 @@ Add a terminal screenshot showing:
 - The updated running container
 - The final audit report
 
-Add your screenshot here.
+
+![alt text](<screenshots/week 11-assignment 8-task7-screenshot9.JPG>)
 
 ---
 
@@ -176,7 +176,7 @@ Write a short comparison covering:
 - Final audit result
 - Security benefit of the improvement
 
-Write your comparison here.
+
 
 ---
 
@@ -188,13 +188,13 @@ Create a LinkedIn post about the container security checks you performed, one ha
 
 ### Evidence
 
-**LinkedIn Post URL:** `Add your LinkedIn post URL here`
+**LinkedIn Post URL:** 
 
 #### LinkedIn Post Screenshot
 
-Add a screenshot of the published LinkedIn post, including the final audit result.
 
-Add your screenshot here.
+
+
 
 ---
 

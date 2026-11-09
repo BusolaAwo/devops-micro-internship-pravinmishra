@@ -20,7 +20,7 @@ Download or clone the portfolio website template from GitHub and confirm `index.
 
 #### Screenshot 1 — File Explorer or terminal showing the template folder contents with `index.html` visible
 
-Add your screenshot here.
+![alt text](<screenshots/week 06-assignment 2-task1-screenshot1.JPG>)
 
 ---
 
@@ -34,7 +34,7 @@ Create a globally unique S3 bucket in your chosen AWS region.
 
 #### Screenshot 2 — S3 bucket created screen showing the bucket name and region
 
-Add your screenshot here.
+![alt text](<screenshots/week 06-assignment 2-task2-screenshot2.JPG>)
 
 ---
 
@@ -48,7 +48,7 @@ Upload the contents of the template folder (not the folder itself) so `index.htm
 
 #### Screenshot 3 — S3 bucket Objects view showing `index.html` at the top or root level
 
-Add your screenshot here.
+![alt text](<screenshots/week 06-assignment 2-task3-screenshot3.JPG>)
 
 ---
 
@@ -62,7 +62,7 @@ Enable S3 Static Website Hosting with `index.html` as the index document and `er
 
 #### Screenshot 4 — Static website hosting enabled screen showing the Website endpoint
 
-Add your screenshot here.
+![alt text](<screenshots/week 06-assignment 2-task4-screenshot4.JPG>)
 
 ---
 
@@ -76,8 +76,8 @@ Adjust Block Public Access settings and save a bucket policy that grants public 
 
 #### Screenshot 5 — Bucket policy page showing the policy saved successfully, with the bucket name visible
 
-Add your screenshot here.
 
+![alt text](<screenshots/week 06-assignment 2-task5-screenshot5.JPG>)
 ---
 
 # Task 6 — Verify Website Works (Public Endpoint Test)
@@ -90,11 +90,12 @@ Load the site through the S3 website endpoint and confirm the homepage, images, 
 
 #### Screenshot 6 — Browser showing the live website with the S3 website endpoint visible in the address bar
 
-Add your screenshot here.
+![alt text](<screenshots/week 06-assignment 2-task6-screenshot6.JPG>)
+
 
 ---
 
-# Task 7 — Update One Small Detail and Re-Upload
+# Task 7 — (Optional) Update One Small Detail and Re-Upload
 
 ## Goal
 
@@ -102,40 +103,9 @@ Edit a small visible detail, re-upload it to S3, and confirm the change appears 
 
 ### Evidence
 
-#### Screenshot 7 — Before and after views, or a browser view showing the updated text
+#### Screenshot 7 (optional) — Before and after views, or a browser view showing the updated text
 
-Add your screenshot here.
-
----
-# LinkedIn Post (Required)
-
-## Goal
-
-Publish a LinkedIn post sharing your experience deploying a portfolio website using Amazon S3 Static Website Hosting.
-
-Include:
-- A screenshot of your live portfolio website
-- Your live S3 Website Endpoint URL
-- A caption in your own words explaining what you deployed, what you learned about S3 hosting and public-read permissions, and any challenges you resolved
-- If you completed Task 7, describe how you updated and re-uploaded a website file
-
-Include the required hashtags, the credit note for your track, and the tags specified in the assignment guidelines.
-
-## Evidence
-
-#### LinkedIn Post URL
-
-Paste your LinkedIn post URL here:
-
-`Add your URL here`
-
----
-
-#### Screenshot 8 — Published LinkedIn post showing your caption, live S3 website link, and portfolio screenshot
-
-Add your screenshot here.
-
-> **Privacy Note:** Do not expose credentials, billing details, or sensitive AWS account information.
+![alt text](<screenshots/week 06-assignment 2-task7-screenshot7.JPG>)
 
 ---
 
@@ -155,10 +125,9 @@ Add your screenshot here.
 - [ ] Task 4: Static website hosting enabled (Screenshot 4)
 - [ ] Task 5: Public-read bucket policy saved (Screenshot 5)
 - [ ] Task 6: Live website verified through the S3 website endpoint (Screenshot 6)
-- [ ] Task 7: Small update re-uploaded and verified (Screenshot 7)
+- [ ] Task 7: Optional small update re-uploaded and verified (Screenshot 7)
 - [ ] S3 Website Endpoint URL included
 - [ ] No sensitive account information exposed
-- [ ] Linkedin post published
 
 ---
 

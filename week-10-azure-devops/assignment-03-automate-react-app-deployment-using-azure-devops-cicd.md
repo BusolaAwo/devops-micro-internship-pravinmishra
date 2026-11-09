@@ -37,7 +37,7 @@ Add a screenshot of Azure Repos showing:
 * `main` branch
 * Project files
 
-Add your screenshot here.
+![alt text](<screenshots/week 10-assignment 3-task1-screenshot1.JPG>)
 
 ---
 
@@ -81,7 +81,11 @@ Add a screenshot of the Azure Pipeline YAML open in the editor showing:
 * Publish stage
 * Deploy stage
 
-Add your screenshot here.
+![alt text](<screenshots/week 10-assignment 3-task4-screenshot2.JPG>)
+
+![alt text](<screenshots/week 10-assignment 3-task4-screenshot2a.JPG>)
+
+![alt text](<screenshots/week 10-assignment 3-task4-screenshot2b.JPG>)
 
 > Do not expose passwords, private keys, tokens, or cloud credentials.
 
@@ -104,7 +108,8 @@ Add a screenshot of one Azure DevOps pipeline run showing all four stages succee
 * Publish
 * Deploy
 
-Add your screenshot here.
+
+![alt text](<screenshots/week 10-assignment 3-task5-screenshot3.JPG>)
 
 ---
 
@@ -122,7 +127,7 @@ Add a screenshot of the pipeline SSH verification log or VM terminal showing the
 
 `/var/www/html`
 
-Add your screenshot here.
+![alt text](<screenshots/week 10-assignment 3-task6-screenshot4.JPG>)
 
 ---
 
@@ -143,23 +148,23 @@ Add a browser screenshot showing:
 * Your Full Name
 * Deployment date
 
-Add your screenshot here.
+![alt text](<screenshots/week 10-assignment 3-task7-screenshot5.JPG>)
 
 ## Final Application URL
 
-`http://<vm-public-ip>`
+http://57.156.65.65/
 
 Replace the placeholder and paste your final application URL below:
 
-[Paste your final application URL here.]
 
+http://57.156.65.65/
 ---
 
 # CI/CD Workflow Summary
 
 Write a short explanation of the CI/CD workflow you created.
 
-[Write your summary here.]
+
 
 ---
 
@@ -174,11 +179,11 @@ Add a screenshot of your LinkedIn post showing:
 * Post text
 * At least one image or link
 
-Add your screenshot here.
+
 
 ## LinkedIn Post URL
 
-[Paste your public LinkedIn post URL here.]
+
 
 > Do not expose VM passwords, tokens, private keys, cloud credentials, or other sensitive information.
 

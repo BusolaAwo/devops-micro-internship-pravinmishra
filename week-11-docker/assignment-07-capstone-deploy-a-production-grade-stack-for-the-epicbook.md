@@ -22,7 +22,7 @@ Review the EpicBook repository and design the intended application architecture.
 
 Add a terminal screenshot showing the EpicBook project structure after cloning the repository.
 
-Add your screenshot here.
+![alt text](<screenshots/week 11-assignment 7-task0-screenshot1.JPG>)
 
 ---
 
@@ -41,7 +41,7 @@ Add a screenshot of your architecture diagram showing:
 
 Add your full name inside the diagram or as a clear caption below it.
 
-Add your screenshot here.
+![alt text](<screenshots/week 11-assignment 7-task0-screenshot2.JPG>)
 
 ---
 
@@ -55,7 +55,7 @@ docs/02-env-and-ports.md
 
 It must document environment-variable names, internal ports, persistent-data details, and the health-check method. Do not expose real credentials or values.
 
-Add your screenshot here.
+![alt text](<screenshots/week 11-assignment 7-task0-screenshot3.JPG>)
 
 ---
 
@@ -77,7 +77,7 @@ Add a screenshot showing `backend/Dockerfile`, including:
 - Internal backend port
 - Non-root user configuration
 
-Add your screenshot here.
+![alt text](<screenshots/week 11-assignment 7-task1-screenshot4.JPG>)
 
 ---
 
@@ -88,8 +88,8 @@ Add a screenshot showing `frontend/Dockerfile`, including:
 - Nginx runtime image
 - Static frontend files copied to the Nginx web root
 
-Add your screenshot here.
 
+![alt text](<screenshots/week 11-assignment 7-task1-screenshot5.JPG>)
 ---
 
 #### Screenshot 6 — Docker Ignore Files
@@ -101,7 +101,7 @@ backend/.dockerignore
 frontend/.dockerignore
 ```
 
-Add your screenshot here.
+![alt text](<screenshots/week 11-assignment 7-task1-screenshot6.JPG>)
 
 ---
 
@@ -115,7 +115,7 @@ Add a terminal screenshot showing successful builds of:
 
 The screenshot must also show the baseline and optimized backend image-size comparison.
 
-Add your screenshot here.
+![alt text](<screenshots/week 11-assignment 7-task1-screenshot7.JPG>)
 
 ---
 
@@ -123,7 +123,7 @@ Add your screenshot here.
 
 Add a terminal screenshot showing the optimized backend container running as a non-root user.
 
-Add your screenshot here.
+![alt text](<screenshots/week 11-assignment 7-task1-screenshot8.JPG>)
 
 ---
 
@@ -136,7 +136,7 @@ Write a short note covering:
 - One Docker layer-caching optimization used
 - The security benefit of running the backend as a non-root user
 
-Write your note here.
+
 
 ---
 
@@ -159,7 +159,7 @@ backend
 database
 ```
 
-Add your screenshot here.
+![alt text](<screenshots/week 11-assignment 7-task2-screenshot9.JPG>)
 
 ---
 
@@ -171,7 +171,7 @@ Add a screenshot showing:
 - `back-tier` network
 - `db_data` named volume
 
-Add your screenshot here.
+![alt text](<screenshots/week 11-assignment 7-task2-screenshot10.JPG>)
 
 ---
 
@@ -179,7 +179,7 @@ Add your screenshot here.
 
 Add a terminal screenshot showing successful Docker Compose validation without exposing environment-variable values or secrets.
 
-Add your screenshot here.
+![alt text](<screenshots/week 11-assignment 7-task2-screenshot11.JPG>)
 
 ---
 
@@ -195,7 +195,7 @@ Configure health checks and ensure services start only after their dependencies 
 
 Add a screenshot showing the backend application configuration for the `/health` endpoint.
 
-Add your screenshot here.
+![alt text](<screenshots/week 11-assignment 7-task3-screenshot12.JPG>)
 
 ---
 
@@ -203,7 +203,7 @@ Add your screenshot here.
 
 Add a screenshot showing `docker-compose.yml` with health checks for MySQL and the backend.
 
-Add your screenshot here.
+![alt text](<screenshots/week 11-assignment 7-task3-screenshot13.JPG>)
 
 ---
 
@@ -215,7 +215,7 @@ Add a screenshot showing:
 - Reverse-proxy health check
 - `depends_on` conditions using `service_healthy`
 
-Add your screenshot here.
+![alt text](<screenshots/week 11-assignment 7-task3-screenshot14.JPG>)
 
 ---
 
@@ -223,7 +223,8 @@ Add your screenshot here.
 
 Add a terminal screenshot showing Docker Compose service status. The database, backend, frontend, and reverse proxy must be running successfully.
 
-Add your screenshot here.
+
+![alt text](<screenshots/week 11-assignment 7-task3-screenshot15.JPG>)
 
 ---
 
@@ -231,7 +232,7 @@ Add your screenshot here.
 
 Add a terminal screenshot showing a successful response from the public application health endpoint through the reverse proxy.
 
-Add your screenshot here.
+![alt text](<screenshots/week 11-assignment 7-task3-screenshot16.JPG>)
 
 ---
 
@@ -245,7 +246,7 @@ docs/03-healthchecks-and-depends-on.md
 
 Explain the health-check method for each service and the startup dependency order.
 
-Add your screenshot here.
+![alt text](<screenshots/week 11-assignment 7-task3-screenshot17.JPG>)
 
 ---
 
@@ -268,7 +269,7 @@ It must show routes for:
 - API requests
 - Health endpoint
 
-Add your screenshot here.
+![alt text](<screenshots/week 11-assignment 7-task4-screenshot18.JPG>)
 
 ---
 
@@ -276,7 +277,8 @@ Add your screenshot here.
 
 Add a screenshot of `docker-compose.yml` showing that only the `reverse-proxy` service publishes port 80.
 
-Add your screenshot here.
+
+![alt text](<screenshots/week 11-assignment 7-task4-screenshot19.JPG>)
 
 ---
 
@@ -289,7 +291,7 @@ Add a terminal screenshot showing successful requests through the selected rever
 - One static asset
 - Health endpoint
 
-Add your screenshot here.
+![alt text](<screenshots/week 11-assignment 7-task4-screenshot20.JPG>)
 
 ---
 
@@ -299,7 +301,7 @@ Add a browser screenshot showing the EpicBook application loaded through the VM 
 
 Add your full name as a clear caption below the screenshot.
 
-Add your screenshot here.
+![alt text](<screenshots/week 11-assignment 7-task4-screenshot21.JPG>)
 
 ---
 
@@ -313,8 +315,8 @@ docs/04-proxy-routing-and-cors.md
 
 Explain the proxy routes and state whether CORS was required and why.
 
-Add your screenshot here.
 
+![alt text](<screenshots/week 11-assignment 7-task4-screenshot22.JPG>)
 ---
 
 # Task 5 — Prove Data Persistence, Backup, and Restore
@@ -329,7 +331,7 @@ Verify MySQL persistence and perform a controlled backup and restore drill.
 
 Add a terminal screenshot showing the `db_data` named volume and its MySQL mount configuration.
 
-Add your screenshot here.
+![alt text](<screenshots/week 11-assignment 7-task5-screenshot23.JPG>)
 
 ---
 
@@ -337,7 +339,7 @@ Add your screenshot here.
 
 Add a terminal screenshot showing the selected test data before the backup and restore drill.
 
-Add your screenshot here.
+![alt text](<screenshots/week 11-assignment 7-task5-screenshot24.JPG>)
 
 ---
 
@@ -345,7 +347,7 @@ Add your screenshot here.
 
 Add a terminal screenshot showing successful backup creation and the backup file stored in the host backup directory.
 
-Add your screenshot here.
+![alt text](<screenshots/week 11-assignment 7-task5-screenshot25.JPG>)
 
 ---
 
@@ -353,7 +355,7 @@ Add your screenshot here.
 
 Add a terminal screenshot showing that the selected test record was removed during the controlled data-loss test.
 
-Add your screenshot here.
+![alt text](<screenshots/week 11-assignment 7-task5-screenshot26.JPG>)
 
 ---
 
@@ -361,7 +363,7 @@ Add your screenshot here.
 
 Add a terminal screenshot showing successful restore and verification that the deleted test record is available again.
 
-Add your screenshot here.
+![alt text](<screenshots/week 11-assignment 7-task5-screenshot27.JPG>)
 
 ---
 
@@ -371,7 +373,7 @@ Add a terminal screenshot showing that database data remains available after a n
 
 Do not use `docker compose down -v`.
 
-Add your screenshot here.
+![alt text](<screenshots/week 11-assignment 7-task5-screenshot28.JPG>)
 
 ---
 
@@ -385,7 +387,7 @@ docs/05-persistence-and-backup.md
 
 Include the backup plan and restore procedure.
 
-Add your screenshot here.
+![alt text](<screenshots/week 11-assignment 7-task5-screenshot29.JPG>)
 
 ---
 
@@ -405,8 +407,10 @@ Add a screenshot showing:
 - Proxy log format
 - Docker Compose host log-directory bind mount
 
-Add your screenshot here.
 
+![alt text](<screenshots/week 11-assignment 7-task6-screenshot30.JPG>)
+
+![alt text](<screenshots/week 11-assignment 7-task6-screenshot30a.JPG>)
 ---
 
 #### Screenshot 31 — Persistent Proxy Logs and Backend Logs
@@ -416,7 +420,7 @@ Add a terminal screenshot showing:
 - Selected reverse-proxy logs available from the host directory after a proxy restart
 - Backend logs displayed through Docker Compose
 
-Add your screenshot here.
+![alt text](<screenshots/week 11-assignment 7-task6-screenshot31.JPG>)
 
 ---
 
@@ -430,7 +434,30 @@ Write a short note covering:
 - Whether JSON or standard text logs were used
 - Why passwords, tokens, headers, and database connection strings must not appear in logs
 
-Write your note here.
+1. Overview & StrategyTo ensure robust observability across the EpicBook stack without duplicating logs or bloating container filesystems, we implemented a hybrid logging architecture:Reverse Proxy (Nginx): Request-level logs are written to physical files and bind-mounted to the host machine (./logs/nginx/). This provides immediate host-level access for troubleshooting and auditing public traffic.   Backend (Node.js / Express): Application logs, connection details, and startup messages (e.g., Sequelize query logs) are written to stdout. This follows standard container design patterns ("log to stdout and let the orchestrator/Docker platform capture it").   Database (MySQL): Database events and service states are handled via default MySQL container stdout logging.2. Configuration DetailsProxy Log Format (proxy/nginx.conf)We defined a custom log_format named custom_combined (or structured JSON format) to ensure clean, parseable log entries:   Nginxlog_format custom_combined '$remote_addr - - [$time_local] '
+                           '"$request" $status $body_bytes_sent '
+                           '"$http_referer" "$http_user_agent"';
+Host Bind-Mount (docker-compose.yml)To guarantee log persistence across container teardowns, restarts, and rebuilds, the Nginx log path is mapped to the host filesystem:YAMLservices:
+  proxy:
+    build: ./proxy
+    container_name: epicbook-proxy
+    ports:
+      - "80:80"
+    volumes:
+      - ./proxy/nginx.conf:/etc/nginx/conf.d/default.conf:ro
+      - ./logs/nginx:/var/log/nginx
+3. Permanent Fix for Log PersistenceBecause official Nginx container images symlink access.log and error.log to /dev/stdout and /dev/stderr, bind-mounting a host folder directly can result in empty log files or permission errors. We established a custom proxy/Dockerfile to pre-create and manage permissions:   DockerfileFROM nginx:alpine
+
+# Remove default stdout symlinks and create physical log files with correct ownership
+RUN rm -f /var/log/nginx/access.log /var/log/nginx/error.log && \
+    touch /var/log/nginx/access.log /var/log/nginx/error.log && \
+    chown -R nginx:nginx /var/log/nginx && \
+    chmod 644 /var/log/nginx/*.log
+
+EXPOSE 80
+4. Sample Log Output (Host access.log)When verified via cat ./logs/nginx/access.log, requests are successfully recorded with full client IP, timestamp, method, path, protocol, and status code:Plaintext172.20.0.1 - - [08/Oct/2026:09:56:50 +0000] "HEAD / HTTP/1.1" 200 0 "-" "curl/8.18.0"
+172.20.0.1 - - [08/Oct/2026:09:56:50 +0000] "HEAD / HTTP/1.1" 200 0 "-" "curl/8.18.0"
+5. Testing & Verification ChecklistTraffic Generation: Sent test requests (curl -I http://localhost:80).   Host Persistence: Confirmed access.log and error.log exist and populate instantly under ./logs/nginx/ on the host machine.   Restart Resilience: Verified that restarting or rebuilding the proxy container via docker compose up -d --build proxy preserves previous log history without data loss. 2
 
 ---
 
@@ -450,7 +477,7 @@ Add a cloud-console screenshot showing:
 - SSH port 22 restricted to your IP address
 - HTTP port 80 allowed from Anywhere
 
-Add your screenshot here.
+![alt text](<screenshots/week 11-assignment 7-task7-screenshot32.JPG>)
 
 ---
 
@@ -462,8 +489,8 @@ Add a VM terminal screenshot showing:
 - Successful public health or API response
 - No published database, frontend, or backend ports
 
-Add your screenshot here.
 
+![alt text](<screenshots/week 11-assignment 7-task7-screenshot33.JPG>)
 ---
 
 #### Screenshot 34 — EpicBook Application on Cloud VM
@@ -472,7 +499,7 @@ Add a browser screenshot showing the EpicBook application loaded through the VM 
 
 Add your full name as a clear caption below the screenshot.
 
-Add your screenshot here.
+![alt text](<screenshots/week 11-assignment 7-task7-screenshot34.JPG>)
 
 ---
 
@@ -486,7 +513,7 @@ Write a short note covering:
 - Security rules configured
 - Confirmation that the application and backend API worked through the reverse proxy
 
-Write your note here.
+
 
 ---
 
@@ -502,7 +529,7 @@ Optionally automate image build, image push, and deployment through GitHub Actio
 
 Add a screenshot showing a successful pipeline run with build, image push, deployment, and verification stages.
 
-Add your screenshot here.
+![alt text](<screenshots/week 11-assignment 7-task7-screenshot34.JPG>)
 
 ---
 
@@ -516,7 +543,7 @@ Write a short note covering:
 - Deployment trigger
 - Manual approval or secret-handling approach
 
-Write your note here.
+
 
 ---
 
@@ -537,7 +564,7 @@ Add a terminal screenshot showing:
 - Backend restart
 - Successful health-check recovery
 
-Add your screenshot here.
+
 
 ---
 
@@ -550,7 +577,7 @@ Add a terminal screenshot showing:
 - Database restart
 - Successful application recovery
 
-Add your screenshot here.
+![alt text](<screenshots/week 11-assignment 7-task9-screenshot36.JPG>)
 
 ---
 
@@ -565,13 +592,13 @@ Write a short operations runbook covering:
 - What to check when the application returns an error
 - Results of backend and database reliability tests
 
-Write your note here.
+
 
 ---
 
 # Final Public Application URL
 
-**EpicBook URL:** `http://<VM_PUBLIC_IP>`
+**EpicBook URL:** 
 
 Replace the placeholder with your working public URL.
 
@@ -579,7 +606,7 @@ Replace the placeholder with your working public URL.
 
 # GitHub Repository URL
 
-**Your Fork or Repository URL:** `Add your GitHub repository URL here`
+
 
 ---
 
@@ -598,11 +625,11 @@ Your post must include:
 
 ### Evidence
 
-**LinkedIn Post URL:** `Add your LinkedIn post URL here`
+**LinkedIn Post URL:** 
 
 #### LinkedIn Post Screenshot
 
-Add a screenshot of the published LinkedIn post showing the text body and deployment verification image.
+
 
 ---
 

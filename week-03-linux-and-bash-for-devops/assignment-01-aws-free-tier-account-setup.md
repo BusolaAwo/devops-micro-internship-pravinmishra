@@ -22,19 +22,22 @@ Demonstrate understanding of AWS basics and Free Tier usage by answering the fol
 
 Write your answer here.
 
----
+For me, an AWS account is my personal gateway and sandbox for the cloud, giving me secure access to Amazon's massive infrastructure. At this stage of my learning, I need it to move past theory and get hands-on experience spinning up real servers, deploying databases, and understanding how cloud architecture actually operates.
 
 #### Question 2 — What is AWS Free Tier, and how long does it last?
 
 Write your answer here.
 
----
+The AWS Free Tier is a safety net that lets me experiment with cloud services without worrying about an immediate bill, provided I stay within set usage caps. It is split into three types: some services are always free, some are free trials, and the core resource offers last for exactly 12 months from the day I activate my new account.
 
 #### Question 3 — Name three AWS Free Tier services and their free usage limits.
 
-Write your answer here.
+Amazon EC2 (Compute): Gives me up to 750 hours per month of a t2.micro or t3.micro instance, essentially letting me run a virtual server 24/7 for a year.
 
----
+Amazon S3 (Storage): Provides 5 GB of Standard object storage, which is perfect for hosting my static assets or learning how to manage cloud backups.
+
+Amazon RDS (Database): Offers 750 hours per month of a db.t3.micro or db.t4g.micro database, allowing me to run a fully managed relational database for my applications.
+
 
 # Task 2 — Create AWS Free Tier Account
 
@@ -56,9 +59,8 @@ Confirm that your AWS account setup is complete by navigating to the Account sec
 
 #### Screenshot 1 — AWS Account page showing account name (email may be blurred)
 
-Add your screenshot here.
 
----
+![screenshot](screenshots/assignment%2001-screenshot%2001.JPG)
 
 # Task 4 — Share Your AWS Cloud Onboarding Progress
 

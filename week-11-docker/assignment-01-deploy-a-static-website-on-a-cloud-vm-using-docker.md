@@ -28,7 +28,7 @@ Add a screenshot of the cloud console showing:
 - SSH port 22 enabled from your IP address
 - HTTP port 80 enabled from Anywhere
 
-Add your screenshot here.
+![alt text](<screenshots/week 11-assignment 1-task1-screenshot1.JPG>)
 
 ---
 
@@ -50,7 +50,7 @@ cat /var/log/cloud-init-output.log
 
 The visible output must show Docker installation activity.
 
-Add your screenshot here.
+![alt text](<screenshots/week 11-assignment 1-task2-screenshot2.JPG>)
 
 ---
 
@@ -75,8 +75,8 @@ and
 ```bash
 docker ps
 ```
+![alt text](<screenshots/week 11-assignment 1-task3-screenshot3.JPG>)
 
-Add your screenshot here.
 
 ---
 
@@ -92,7 +92,7 @@ Download the static website source code.
 
 Add a screenshot of the terminal showing the contents of the `Azure-Static-Website` project directory after cloning the repository.
 
-Add your screenshot here.
+![alt text](<screenshots/week 11-assignment 1-task4-screenshot4.JPG>)
 
 ---
 
@@ -114,7 +114,7 @@ cat Dockerfile
 
 The Dockerfile must use `nginx:alpine`, copy the website files to the Nginx web root, and expose port 80.
 
-Add your screenshot here.
+![alt text](<screenshots/week 11-assignment 1-task5-screenshot5.JPG>)
 
 ---
 
@@ -136,7 +136,7 @@ docker images
 
 The output must include the `static-site` image with the `latest` tag.
 
-Add your screenshot here.
+![alt text](<screenshots/week 11-assignment 1-task6-screenshot6.JPG>)
 
 ---
 
@@ -161,8 +161,8 @@ The output must show the running `static-site` container with the port mapping:
 ```text
 0.0.0.0:80->80/tcp
 ```
+![alt text](<screenshots/week 11-assignment 1-task7-screenshot7.JPG>)
 
-Add your screenshot here.
 
 ---
 
@@ -182,7 +182,7 @@ Add a screenshot of the terminal showing the output of:
 curl ifconfig.me
 ```
 
-Add your screenshot here.
+![alt text](<screenshots/week 11-assignment 1-task8-screenshot8.JPG>)
 
 ---
 
@@ -192,14 +192,15 @@ Add a screenshot of the browser showing the deployed static website.
 
 Ensure that the VM public IP address is visible in the browser address bar.
 
-Add your screenshot here.
+![alt text](<screenshots/week 11-assignment 1-task8-screenshot9.JPG>)
 
 ---
 
 # Public Application URL
 
-**VM Public IP / Application URL:** `Add your application URL here`
+**VM Public IP / Application URL:** 
 
+http://44.195.2.80
 ---
 
 # LinkedIn Requirement
@@ -210,11 +211,11 @@ Create a LinkedIn post describing what you deployed, the deployment process, and
 
 ### Evidence
 
-**LinkedIn Post URL:** `Add your LinkedIn Post URL here`
+**LinkedIn Post URL:** 
 
 #### LinkedIn Post Screenshot
 
-Add a screenshot of the published LinkedIn post here.
+
 
 ---
 

@@ -14,25 +14,25 @@ In this assignment, you will deploy the EpicBook web application in AWS using a 
 
 ## Goal
 
-Create the AWS network for the EpicBook deployment with a public subnet for the EC2 instance and private subnets for Amazon RDS MySQL.
+Create `epicbook-vpc` (10.0.0.0/16) with a public subnet (10.0.1.0/24) and a private subnet (10.0.2.0/24), attach an Internet Gateway, and route only the public subnet to it.
 
 ### Evidence
 
 #### Screenshot 1 — VPC details showing CIDR 10.0.0.0/16
 
-Add your screenshot here.
+![alt text](<screenshots/week 06-assignment 4-task1-screenshot1.JPG>)
 
 ---
 
-#### Screenshot 2 — Subnets list showing the public subnet and both private database subnets with their CIDR ranges.
+#### Screenshot 2 — Subnets list showing both subnets and their CIDRs
 
-Add your screenshot here.
+![alt text](<screenshots/week 06-assignment 4-task1-screenshot2.JPG>)
 
 ---
 
 #### Screenshot 3 — Route table showing 0.0.0.0/0 → IGW and association with the public subnet
 
-Add your screenshot here.
+![alt text](<screenshots/week 06-assignment 4-task1-screenshot3.JPG>)
 
 ---
 
@@ -40,39 +40,39 @@ Add your screenshot here.
 
 ## Goal
 
-Create security groups that allow users to access the EpicBook application while restricting database access to the EC2 instance.
+Create `epicbook-ec2-sg` (SSH from your IP, HTTP/HTTPS public) and `epicbook-rds-sg` (MySQL 3306 only from `epicbook-ec2-sg`).
 
 ### Evidence
 
 #### Screenshot 4 — EC2 security-group inbound rules showing ports and sources
 
-Add your screenshot here.
+![alt text](<screenshots/week 06-assignment 4-task2-screenshot4.JPG>)
 
 ---
 
 #### Screenshot 5 — RDS security-group inbound rule showing MySQL 3306 allowed from the EC2 security group
 
-Add your screenshot here.
 
+![alt text](<screenshots/week 06-assignment 4-task2-screenshot5.JPG>)
 ---
 
 # Task 3 — Launch Ubuntu EC2 in Public Subnet
 
 ## Goal
 
-Launch the EC2 instance that will host the EpicBook application and connect to it through SSH.
+Launch an Ubuntu 20.04 instance in the public subnet with `epicbook-ec2-sg` attached, and connect to it over SSH.
 
 ### Evidence
 
 #### Screenshot 6 — EC2 instance summary showing the public IPv4 address, subnet, and security group
 
-Add your screenshot here.
+![alt text](<screenshots/week 06-assignment 4-task3-screenshot6.JPG>)
 
 ---
 
 #### Screenshot 7 — Terminal showing a successful SSH login with the `ubuntu@...` prompt
 
-Add your screenshot here.
+![alt text](<screenshots/week 06-assignment 4-task3-screenshot7.JPG>)
 
 ---
 
@@ -80,25 +80,25 @@ Add your screenshot here.
 
 ## Goal
 
-Prepare Ubuntu to download and run EpicBook, receive HTTP traffic, and connect to RDS.
+Install Node.js, npm, Nginx, and the MySQL client on the instance, and confirm Nginx is running.
 
 ### Evidence
 
 #### Screenshot 8 — Output of `node -v` and `npm -v`
 
-Add your screenshot here.
+![alt text](<screenshots/week 06-assignment 4-task4-screenshot8.JPG>)
 
 ---
 
 #### Screenshot 9 — Output of `systemctl status nginx`
 
-Add your screenshot here.
 
+![alt text](<screenshots/week 06-assignment 4-task4-screenshot9.JPG>)
 ---
 
 #### Screenshot 10 — Output of `mysql --version`
 
-Add your screenshot here.
+![alt text](<screenshots/week 06-assignment 4-task4-screenshot10.JPG>)
 
 ---
 
@@ -106,19 +106,19 @@ Add your screenshot here.
 
 ## Goal
 
-Launch a private MySQL database accessible only from the application EC2 security group.
+Create a private MySQL RDS instance in `epicbook-vpc` using a DB Subnet Group over the private subnet, with `epicbook-rds-sg` attached and public access disabled.
 
 ### Evidence
 
 #### Screenshot 11 — RDS instance summary showing Publicly accessible: No
 
-Add your screenshot here.
 
+![alt text](<screenshots/week 06-assignment 4-task5-screenshot11.JPG>)
 ---
 
 #### Screenshot 12 — Connectivity & security section showing the VPC and attached security group
 
-Add your screenshot here.
+![alt text](<screenshots/week 06-assignment 4-task5-screenshot12.JPG>)
 
 ---
 
@@ -126,13 +126,13 @@ Add your screenshot here.
 
 ## Goal
 
-Download EpicBook and populate bookstore with the schema, authors, and books required by the application.
+Connect to RDS from EC2, create the `epicbook` database, and import the provided SQL dump.
 
 ### Evidence
 
 #### Screenshot 13 — Terminal showing successful `SHOW TABLES;` output with tables listed
 
-Add your screenshot here.
+![alt text](<screenshots/week 06-assignment 4-task6-screenshot13.JPG>)
 
 ---
 
@@ -140,107 +140,70 @@ Add your screenshot here.
 
 ## Goal
 
-Run EpicBook on port 8080 and connect its Sequelize models to bookstore in RDS.
+Clone the EpicBook repository, install backend dependencies, configure `.env` with the RDS endpoint and credentials, and start the backend on port 3000.
 
 ### Evidence
 
 #### Screenshot 14 — Terminal showing the repository cloned and the `ls` output
 
-Add your screenshot here.
+![alt text](<screenshots/week 06-assignment 4-task7-screenshot14.JPG>)
 
 ---
 
-#### Screenshot 15 — Terminal showing EpicBook running, or ss -tulpn output showing port 8080 listening
+#### Screenshot 15 — Terminal showing the backend running, or `ss -tulpn` showing the port open
 
-Add your screenshot here.
+![alt text](<screenshots/week 06-assignment 4-task7-screenshot15.JPG>)
 
 ---
 
 #### Screenshot 16 — `curl` output proving the backend responds; a 200, 301, or 404 response is acceptable if the service responds
 
-Add your screenshot here.
+![alt text](<screenshots/week 06-assignment 4-task7-screenshot16.JPG>)
 
 ---
 
-# Task 8 — Configure Nginx as a Reverse Proxy and Enable Persistence.
+# Task 8 — Serve Frontend Using Nginx + Reverse Proxy to Backend
 
 ## Goal
 
-Expose EpicBook through Nginx on port 80 and keep its Node.js process running after SSH disconnects and server reboots.
+Copy the frontend files to the Nginx web root and configure Nginx to reverse-proxy `/api/` to the Node backend.
 
 ### Evidence
 
 #### Screenshot 17 — `nginx -t` success output
 
-Add your screenshot here.
+![alt text](<screenshots/week 06-assignment 4-task8-screenshot17.JPG>)
 
 ---
 
-#### Screenshot 18 — Nginx configuration snippet showing location / forwarding requests to http://127.0.0.1:8080
+#### Screenshot 18 — Nginx configuration snippet showing the `/api/` reverse proxy
 
-Add your screenshot here.
 
+![alt text](<screenshots/week 06-assignment 4-task8-screenshot18.JPG>)
 ---
 
 # Task 9 — End-to-End Testing (Frontend ↔ Backend ↔ RDS)
 
 ## Goal
 
-Verify the public application and its use of the imported RDS data.
+Verify the frontend loads publicly, the backend responds through Nginx, and EC2 can query the private RDS database.
 
 ### Evidence
 
 #### Screenshot 19 — Browser showing the EpicBook application loaded with the public IP visible
 
-Add your screenshot here.
-
+![alt text](<screenshots/week 06-assignment 4-task9-screenshot19.JPG>)
 ---
 
-#### Screenshot 20 — Terminal showing a successful HTTP request to EpicBook through the public Nginx endpoint using curl -i http://<EC2_PUBLIC_IP>/
+#### Screenshot 20 — Terminal showing a successful API call through the public endpoint, such as `curl http://<EC2_PUBLIC_IP>/api/...`
 
-Add your screenshot here.
+![alt text](<screenshots/week 06-assignment 4-task9-screenshot20.JPG>)
 
 ---
 
 #### Screenshot 21 — Terminal showing the successful database connectivity test using `SELECT 1;` or similar
 
-Add your screenshot here.
-
----
-
-# LinkedIn Post (Required)
-
-## Goal
-
-Publish a LinkedIn post sharing your experience deploying EpicBook on an Ubuntu EC2 instance with Nginx and a private Amazon RDS MySQL database.
-
-Include:
-- A screenshot of the live EpicBook application showing the book listing
-- Your application URL: `http://<EC2_PUBLIC_IP>/`
-- A caption in your own words explaining what you deployed, how the main components connect, and what you learned about network security, Nginx, and PM2
-- One challenge you faced and how you resolved it, if applicable
-
-Include these hashtags:
-
-#DMIByPravinMishra #AWS #DevOps #CloudComputing
-
-Add the credit note for your track, replace `YOUR-GITHUB-USERNAME` with your GitHub username, and include the tags specified in the assignment guidelines.
-
-## Evidence
-
-#### LinkedIn Post URL
-
-Paste your LinkedIn post URL here:
-
-`Add your URL here`
-
----
-
-#### Screenshot 22 — Published LinkedIn post showing your caption, application URL, and live EpicBook screenshot
-
-Add your screenshot here.
-
-> **Privacy Note:** Do not expose passwords, private keys, `.env` values, database credentials, or sensitive AWS account information.
+![alt text](<screenshots/week 06-assignment 4-task9-screenshot21.JPG>)
 
 ---
 
@@ -256,14 +219,13 @@ Add your screenshot here.
 - [ ] Task 1: VPC, public/private subnets, IGW, and public routing created (Screenshots 1–3)
 - [ ] Task 2: Least-privilege EC2 and RDS security groups created (Screenshots 4–5)
 - [ ] Task 3: Ubuntu EC2 launched in the public subnet with SSH verified (Screenshots 6–7)
-- [ ] Task 4: Node.js, npm, Nginx, and MySQL client, Git installed (Screenshots 8–10)
+- [ ] Task 4: Node.js, npm, Nginx, and MySQL client installed (Screenshots 8–10)
 - [ ] Task 5: Private MySQL RDS created with no public access (Screenshots 11–12)
 - [ ] Task 6: Database initialized from the SQL dump (Screenshot 13)
-- [ ] Task 7: Backend deployed and responding on port 8080 (Screenshots 14–16)
-- [ ] Task 8: Nginx proxying requests to EpicBook, with PM2 persistence. (Screenshots 17–18)
+- [ ] Task 7: Backend deployed and responding on port 3000 (Screenshots 14–16)
+- [ ] Task 8: Nginx serving the frontend and reverse-proxying to the backend (Screenshots 17–18)
 - [ ] Task 9: Frontend, backend, and RDS verified end to end (Screenshots 19–21)
 - [ ] No sensitive data exposed
-- [ ] LinedIn post published
 
 ---
 

@@ -14,11 +14,11 @@
 
 | | |
 |---|---|
-| **Name** | Pravin Mishra |
-| **LinkedIn** | [pravin-mishra-aws-trainer](https://www.linkedin.com/in/pravin-mishra-aws-trainer/) |
-| **Location** | Helsinki, Finland |
-| **Background** | Cloud, DevOps & AI Consultant |
-| **Goal** | Train 10,000+ DevOps professionals |
+| **Name** | Busola Helen Awotimide |
+| **LinkedIn** | [Busola-Helen-Awotimide](https://www.linkedin.com/in/busola-helen-awotimide/) |
+| **Location** | Ibadan, Nigeria |
+| **Background** | Cloud, DevOps Engineer |
+| **Goal** | To be an exceptional DevOps Engineer|
 
 ---
 
@@ -43,7 +43,7 @@ This is not a course. It is an internship-style program — real deployments, re
 
 | Week | Award | Post |
 |------|-------|------|
-| <!-- e.g. Week 03 --> | <!-- 🏆 Champion of the Week --> | <!-- [LinkedIn Post](#) --> |
+Week 10 🏆 Champion of the Week | https://www.linkedin.com/posts/busola-helen-awotimide_last-weekend-came-with-a-little-surprise-ugcPost-7513095617993166848-Ol_c/?utm_source=share&utm_medium=member_android&rcm=ACoAADtjPKMBDnsQhcIAGnVO4so-PBvk2dEBay4|
 
 ### Leaderboard
 
@@ -57,7 +57,7 @@ This is not a course. It is an internship-style program — real deployments, re
 
 *Earn a badge each week. To unlock: remove the `<!--` and `-->` from the badge line below.*
 
-*Share your stack:* `https://github.com/YOUR-USERNAME/devops-micro-internship-pravinmishra#my-devops-stack`
+*Share your stack:* `https://github.com/BusolaAwo/devops-micro-internship-pravinmishra.git#my-devops-stack`
 
 **Preview — what your full stack looks like:**
 
@@ -67,41 +67,43 @@ This is not a course. It is an internship-style program — real deployments, re
 
 **Your stack (uncomment each badge as you earn it):**
 
-<!-- Week 00 → Internet & Networking Basics -->
-<!-- [![Week 00 – Networking](./badges/week-00.svg)](./week-00-internet-and-networking/) -->
+Week 00 → Internet & Networking Basics 
+ [![Week 00 – Networking](./badges/week-00.svg)](./week-00-internet-and-networking/) 
 
-<!-- Week 01 → Success Mindset -->
-<!-- [![Week 01 – Mindset](./badges/week-01.svg)](./week-01-success-mindset/) -->
+ Week 01 → Success Mindset 
+ [![Week 01 – Mindset](./badges/week-01.svg)](./week-01-success-mindset/)
 
-<!-- Week 02 → Agentic AI with Claude Code -->
-<!-- [![Week 02 – Agentic AI](./badges/week-02.svg)](./week-02-agentic-ai/) -->
+Week 02 → Agentic AI with Claude Code 
+[![Week 02 – Agentic AI](./badges/week-02.svg)](./week-02-agentic-ai/) 
 
-<!-- Week 03 → Linux & Bash for DevOps -->
-<!-- [![Week 03 – Linux & Bash](./badges/week-03.svg)](./week-03-linux-and-bash-for-devops/) -->
+Week 03 → Linux & Bash for DevOps 
+[![Week 03 – Linux & Bash](./badges/week-03.svg)](./week-03-linux-and-bash-for-devops/) 
 
-<!-- Week 04 → Git & GitHub -->
-<!-- [![Week 04 – Git](./badges/week-04.svg)](./week-04-git-and-github/) -->
+ Week 04 → Git & GitHub 
+ [![Week 04 – Git](./badges/week-04.svg)](./week-04-github/)
+ Week 04 → Git & GitHub -->
+[![Week 04 – Git](./badges/week-04.svg)](./week-04-git-and-github/) 
 
-<!-- Week 05 → DevOps Lifecycle & Agile -->
-<!-- [![Week 05 – Agile](./badges/week-05.svg)](./week-05-devops-lifecycle/) -->
+Week 05 → DevOps Lifecycle & Agile -->
+[![Week 05 – Agile](./badges/week-05.svg)](./week-05-devops-lifecycle/) 
 
-<!-- Week 06 → AWS Cloud -->
-<!-- [![Week 06 – AWS](./badges/week-06.svg)](./week-06-aws-cloud/) -->
+ Week 06 → AWS Cloud 
+ [![Week 06 – AWS](./badges/week-06.svg)](./week-06-aws-cloud/)
 
-<!-- Week 07 → Azure Cloud -->
-<!-- [![Week 07 – Azure](./badges/week-07.svg)](./week-07-azure-cloud/) -->
+Week 07 → Azure Cloud 
+[![Week 07 – Azure](./badges/week-07.svg)](./week-07-azure-cloud/) 
 
-<!-- Week 08 → Terraform -->
-<!-- [![Week 08 – Terraform](./badges/week-08.svg)](./week-08-terraform/) -->
+ Week 08 → Terraform 
+[![Week 08 – Terraform](./badges/week-08.svg)](./week-08-terraform/)
 
-<!-- Week 09 → Ansible -->
-<!-- [![Week 09 – Ansible](./badges/week-09.svg)](./week-09-ansible/) -->
+Week 09 → Ansible 
+[![Week 09 – Ansible](./badges/week-09.svg)](./week-09-ansible/) 
 
-<!-- Week 10 → Azure DevOps CI/CD -->
-<!-- [![Week 10 – CI/CD](./badges/week-10.svg)](./week-10-azure-devops/) -->
+ Week 10 → Azure DevOps CI/CD 
+ [![Week 10 – CI/CD](./badges/week-10.svg)](./week-10-azure-devops/) 
 
-<!-- Week 11 → Docker -->
-<!-- [![Week 11 – Docker](./badges/week-11.svg)](./week-11-docker/) -->
+ Week 11 → Docker 
+ [![Week 11 – Docker](./badges/week-11.svg)](./week-11-docker/)
 
 <!-- Week 12 → Kubernetes -->
 <!-- [![Week 12 – K8s](./badges/week-12.svg)](./week-12-kubernetes/) -->
@@ -130,19 +132,19 @@ This is not a course. It is an internship-style program — real deployments, re
 
 | Week | Topic | Status | Assignment | LinkedIn Post | Blog Post |
 |------|-------|--------|------------|---------------|-----------|
-| 00 | Internet & Networking Basics | ⬜ Not Started | ⏳ Pending | — | — |
-| 01 | Success Mindset | ⬜ Not Started | ⏳ Pending | — | — |
-| 02 | Agentic AI with Claude Code | ⬜ Not Started | ⏳ Pending | — | — |
-| 03 | Linux & Bash for DevOps | ⬜ Not Started | ⏳ Pending | — | — |
-| 04 | Git & GitHub | ⬜ Not Started | ⏳ Pending | — | — |
-| 05 | DevOps Lifecycle & Agile | ⬜ Not Started | ⏳ Pending | — | — |
-| 06 | AWS Cloud | ⬜ Not Started | ⏳ Pending | — | — |
-| 07 | Azure Cloud | ⬜ Not Started | ⏳ Pending | — | — |
-| 08 | Terraform | ⬜ Not Started | ⏳ Pending | — | — |
-| 09 | Ansible | ⬜ Not Started | ⏳ Pending | — | — |
-| 10 | Azure DevOps (CI/CD) | ⬜ Not Started | ⏳ Pending | — | — |
-| 11 | Docker | ⬜ Not Started | ⏳ Pending | — | — |
-| 12 | Kubernetes | ⬜ Not Started | ⏳ Pending | — | — |
+| 00 | Internet & Networking Basics |✅ Completed | ✅ Completed | https://www.linkedin.com/posts/busola-helen-awotimide_devops-micro-internship-dmi-by-pravin-activity-7447993660673183745-avYM? | https://medium.com/@awsawotimide/im-done-waiting-to-feel-ready-7d57f5fb0792?sharedUserId=awsawotimide
+| 01 | Success Mindset | ✅ Completed | ✅ Completed|https://www.linkedin.com/posts/busola-helen-awotimide_trust-me-if-you-love-helping-people-youll-activity-7478306937005121536-n7a7?utm_source=share&utm_medium=member_desktop&rcm=ACoAADtjPKMBDnsQhcIAGnVO4so-PBvk2dEBay4 | https://medium.com/@awsawotimide/reflections-of-whom-im-becoming-08ea7ac35249?sharedUserId=awsawotimide
+| 02 | Agentic AI with Claude Code | ✅ Completed | ✅ Completed | https://www.linkedin.com/posts/busola-helen-awotimide_dmibypravinmishra-agenticai-claudecode-ugcPost-7480843782410776576-qGKr | https://medium.com/@awsawotimide/the-week-i-stopped-collecting-ai-tools-and-started-building-system-f64c0419deae |
+| 03 | Linux & Bash for DevOps | ✅ Completed | ✅ Completed | https://www.linkedin.com/posts/busola-helen-awotimide_nothing-prepares-you-for-the-moment-you-break-ugcPost-7483280704185966592-vLVa?utm_source=share&utm_medium=member_desktop&rcm=ACoAADtjPKMBDnsQhcIAGnVO4so-PBvk2dEBay4|https://medium.com/@awsawotimide/building-bridges-with-bash-and-ai-my-journey-taming-cloud-pipelines-4530966bf8aa?sharedUserId=awsawotimide|
+| 04 | Git & GitHub | ✅ Completed | ✅ Completed |https://www.linkedin.com/posts/busola-helen-awotimide_commit-history-isnt-just-a-record-of-changes-activity-7485452935586500609-1rvj?utm_source=share&utm_medium=member_desktop&rcm=ACoAADtjPKMBDnsQhcIAGnVO4so-PBvk2dEBay4 |https://medium.com/@awsawotimide/mastering-open-source-collaboration-in-my-devops-journey-39c06ebb7c10?sharedUserId=awsawotimide|
+| 05 | DevOps Lifecycle & Agile | ✅ Completed | ✅ Completed| https://www.linkedin.com/posts/busola-helen-awotimide_behind-every-feature-you-use-is-a-process-activity-7488091046065709056-t4sA? |https://medium.com/@awsawotimide/replacing-my-portfolio-copy-and-moving-files-the-hard-way-56b47572d608|
+| 06 | AWS Cloud | ✅ Completed | ✅ Completed | https://www.linkedin.com/posts/busola-helen-awotimide_i-thought-i-was-done-then-i-audited-what-activity-7495699532010221569-lmnU?utm_source=share&utm_medium=member_desktop&rcm=ACoAADtjPKMBDnsQhcIAGnVO4so-PBvk2dEBay4 |https://medium.com/@awsawotimide/how-i-fixed-my-s3-traps-and-deployed-an-ec2-web-server-on-aws-8292cbc74f6a|
+| 07 | Azure Cloud | ✅ Completed |✅ Completed | https://www.linkedin.com/posts/busola-helen-awotimide_a-working-application-can-still-have-a-broken-activity-7495338286949941248-ztny?utm_source=share&utm_medium=member_desktop&rcm=ACoAADtjPKMBDnsQhcIAGnVO4so-PBvk2dEBay4 | https://medium.com/@awsawotimide/what-i-learned-when-my-azure-deployment-completely-broke-and-how-i-fixed-it-c14bd2e68b7d |
+| 08 | Terraform | ✅ Completed | ✅ Completed |https://www.linkedin.com/posts/busola-helen-awotimide_your-infrastructure-can-be-working-and-still-activity-7501136454098612224-oOkr?utm_source=share&utm_medium=member_desktop&rcm=ACoAADtjPKMBDnsQhcIAGnVO4so-PBvk2dEBay4| https://medium.com/@awsawotimide/from-refused-connections-to-cloud-resilience-architecting-a-three-tier-next-js-3d950c1c7505|
+| 09 | Ansible | ✅ Completed | ✅ Completed |https://www.linkedin.com/posts/busola-helen-awotimide_i-could-have-used-one-tool-i-chose-not-to-activity-7505487027392483329-5wGD?| https://medium.com/@awsawotimide/stop-ssh-ing-into-your-servers-how-i-automated-multi-server-deployments-with-ansible-977b73f88a99|
+| 10 | Azure DevOps (CI/CD) | ✅ Completed | ✅ Completed | https://www.linkedin.com/posts/busola-helen-awotimide_theres-a-business-risk-most-companies-don-ugcPost-7508021944848490497-sVVO/? |https://medium.com/@awsawotimide/the-0-deployment-secret-how-i-automated-a-cloud-release-after-my-iac-stack-completely-collapsed-6a952b100f10|
+| 11 | Docker |✅ Completed | ✅ Completed |https://www.linkedin.com/posts/busola-helen-awotimide_we-deleted-the-application-something-important-ugcPost-7510921219446190080-ivBO/?utm_source=share&utm_medium=member_desktop&rcm=ACoAADtjPKMBDnsQhcIAGnVO4so-PBvk2dEBay4 |https://medium.com/@awsawotimide/mastering-container-persistence-bind-mounts-vs-docker-volumes-in-action-97c41681b262 |
+| 12 | Kubernetes | ✅ Completed | ✅ Completed | https://www.linkedin.com/posts/busola-helen-awotimide_what-if-your-website-stops-working-but-nobody-ugcPost-7518446402335719424-cOUT/?highlightedUpdateUrn=urn%3Ali%3Aactivity%3A7518446405544296448&highlightedUpdateType=SOCIAL_SHARE&origin=SOCIAL_SHARE&utm_source=share&utm_medium=member_android&rcm=ACoAADtjPKMBDnsQhcIAGnVO4so-PBvk2dEBay4|https://medium.com/@awsawotimide/mastering-kubernetes-self-healing-and-clusterip-services-a-hands-on-journey-ac88efd8453c?sharedUserId=awsawotimide |
 | 13 | Final Project | ⬜ Not Started | ⏳ Pending | — | — |
 
 **Status:** ⬜ Not Started &nbsp;|&nbsp; 🔄 In Progress &nbsp;|&nbsp; ✅ Completed<br>
@@ -166,3 +168,6 @@ If you found this repo useful or want to follow my DevOps journey:
 - 🔗 Connect with me on [LinkedIn](#)
 - 🌐 Learn more about the program: https://dmi.pravinmishra.com?utm_source=github&utm_medium=readme
 - 💬 Join the community: https://discord.pravinmishra.com?utm_source=github&utm_medium=readme
+
+
+

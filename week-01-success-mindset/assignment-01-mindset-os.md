@@ -10,11 +10,16 @@ Part of the DevOps Micro Internship (DMI) with Agentic AI
 
 What is something you believe to be true that most people around you would disagree with?
 
-Write at least **50 words**. Be honest, specific, and use clear professional sentences.
+### Rules
 
-### Your Answer
+* No "safe" answers.
+* Must be your real belief (not copied from internet).
+* Minimum 50 words.
 
-Add your answer here...
+**Hint:** What do you believe about career, money, learning, discipline, relationships, health, success, life, tech industry, etc. that most people don't agree with?
+
+## Answer
+Most people around me believe that i should only give when i have an abundance or that if i keep helping people with the little i have, i am just being stupid and letting myself get used. I completely disagree. I believe that true human connection and impact mean being willing to hold the door open for others, no matter how small your own space is. People see my giving and think I'm naive or that I don't see how others might be exploiting it but they mistake my empathy for weakness. I know exactly how hard the struggle is and I respect the sweat it takes to survive here. Keeping my head down and securing my bag isn't about hoarding wealth it's about building the capacity to keep helping without crashing. I’d rather risk being called foolish for caring too much than become cold and numb just to protect a bank balance.
 
 ---
 
@@ -26,31 +31,29 @@ Write three objective truths you discovered through your own actions and results
 
 **Truth**
 
-Add your answer here...
+People confuse empathy with weakness, but continuing to give when you have very little is actually a conscious filter not naivety.
+### Evidence from my life
 
-**Evidence from My Life**
-
-Add your answer here...
+When i consistently help others even while managing my  own tight budget, onlookers will literally tell me that am  being stupid or letting people ride me. But the experiment shows a different result it acts as a mirror.  The people who are trying to use me will eventually expose themselves because their demands keep growing without respect for my situation, while the people who genuinely need it will show deep, quiet gratitude. It proves that i am not the one being fooled i am are just willing to bear the cost of keeping your humanity intact.
 
 ### Truth #2
 
-**Truth**
+## Truth #2
 
-Add your answer here...
-
-**Evidence from My Life**
-
-Add your answer here...
+### Truth
+The ultimate metric of financial strength isn't how much you display but how heavy an economic shock you can absorb without changing your character.
+### Evidence from my life
+I've seen the results of both lifestyles. People who chase the hype and spend heavily to show working are usually one bad month away from a total mental and financial crash which instantly stops them from being able to help anyone else. On the flip side, keeping my head down, securing my bags and investing quietly gives me a buffer. When inflation spikes or a rainy day hits, the result is that i don't panic, i don't become desperate and i can still cleanly extend a hand to others because your foundation is solid.
 
 ### Truth #3
 
-**Truth**
+## Truth #3
 
-Add your answer here...
+### Truth
+Respecting the sweat that brought the money in requires you to ignore the public narrative completely.
 
-**Evidence from My Life**
-
-Add your answer here...
+### Evidence from my life
+The crowd will always have an opinion if i give quietly, they say i am are doing too little if i don't live loud, they say you have a poverty mindset. But the data shows that the public narrative is completely fickle. The moment i start spending to satisfy their expectations, my resources deplete rapidly. The objective truth is that true financial peace comes from ignoring the noise, understanding the exact value of my hard work, and channeling it into real, quiet stability rather than public approval.
 
 ---
 
@@ -97,69 +100,174 @@ Tag [Pravin Mishra](https://www.linkedin.com/in/pravin-mishra-aws-trainer/) in y
 
 Add this credit note at the end of your public article. Replace `YOUR-GITHUB-USERNAME` with your actual GitHub username.
 
-> **P.S. This post is part of the DevOps Micro Internship (DMI) — Campus — by [Pravin Mishra](https://www.linkedin.com/in/pravin-mishra-aws-trainer/). My graded progress is public:** https://dmi.pravinmishra.com/s/YOUR-GITHUB-USERNAME.html **· Start your DevOps journey:** https://dmi.pravinmishra.com/?utm_source=student&utm_medium=ps-blog&utm_campaign=campus
+> **P.S. This post is part of the DevOps Micro Internship (DMI) — Campus — by [Pravin Mishra](https://www.linkedin.com/in/pravin-mishra-aws-trainer/). My graded progress is public: https://dmi.pravinmishra.com/s/YOUR-GITHUB-USERNAME.html · Start your DevOps journey: https://dmi.pravinmishra.com/?utm_source=student&utm_medium=ps-blog&utm_campaign=campus**
 
-`#DMIByPravinMishra`
+**Tag [Pravin Mishra](https://www.linkedin.com/in/pravin-mishra-aws-trainer/) in your LinkedIn post, then tag Lead Co-Mentor — [Anjana Muthunayake](https://www.linkedin.com/in/anjana-muthunayake/).**
 
-Tag [Pravin Mishra](https://www.linkedin.com/in/pravin-mishra-aws-trainer/) and Lead Co-Mentor [Anjana Muthunayake](https://www.linkedin.com/in/anjana-muthunayake/) in your LinkedIn post.
+Hashtags:
 
----
+#DMIByPravinMishra #AgenticAI #DevOps
 
-## Task 4 — Reflection on Cutting Corners
+## Your Article
+The Ghost in the Machine Why You’ve Never Heard of Busola Helen Awotimide
+IBADAN, NIGERIA 
+If you spend any time within the flashy tech circles of South-West Nigeria, you know the drill an ecosystem fueled by loud proclamations, LinkedIn thought-leaders, and engineers who spend more time sprinting to Ibadan mixers than reviewing code. Then there is Busola Helen Awotimide. Operating from the quieter, more deliberate lanes of Ibadan, Awotimide has spent the last few years living like a ghost in the regional tech scene. It is a choice that has earned her a reputation as being fiercely disciplined to some, and frustratingly detached, even antisocial, to many of her peers. The Fortress of a Built Portfolio
+While others were busy showing working to secure vanity metrics, Awotimide focused entirely on building a massive, bulletproof portfolio of production-ready infrastructure from her workspace. Critics within the local community used to call her engineering style rigid, pointing out her stubborn obsession with absolute stability over rapid, messy scaling.
 
-### Question
+But the results eventually shut down the criticism. Her built portfolio became a quiet legend among enterprise clients who needed real reliability, not startup packaging. She bypassed the local hype entirely by automating multi-region cloud deployments using Terraform and managing high-availability microservices across AWS EKS. She didn't just write code she locked down her . To her detractors, she was a hoarder of talent who refused to participate in the local scene. To her clients, she was the only engineer whose systems didn't crash.
 
-Have you ever cut corners through unethical, dishonest, or shortcut behaviour (not necessarily illegal)? If yes, how did it make you feel?
+The Friction of Strategic Conservatism
+Awotimide’s financial philosophy has caused even more friction than her technical isolation. In a culture where success is traditionally validated by public display, her aggressive conservatism has frequently been mislabeled as stinginess or a poverty mindset. Busola treats capital the exact same way she treats cloud architecture, a former colleague muttered off the record. She eliminates every single line of unnecessary overhead. It makes her incredibly difficult to network with because she completely refuses to play the luxury game. But this cold, calculated approach to money was tested when inflation fluctuations tore through the tech sector, causing massive startup collapses and overnight layoffs across the country.
 
-You do not need to tell the full story. Focus on the emotions you experienced. If your answer is yes, write **50–100 words**.
+While the shayo crew and the flashy networkers scrambled to borrow money to maintain their rent, Awotimide didn't even flinch. Her low-key lifestyle and automated investments absorbed the shock perfectly. She proved that respecting the sweat that brought the money in matters infinitely more than buying rounds of drinks for people who only value the bottle. The Brutal Filter of Her Generosity
+The most misunderstood aspect of Awotimide’s character remains her approach to helping people. Early in her career, onlookers openly mocked her, claiming she was naive or a mugu who kept letting herself get used because she insisted on giving money away even when her own budget was tight.
 
-### Your Answer
+She responded not by hardening her heart, but by treating her empathy like an engineering script. She implemented a brutal, silent filter.She never stopped giving in fact, she quietly funded local tech bootcamps in Ibadan and stepped in for families in severe financial distress. But the moment she detected eye-service or entitlement, she cut the tap with a flat, unapologetic No.
 
-**Yes / No:**
+This surgical boundary-setting alienated a lot of people. Former acquaintances labeled her as cold and calculated, unable to understand how someone could be so generous yet so unyielding. But Awotimide clearly didn't care about the bad press. By ignoring the public narrative and securing her own perimeter, she built an umbrella thick enough to survive the worst economic shifts, ensuring that her capacity to help the people who actually mattered would never run dry.
 
-Add your answer here...
+### Public Link
 
-**Reflection:**
+Paste your link here:
 
-Add your answer here...
 
----
-
-## Task 5 — Your One-Year Non-Fiction Reading Plan
-
-List **10 non-fiction books** you plan to read during the next year. Include the title and author of each book. Books in any language are allowed.
-
-1. Add book title and author here...
-2. Add book title and author here...
-3. Add book title and author here...
-4. Add book title and author here...
-5. Add book title and author here...
-6. Add book title and author here...
-7. Add book title and author here...
-8. Add book title and author here...
-9. Add book title and author here...
-10. Add book title and author here...
 
 ---
 
-## Task 6 — Your Life and Career Metrics
+# Assignment 4. Have you ever cut corners (unethical / dishonest / shortcut behavior — not necessarily illegal)? If yes, how did it make you feel?
 
-List the things you will measure regularly in your life and career. You only need to list the metric topics; do not include personal numbers.
+### Important
 
-Your list must include learning or skills, output or proof, health or energy, time or focus, and money or finance.
+You don't need to write the full story.
 
-### My Metrics
+Focus on the feeling:
 
-* Add your answer here...
-* Add your answer here...
-* Add your answer here...
-* Add your answer here...
-* Add your answer here...
-* Add your answer here...
-* Add your answer here...
-* Add your answer here...
-* Add your answer here...
-* Add your answer here...
+* guilt
+* fear
+* shame
+* stress
+* regret
+* numbness
+* etc.
+
+This is about self-awareness, not judgment.
+
+### Answer Format
+
+**Yes / No**
+
+If Yes:
+
+**What emotion did you feel?** (minimum 50–100 words)
+
+## Answer
+
+Yes, I’ve done it. I took a shortcut on a deployment pipeline once, pushing through some messy configurations just to hit a deadline and stop the endless back-and-forth messages hitting my screen.Honestly? It felt cheap and the immediate hit of shame was sickening. You spend so much time trying to build a solid reputation but in that single moment, I realized I was just being lazy and hypocritical.
+
+What followed was days of pure, exhausting stress. Every single time a Slack notification popped up or a server logged a minor warning, my stomach would literally drop. I was terrified of getting caught. That fear forces you into this pathetic, defensive defensive state where you are constantly looking over your shoulder, hoping nobody digs too deep into the commits. The worst part wasn't even the fear of exposure, though it was the numbness that started creeping in afterward to protect my ego. I found myself making excuses, telling myself everybody does it or it's just this once, which is a dangerous lie to start believing. It took a lot of painful self-awareness to admit that the shortcut didn't save my time it just compromised my integrity and left me with a week's worth of anxiety that took far more out of me than just doing the actual work properly would have.
+
+---
+
+# Assignment 5. What are 10 non-fiction books you plan to read in the next 1 year?
+
+### Rules
+
+* Mention **Title + Author**
+* Any language allowed
+* No fiction novels
+
+### Tip
+
+Choose books that improve:
+
+* mindset
+* communication
+* productivity
+* health
+* money
+* career
+* leadership
+
+## Book List
+* 1. The Psychology of Money – Morgan Housel
+
+![Assignment 5 Screenshot](screenshots/week-01-screenshot-01.jpg)
+
+* 2. Atomic Habits – James Clear
+
+![Assignment 5 Screenshot](screenshots/week-01-screenshot-02.jpg)
+
+* 3. Designing Data-Intensive Applications – Martin Kleppmann
+
+![Assignment 5 Screenshot](screenshots/week-01-screenshot-03.jpg)
+
+* 4. Deep Work – Cal Newport
+
+![Assignment 5 Screenshot](screenshots/week-01-screenshot-04.jpg)
+
+* 5. Crucial Conversations: Tools for Talking When Stakes Are High , Joseph Grenny
+
+![Assignment 5 Screenshot](screenshots/week-01-screenshot-05.jpg)
+
+* 6. The Staff Engineer's Path: A Guide for Individual Contributors Navigating Growth and Change – Tanya Reilly
+
+![Assignment 5 Screenshot](screenshots/week-01-screenshot-06.jpg)
+
+
+* 7. Show Your Work! – Austin Kleon
+
+![Assignment 5 Screenshot](screenshots/week-01-screenshot-07.jpg)
+
+
+* 8. The Millionaire Next Door – Thomas J. Stanley and William D. Danko
+
+![Assignment 5 Screenshot](screenshots/week-01-screenshot-08.jpg)
+
+
+* 9. Outlive: The Science and Art of Longevity – Peter Attia
+
+![Assignment 5 Screenshot](screenshots/week-01-screenshot-09.jpg)
+
+* 10. The 5 Elements of Effective Thinking – Edward B. Burger and Michael Starbird
+
+![Assignment 5 Screenshot](screenshots/week-01-screenshot-10.jpg)
+
+---
+
+# Assignment 6. What are the things you will measure regularly in your life and career?
+
+### Rules
+
+List topics only. No need to share numbers.
+
+### Must Include
+
+* Learning / skill
+* Output / proof
+* Health / energy
+* Time / focus
+* Money / finance (personal or business)
+
+### Example
+
+* Learning hours per week
+* Deep work sessions per week
+* Projects shipped / documented
+* Steps / workouts
+* Sleep hours
+* Spending tracker
+
+## My Metrics
+* Daily water intake tracked in liters to stay sharp during intense debugging blocks
+* Cloud infrastructure and architecture study hours per week
+* Hands-on testing of new containerization tools or deployment scripts per month
+* Technical case studies and infrastructure configurations documented or published
+* Production-ready architectures added to the built portfolio per quarter
+* Average sleep hours per night to prevent mental fatigue
+* Hard boundaries set on distracting requests or unproductive network noise per week
+* Uninterrupted deep work blocks completed per day from the workspace
+* Automated monthly investments directed to the silent emergency buffer
+* Fixed infrastructure costs and personal run-rate expenses tracked monthly
 
 ---
 
@@ -167,34 +275,71 @@ Your list must include learning or skills, output or proof, health or energy, ti
 
 ### Step 1 — Brain Dump (Private)
 
-Do a private brain dump in a notebook, notes app, or document. Include everything currently on your mind, such as tasks, bills, worries, goals, pending messages, ideas, and responsibilities.
+Do a brain dump of everything in your mind into a notebook.
 
-**Did you create a brain dump?**
+Examples:
 
-```text
-Yes / No
-```
+* Bills
+* Tasks
+* Worries
+* Goals
+* Pending messages
+* Ideas
+* Responsibilities
 
-### Step 2 — My Three-Month Routine and Focus Blocks
+### Did You Do It?
+
+**Yes / No**
+
+Answer:
+
+yes
+
+---
+
+## Step 2: Your 5-Month Routine + Focus Blocks
+
+Create a simple plan you can realistically follow for the next 5 months.
+
+### Weekly Routine
+
+Example:
+
+* Mon–Thu: 60 min deep work
+* Sat: DMI session
+* Sun: Weekly review
 
 #### My Weekly Routine
 
-Add your answer here...
+* Mon–Thu: 90 mins of uninterrupted evening deep work (Spring Boot 3, AWS EKS configs or Terraform deployments)
+* Fri: 60 mins tracking expenses, routing automated savings, and securing the silent buffer
+* Sat: 3-hour uninterrupted focus block for building portfolio architectures and technical case study documentation
+* basically for the week's activities review
+---
 
-#### When Will I Complete My DMI Work? (Include Days and Time)
+### Focus Blocks
 
-Add your answer here...
+#### When Will You Do DMI Work? (Days + Time)
+
+mondays -thursday (4:30pm-8:30pm)
 
 #### How Many DMI Work Sessions Will I Complete Each Week?
 
-Add your answer here...
+4
+
+---
+
+### Distraction Rules
+
+Examples:
+
+* Phone rules
+* Social media rules
+* Environment setup
 
 #### My Distraction Rules
 
-* Add your answer here...
-* Add your answer here...
-* Add your answer here...
-* Add your answer here...
+No social media when studying
 
 ---
 
@@ -202,51 +347,31 @@ Add your answer here...
 
 ### Biggest Insight I Got About Myself This Week
 
-Add your answer here...
+I realized that keeping my circle small and my life low-key isn't just about privacy it's how I keep myself grounded. I function best when I have total control over my space, my work, and my finances. My desire to help people is real, but it only works if I protect my own peace first.
 
 ### My Biggest Weakness or Loop I Noticed
 
-Add your answer here...
+I tend to get paralyzed by what-if anxiety when external chaos or demanding people panic around me. Instead of just shutting it down immediately with a firm No and focusing on my work, I waste a ton of mental energy trying to track and manage their mess.
 
 ### One System I Will Implement From This Week (Exact Habit and Time)
 
-Add your answer here...
+Every Monday through Thursday from 8:00 PM to 9:30 PM, I will put my phone on Do Not Disturb, close all messaging apps and spend 90 straight minutes building out my cloud configurations and backend projects. No multitasking, no answering texts.
 
-### Proof of Work
+### LinkedIn Post
 
-**LinkedIn Post URL**
+Paste your LinkedIn post link here:
 
-```text
-Paste your LinkedIn post URL here...
-```
-
-**Blog / Medium / Public Article URL**
-
-```text
-Paste your published article URL here...
-```
+https://www.linkedin.com/posts/busola-helen-awotimide_trust-me-if-you-love-helping-people-youll-activity-7478306937005121536-n7a7?utm_source=share&utm_medium=member_desktop&rcm=ACoAADtjPKMBDnsQhcIAGnVO4so-PBvk2dEBay4
 
 ---
 
-## Completion Checklist
+## 10. Proof of Work
 
-* [ ] All eight tasks are completed.
-* [ ] All written answers are honest, specific, and written in clear professional sentences.
-* [ ] Task 1 has at least 50 words.
-* [ ] Task 2 includes all three truths and evidence from my life.
-* [ ] Task 3 includes a 300+ word article written in past tense.
-* [ ] My Task 3 article is published on an approved public platform.
-* [ ] I added the correct DMI credit note and replaced `YOUR-GITHUB-USERNAME`.
-* [ ] I published a LinkedIn post sharing my Task 3 article.
-* [ ] Task 5 has 10 non-fiction books with titles and authors.
-* [ ] Task 6 includes learning, output, health, time, and finance metrics.
-* [ ] I completed the private brain dump for Task 7.
-* [ ] I added a realistic three-month routine, DMI focus blocks, and distraction rules.
-* [ ] I completed the Week 1 reflection.
-* [ ] I added both the LinkedIn post and public article URLs under Task 8.
+- LinkedIn Post URL: https://www.linkedin.com/posts/busola-helen-awotimide_trust-me-if-you-love-helping-people-youll-activity-7478306937005121536-n7a7?utm_source=share&utm_medium=member_desktop&rcm=ACoAADtjPKMBDnsQhcIAGnVO4so-PBvk2dEBay4
+ 
+- Blog / Medium : https://medium.com/@awsawotimide/reflections-of-whom-im-becoming-08ea7ac35249?sharedUserId=awsawotimide 
 
 ---
-
 
 ## 📌 About DMI & CloudAdvisory
 
